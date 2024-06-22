@@ -1,1 +1,2 @@
-# MetaboNet
+# bachelor-thesis
+Deep Learning
