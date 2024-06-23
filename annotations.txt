@@ -1,0 +1,992 @@
+CHEM_ID	SUPER_PATHWAY	SUB_PATHWAY	PATHWAY_SORTORDER	TYPE	CHEMICAL_NAME	PLOT_NAME	HMDB	KEGG	PUBCHEM	PLATFORM
+m100000007	Lipid	Carnitine Metabolism	1932	NAMED	carnitine	carnitine	HMDB0000062	"C00487,C00308"	288	Pos Early
+m100000010	Xenobiotics	Benzoate Metabolism	4573	NAMED	3-phenylpropionate (hydrocinnamate)	3-phenylpropionate (hydrocinnamate)	HMDB0000764	C05629	107	Neg
+m100000011	Amino Acid	Phenylalanine Metabolism	155	NAMED	phenylacetate	phenylacetate	HMDB0000209	C07086	999	Neg
+m100000014	Xenobiotics	Benzoate Metabolism	4461	NAMED	hippurate	hippurate	HMDB0000714	C01586	464	Neg
+m100000015	Amino Acid	Tryptophan Metabolism	278	NAMED	xanthurenate	xanthurenate	HMDB0000881	C02470	5699	Neg
+m100000036	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	394	NAMED	3-methyl-2-oxovalerate	3-methyl-2-oxovalerate	HMDB0000491	"C03465,C06008,C00671"	"439,286,440,877"	Neg
+m100000039	Amino Acid	"Methionine, Cysteine, SAM and Taurine Metabolism"	440	NAMED	methionine sulfoxide	methionine sulfoxide	HMDB0002005	C02989	158980	Pos Early
+m100000042	Amino Acid	Histidine Metabolism	72	NAMED	3-methylhistidine	3-methylhistidine	HMDB0000479	C01152	64969	Neg
+m100000054	Amino Acid	Lysine Metabolism	119	NAMED	5-hydroxylysine	5-hydroxylysine	HMDB0000450	C16741	3032849	Pos Early
+m100000096	Amino Acid	Guanidino and Acetamido Metabolism	563	NAMED	4-guanidinobutanoate	4-guanidinobutanoate	HMDB0003464	C01035	500	Pos Early
+m100000257	Carbohydrate	Aminosugar Metabolism	1406	NAMED	glucuronate	glucuronate	HMDB0000127	C16245	"441,478,236,779,769,000,000,000,000,000"	Polar
+m100000258	Lipid	Glycerolipid Metabolism	2842	NAMED	glycerol 3-phosphate	glycerol 3-phosphate	HMDB0000126	C0093	754	Pos Early
+m100000263	Amino Acid	Histidine Metabolism	83	NAMED	imidazole lactate	imidazole lactate	HMDB0002320	C05568	793	Pos Early
+m100000265	Amino Acid	Tryptophan Metabolism	267	NAMED	kynurenine	kynurenine	HMDB0000684	C00328	161166	Pos Early
+m100000269	Lipid	Phospholipid Metabolism	2236	NAMED	glycerophosphorylcholine (GPC)	glycerophosphorylcholine (GPC)	HMDB0000086	C00670	71920	Pos Early
+m100000282	Amino Acid	Glutamate Metabolism	47	NAMED	N-acetylglutamate	N-acetylglutamate	HMDB0001138	C00624	70914	Polar
+m100000295	Xenobiotics	Food Component/Plant	5072	NAMED	tartarate	tartarate	"HMDB0000956,HMDB0062642"	"C00552,C02107,C00898"	"444,305,875"	Neg
+m100000406	Carbohydrate	Pentose Metabolism	1262	NAMED	ribitol	ribitol	"HMDB0002917,HMDB0001851,HMDB0000568,HMDB0000508"	"C00379,C01904,C00474,C00532"	6912	Polar
+m100000437	Xenobiotics	Xanthine Metabolism	4592	NAMED	theophylline	theophylline	HMDB0001889	C07130	2153	Neg
+m100000442	Xenobiotics	Food Component/Plant	4904	NAMED	quinate	quinate	HMDB0003072	C00296	6508	Polar
+m100000445	Xenobiotics	Xanthine Metabolism	4591	NAMED	theobromine	theobromine	HMDB0002825	C07480	5429	Pos Early
+m100000453	Xenobiotics	Xanthine Metabolism	4590	NAMED	paraxanthine	paraxanthine	HMDB0001860	C13747	4687	Neg
+m100000463	Amino Acid	Tryptophan Metabolism	298	NAMED	indolelactate	indolelactate	HMDB0000671	C02043	92904	Pos Early
+m100000467	Amino Acid	Tryptophan Metabolism	322	NAMED	3-indoxyl sulfate	3-indoxyl sulfate	HMDB0000682	NA	10258	Neg
+m100000491	Peptide	Gamma-glutamyl Amino Acid	643	NAMED	gamma-glutamylphenylalanine	gamma-glutamylphenylalanine	HMDB0000594	NA	111299	Neg
+m100000551	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	343	NAMED	4-methyl-2-oxopentanoate	4-methyl-2-oxopentanoate	HMDB0000695	C00233	70	Neg
+m100000580	Carbohydrate	"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism"	1220	NAMED	"1,5-anhydroglucitol (1,5-AG)"	"1,5-anhydroglucitol (1,5-AG)"	HMDB0002712	C07326	64960	Neg
+m100000616	Lipid	Phosphatidylinositol (PI)	2556	NAMED	1-stearoyl-2-arachidonoyl-GPI (18:0/20:4)	1-stearoyl-2-arachidonoyl-GPI (18:0/20:4)	HMDB0009815	NA	NA	Pos Late
+m100000626	Lipid	Sphingosines	3161	NAMED	sphingosine 1-phosphate	sphingosine 1-phosphate	HMDB0000277	C06124	5283560	Pos Late
+m100000656	Lipid	Lysophospholipid	2721	NAMED	1-stearoyl-GPI (18:0)	1-stearoyl-GPI (18:0)	HMDB0240261	NA	"7,158,113,542,607,490"	Neg
+m100000657	Lipid	Phosphatidylcholine (PC)	2278	NAMED	"1,2-dipalmitoyl-GPC (16:0/16:0)"	"1,2-dipalmitoyl-GPC (16:0/16:0)"	HMDB0000564	D03585	452110	Pos Late
+m100000665	Lipid	Long Chain Polyunsaturated Fatty Acid (n3 and n6)	1563	NAMED	docosahexaenoate (DHA; 22:6n3)	docosahexaenoate (DHA; 22:6n3)	HMDB0002183	C06429	445580	Neg
+m100000672	Lipid	Phosphatidylcholine (PC)	2262	NAMED	1-myristoyl-2-palmitoyl-GPC (14:0/16:0)	1-myristoyl-2-palmitoyl-GPC (14:0/16:0)	HMDB0007869	NA	129657	Pos Late
+m100000706	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	347	NAMED	alpha-hydroxyisocaproate	alpha-hydroxyisocaproate	"HMDB0000665,HMDB00746,HMDB0000624"	C03264	"8,369,792,779,439,960"	Neg
+m100000707	Lipid	"Fatty Acid, Dicarboxylate"	1671	NAMED	maleate	maleate	HMDB0000176	C01384	444266	Polar
+m100000708	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	351	NAMED	isovalerate (i5:0)	isovalerate (C5)	HMDB0000718	C08262	10430	Neg
+m100000711	Xenobiotics	Benzoate Metabolism	4516	NAMED	4-acetylphenol sulfate	4-acetylphenyl sulfate	NA	NA	4684006	Neg
+m100000743	Lipid	"Fatty Acid, Monohydroxy"	1960	NAMED	2-hydroxyoctanoate	2-hydroxyoctanoate	HMDB0002264	NA	"9,418,069,950,135,310,000"	Neg
+m100000773	Lipid	"Fatty Acid, Monohydroxy"	1980	NAMED	3-hydroxyoctanoate	3-hydroxyoctanoate	HMDB0001954	C20793	26613	Neg
+m100000774	Amino Acid	Phenylalanine Metabolism	151	NAMED	phenyllactate (PLA)	phenyllactate (PLA)	"HMDB0000779,HMDB0000563"	C05607	3848	Neg
+m100000776	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Long Chain Saturated)"	1864	NAMED	palmitoylcarnitine (C16)	palmitoylcarnitine (C16)	HMDB0000222	C02990	461	Pos Late
+m100000781	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Medium Chain)"	1844	NAMED	hexanoylcarnitine (C6)	hexanoylcarnitine (C6)	HMDB0000756	NA	6426853	Pos Early
+m100000792	Lipid	Androgenic Steroids	3337	NAMED	dehydroepiandrosterone sulfate (DHEA-S)	dehydroepiandrosterone sulfate (DHEA-S)	HMDB0001032	C04555	12594	Neg
+m100000802	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Short Chain)"	1840	NAMED	acetylcarnitine (C2)	acetylcarnitine (C2)	HMDB0000201	C02571	7045767	Pos Early
+m100000840	Xenobiotics	Food Component/Plant	5205	NAMED	tartronate (hydroxymalonate)	tartronate (hydroxymalonate)	HMDB0035227	C02287	45	Neg
+m100000841	Cofactors and Vitamins	Ascorbate and Aldarate Metabolism	4355	NAMED	oxalate (ethanedioate)	oxalate (ethanedioate)	HMDB0002329	C00209	971	Neg
+m100000846	Xenobiotics	Food Component/Plant	4894	NAMED	erythritol	erythritol	HMDB0002994	C00503	222285	Neg
+m100000861	Xenobiotics	Food Component/Plant	4772	NAMED	"2,3-dihydroxypyridine"	"2,3-dihydroxypyridine"	NA	NA	28115	Pos Early
+m100000870	Xenobiotics	Food Component/Plant	5040	NAMED	saccharin	saccharin	HMDB0029723	C12283	5143	Neg
+m100000882	Lipid	"Fatty Acid, Monohydroxy"	1986	NAMED	3-hydroxymyristate	3-hydroxymyristate	NA	NA	16064	Neg
+m100000936	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	423	NAMED	3-methyl-2-oxobutyrate	3-methyl-2-oxobutyrate	HMDB0000019	C00141	49	Neg
+m100000961	Amino Acid	Urea cycle; Arginine and Proline Metabolism	493	NAMED	homoarginine	homoarginine	HMDB0000670	C01924	9085	Pos Early
+m100000963	Amino Acid	Urea cycle; Arginine and Proline Metabolism	494	NAMED	homocitrulline	homocitrulline	HMDB0000679	C02427	65072	Neg
+m100000997	Lipid	"Fatty Acid, Monohydroxy"	1982	NAMED	3-hydroxydecanoate	3-hydroxydecanoate	HMDB0002203	NA	26612	Neg
+m100000998	Amino Acid	Glutamate Metabolism	63	NAMED	citramalate	citramalate	HMDB0000426	C00815	1081	Pos Early
+m100001002	Xenobiotics	Chemical	6154	NAMED	EDTA	EDTA	HMDB0015109	C00284	6049	Neg
+m100001006	Amino Acid	"Glycine, Serine and Threonine Metabolism"	2	NAMED	N-acetylglycine	N-acetylglycine	HMDB0000532	NA	10972	Pos Early
+m100001022	Cofactors and Vitamins	Ascorbate and Aldarate Metabolism	4352	NAMED	threonate	threonate	"HMDB0062620,HMDB0000943"	C01620	"1,511,525,460,407"	Polar
+m100001033	Lipid	Sterol	3221	NAMED	beta-sitosterol	beta-sitosterol	HMDB0000852	C01753	222284	Pos Late
+m100001034	Amino Acid	Tryptophan Metabolism	299	NAMED	indoleacetate	indoleacetate	HMDB0000197	C00954	802	Neg
+m100001040	Lipid	Monoacylglycerol	2856	NAMED	1-linoleoylglycerol (18:2)	1-linoleoylglycerol (18:2)	HMDB0011568	NA	5283469	Neg
+m100001051	Amino Acid	Histidine Metabolism	71	NAMED	1-methylhistidine	1-methylhistidine	HMDB0000001	C01152	92105	Pos Early
+m100001054	Lipid	Fatty Acid Metabolism (also BCAA Metabolism)	1768	NAMED	butyrylcarnitine (C4)	butyrylcarnitine (C4)	HMDB0002013	C02862	439829	Pos Early
+m100001055	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	426	NAMED	isobutyrylcarnitine (C4)	isobutyrylcarnitine (C4)	HMDB0000736	NA	168379	Pos Early
+m100001064	Lipid	Secondary Bile Acid Metabolism	3498	NAMED	glycolithocholate	glycolithocholate	HMDB00698	C15557	115245	Neg
+m100001073	Lipid	Androgenic Steroids	3350	NAMED	androsterone sulfate	androsterone sulfate	HMDB0002759	NA	159663	Neg
+m100001081	Amino Acid	Glutamate Metabolism	60	NAMED	2-pyrrolidinone	2-pyrrolidinone	HMDB0002039	NA	12025	Pos Early
+m100001083	Amino Acid	Tryptophan Metabolism	305	NAMED	indolepropionate	indolepropionate	HMDB0002302	NA	3744	Neg
+m100001086	Xenobiotics	Food Component/Plant	4966	NAMED	N-(2-furoyl)glycine	N-(2-furoyl)glycine	HMDB0000439	NA	21863	Neg
+m100001092	Cofactors and Vitamins	Nicotinate and Nicotinamide Metabolism	4321	NAMED	trigonelline (N'-methylnicotinate)	trigonelline (N'-methylnicotinate)	HMDB0000875	C01004	5570	Pos Early
+m100001102	Lipid	"Fatty Acid, Dicarboxylate"	1686	NAMED	dodecanedioate (C12-DC)	dodecanedioate (C12)	HMDB0000623	C02678	12736	Neg
+m100001104	Amino Acid	Tyrosine Metabolism	163	NAMED	N-acetyltyrosine	N-acetyltyrosine	HMDB0000866	NA	68310	Neg
+m100001106	Xenobiotics	Xanthine Metabolism	4595	NAMED	"1,3-dimethylurate"	"1,3-dimethylurate"	HMDB0001857	NA	70346	Neg
+m100001108	Xenobiotics	Xanthine Metabolism	4600	NAMED	3-methylxanthine	3-methylxanthine	HMDB0001886	C16357	70639	Pos Early
+m100001112	Lipid	"Fatty Acid, Monohydroxy"	1985	NAMED	3-hydroxylaurate	3-hydroxylaurate	HMDB0000387	NA	94216	Neg
+m100001121	Cofactors and Vitamins	Vitamin B6 Metabolism	4450	NAMED	pyridoxate	pyridoxate	HMDB0000017	C00847	6723	Neg
+m100001126	Peptide	Gamma-glutamyl Amino Acid	647	NAMED	gamma-glutamylvaline	gamma-glutamylvaline	HMDB0011172	NA	7015683	Pos Early
+m100001145	Lipid	"Fatty Acid, Monohydroxy"	1984	NAMED	3-hydroxysebacate	3-hydroxysebacate	HMDB0000350	NA	3017884	Neg
+m100001148	Lipid	"Fatty Acid, Monohydroxy"	1995	NAMED	5-hydroxyhexanoate	5-hydroxyhexanoate	"HMDB0000409,HMDB0000525"	NA	170748	Neg
+m100001149	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	361	NAMED	3-methylcrotonylglycine	3-methylcrotonylglycine	HMDB0000459	C20828	169485	Pos Early
+m100001151	Lipid	Fatty Acid Metabolism (also BCAA Metabolism)	1769	NAMED	butyrylglycine	butyrylglycine (C4)	HMDB0000808	NA	88412	Neg
+m100001162	Lipid	Fatty Acid Metabolism (also BCAA Metabolism)	1771	NAMED	propionylcarnitine (C3)	propionylcarnitine (C3)	HMDB0000824	C03017	107738	Pos Early
+m100001167	Amino Acid	Urea cycle; Arginine and Proline Metabolism	515	NAMED	pro-hydroxy-pro	prolylhydroxyproline	HMDB0006695	NA	11902893	Pos Early
+m100001170	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	405	NAMED	3-hydroxy-2-ethylpropionate	3-hydroxy-2-ethylpropionate	HMDB0000396	NA	188979	Neg
+m100001178	Lipid	"Fatty Acid, Dicarboxylate"	1705	NAMED	3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF)	3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF)	HMDB0061112	NA	123979	Neg
+m100001181	Lipid	Long Chain Polyunsaturated Fatty Acid (n3 and n6)	1562	NAMED	docosapentaenoate (n3 DPA; 22:5n3)	docosapentaenoate (DPA; 22:5n3)	"HMDB0006528,HMDB0001976"	C16513	6441454	Neg
+m100001182	Lipid	Long Chain Polyunsaturated Fatty Acid (n3 and n6)	1577	NAMED	docosadienoate (22:2n6)	docosadienoate (22:2n6)	HMDB0061714	C16533	5282807	Neg
+m100001197	Lipid	Medium Chain Fatty Acid	1500	NAMED	10-undecenoate (11:1n1)	10-undecenoate (11:1n1)	HMDB0033724	C13910	14891	Neg
+m100001198	Lipid	Long Chain Monounsaturated Fatty Acid	1526	NAMED	myristoleate (14:1n5)	myristoleate (14:1n5)	HMDB0002000	C08322	5281119	Neg
+m100001208	Amino Acid	Histidine Metabolism	91	NAMED	1-methyl-4-imidazoleacetate	1-methyl-4-imidazoleacetate	HMDB0002820	C05828	75810	Pos Early
+m100001211	Lipid	"Fatty Acid, Dicarboxylate"	1681	NAMED	sebacate (C10-DC)	sebacate (C10-DC)	HMDB0000792	C08277	5192	Neg
+m100001229	Lipid	Long Chain Polyunsaturated Fatty Acid (n3 and n6)	1557	NAMED	stearidonate (18:4n3)	stearidonate (18:4n3)	HMDB0006547	C16300	5312508	Neg
+m100001232	Lipid	Medium Chain Fatty Acid	1504	NAMED	5-dodecenoate (12:1n7)	5-dodecenoate (12:1n7)	HMDB0000529	NA	5312378	Neg
+m100001247	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Medium Chain)"	1852	NAMED	octanoylcarnitine (C8)	octanoylcarnitine (C8)	HMDB0000791	C02838	"12,370,111,953,814"	Pos Late
+m100001251	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Medium Chain)"	1860	NAMED	decanoylcarnitine (C10)	decanoylcarnitine (C10)	HMDB0000651	NA	10245190	Pos Late
+m100001253	Amino Acid	Glutamate Metabolism	48	NAMED	N-acetylglutamine	N-acetylglutamine	HMDB0006029	C02716	182230	Polar
+m100001254	Amino Acid	Tryptophan Metabolism	255	NAMED	N-acetyltryptophan	N-acetyltryptophan	HMDB0013713	C03137	"439,917,700,653"	Neg
+m100001256	Amino Acid	Phenylalanine Metabolism	141	NAMED	N-acetylphenylalanine	N-acetylphenylalanine	HMDB0000512	C03519	74839	Neg
+m100001257	Amino Acid	Alanine and Aspartate Metabolism	42	NAMED	N-acetylasparagine	N-acetylasparagine	HMDB0006028	NA	99715	Polar
+m100001262	Peptide	Gamma-glutamyl Amino Acid	641	NAMED	gamma-glutamyl-epsilon-lysine	gamma-glutamyl-epsilon-lysine	HMDB0003869	NA	7015685	Pos Early
+m100001263	Lipid	Lysophospholipid	2600	NAMED	1-palmitoyl-GPC (16:0)	1-palmitoyl-GPC (16:0)	HMDB0010382	C04102	86554	Pos Late
+m100001266	Amino Acid	Urea cycle; Arginine and Proline Metabolism	499	NAMED	N-acetylarginine	N-acetylarginine	HMDB0004620	C02562	67427	Pos Early
+m100001267	Xenobiotics	Food Component/Plant	5004	NAMED	piperine	piperine	HMDB0029377	C03882	638024	Pos Late
+m100001269	Lipid	Sterol	3224	NAMED	campesterol	campesterol	HMDB0002869	C01789	173183	Pos Late
+m100001270	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Long Chain Saturated)"	1862	NAMED	myristoylcarnitine (C14)	myristoylcarnitine (C14)	HMDB000506	NA	6426854	Pos Late
+m100001271	Lipid	Lysophospholipid	2611	NAMED	1-stearoyl-GPC (18:0)	1-stearoyl-GPC (18:0)	HMDB0010384	NA	497300	Pos Late
+m100001272	Lipid	Lysophospholipid	2613	NAMED	1-oleoyl-GPC (18:1)	1-oleoyl-GPC (18:1)	HMDB0002815	C03916	16081932	Pos Late
+m100001274	Amino Acid	"Glycine, Serine and Threonine Metabolism"	18	NAMED	N-acetylthreonine	N-acetylthreonine	HMDB0062557	NA	152204	Polar
+m100001276	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	387	NAMED	N-acetylisoleucine	N-acetylisoleucine	HMDB0061684	NA	306109	Neg
+m100001277	Lipid	Long Chain Monounsaturated Fatty Acid	1540	NAMED	10-nonadecenoate (19:1n9)	10-nonadecenoate (19:1n9)	HMDB0013622	NA	5312513	Neg
+m100001278	Lipid	Long Chain Monounsaturated Fatty Acid	1531	NAMED	10-heptadecenoate (17:1n7)	10-heptadecenoate (17:1n7)	HMDB0060038	NA	5312435	Neg
+m100001279	Lipid	Secondary Bile Acid Metabolism	3524	NAMED	hyocholate	hyocholate	HMDB0000760	C17649	92805	Neg
+m100001287	Lipid	Androgenic Steroids	3342	NAMED	epiandrosterone sulfate	epiandrosterone sulfate	HMDB0062657	C04555	9929317	Neg
+m100001293	Amino Acid	Histidine Metabolism	73	NAMED	N-acetylhistidine	N-acetylhistidine	HMDB0032055	C02997	75619	Polar
+m100001294	Peptide	Gamma-glutamyl Amino Acid	636	NAMED	gamma-glutamylglycine	gamma-glutamylglycine	HMDB0011667	NA	100099	Pos Early
+m100001295	Peptide	Gamma-glutamyl Amino Acid	645	NAMED	gamma-glutamyltryptophan	gamma-glutamyltryptophan	HMDB0029160	NA	3989307	Neg
+m100001296	Xenobiotics	Food Component/Plant	5062	NAMED	stachydrine	stachydrine	HMDB0004827	C10172	115244	Pos Early
+m100001300	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	424	NAMED	alpha-hydroxyisovalerate	alpha-hydroxyisovalerate	HMDB0000407	NA	99823	Neg
+m100001313	Peptide	Gamma-glutamyl Amino Acid	642	NAMED	gamma-glutamylmethionine	gamma-glutamylmethionine	HMDB0029155	NA	7009567	Pos Early
+m100001314	Peptide	Gamma-glutamyl Amino Acid	644	NAMED	gamma-glutamylthreonine	gamma-glutamylthreonine	HMDB0029159	NA	76078708	Pos Early
+m100001315	Xenobiotics	Benzoate Metabolism	4551	NAMED	p-cresol sulfate	p-cresol sulfate	HMDB0011635	NA	4615423	Neg
+m100001320	Carbohydrate	Aminosugar Metabolism	1431	NAMED	erythronate*	erythronate*	HMDB0000613	NA	2781043	Polar
+m100001334	Amino Acid	Urea cycle; Arginine and Proline Metabolism	505	NAMED	N-acetylproline	N-acetylproline	HMDB0094701	NA	322640	Pos Early
+m100001335	Lipid	Long Chain Monounsaturated Fatty Acid	1543	NAMED	eicosenoate (20:1)	eicosenoate (20:1n9 or 1n11)	"HMDB0002231,HMDB0062436"	C16526	"5,282,768,528,276,990,000"	Neg
+m100001337	Lipid	Long Chain Polyunsaturated Fatty Acid (n3 and n6)	1569	NAMED	linolenate [alpha or gamma; (18:3n3 or 6)]	linolenate (18:3n3 or 3n6)	"HMDB0003073,HMDB0001388"	"C06426,C06427"	"52,809,335,280,934"	Neg
+m100001359	Energy	TCA Cycle	1441	NAMED	aconitate [cis or trans]	aconitate [cis or trans]	"HMDB0000958,HMDB000072"	"C004174,C02341"	"444,212,643,757"	Neg
+m100001391	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Long Chain Saturated)"	1866	NAMED	stearoylcarnitine (C18)	stearoylcarnitine (C18)	HMDB0000848	NA	3006797	Pos Late
+m100001392	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Medium Chain)"	1861	NAMED	laurylcarnitine (C12)	laurylcarnitine (C12)	HMDB000225	NA	168381	Pos Late
+m100001393	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	354	NAMED	isovalerylcarnitine (C5)	isovalerylcarnitine (C5)	HMDB0000688	C20826	169235	Pos Early
+m100001395	Lipid	Lysophospholipid	2616	NAMED	1-linoleoyl-GPC (18:2)	1-linoleoyl-GPC (18:2)	HMDB0010386	C04100	11988421	Pos Late
+m100001396	Xenobiotics	Xanthine Metabolism	4601	NAMED	7-methylxanthine	7-methylxanthine	HMDB0001991	C16353	68374	Pos Early
+m100001397	Xenobiotics	Xanthine Metabolism	4598	NAMED	"1,3,7-trimethylurate"	"1,3,7-trimethylurate"	HMDB0002123	C16361	79437	Neg
+m100001398	Xenobiotics	Xanthine Metabolism	4597	NAMED	"3,7-dimethylurate"	"3,7-dimethylurate"	HMDB0001982	C16360	83126	Neg
+m100001399	Xenobiotics	Xanthine Metabolism	4596	NAMED	"1,7-dimethylurate"	"1,7-dimethylurate"	HMDB0011103	C16356	91611	Neg
+m100001400	Xenobiotics	Xanthine Metabolism	4593	NAMED	1-methylurate	1-methylurate	HMDB0003099	C16359	69726	Pos Early
+m100001403	Xenobiotics	Xanthine Metabolism	4602	NAMED	5-acetylamino-6-amino-3-methyluracil	5-acetylamino-6-amino-3-methyluracil	HMDB0004400	C16366	88299	Polar
+m100001404	Amino Acid	Tryptophan Metabolism	317	NAMED	indolebutyrate	indolebutyrate	HMDB0002096	C11284	8617	Neg
+m100001405	Xenobiotics	Xanthine Metabolism	4599	NAMED	1-methylxanthine	1-methylxanthine	HMDB0010738	C16358	80220	Neg
+m100001409	Nucleotide	"Purine Metabolism, (Hypo)Xanthine/Inosine containing"	4125	NAMED	N1-methylinosine	N1-methylinosine	HMDB0002721	NA	650095	Pos Early
+m100001412	Nucleotide	"Purine Metabolism, Guanine containing"	4191	NAMED	"N2,N2-dimethylguanosine"	"N2,N2-dimethylguanosine"	HMDB0004824	NA	135501639	Pos Early
+m100001413	Nucleotide	"Pyrimidine Metabolism, Cytidine containing"	4255	NAMED	N4-acetylcytidine	N4-acetylcytidine	HMDB0005923	NA	107461	Pos Early
+m100001415	Nucleotide	"Purine Metabolism, Adenine containing"	4163	NAMED	N6-carbamoylthreonyladenosine	N6-carbamoylthreonyladenosine	HMDB0041623	NA	161466	Neg
+m100001416	Nucleotide	"Pyrimidine Metabolism, Orotate containing"	4208	NAMED	orotidine	orotidine	HMDB0000788	NA	92751	Polar
+m100001417	Peptide	Acetylated Peptides	1187	NAMED	phenylacetylglutamine	phenylacetylglutamine	HMDB0006344	C04148	92258	Pos Early
+m100001423	Xenobiotics	Benzoate Metabolism	4469	NAMED	4-hydroxyhippurate	4-hydroxyhippurate	HMDB0013678	NA	151012	Neg
+m100001425	Nucleotide	"Pyrimidine Metabolism, Uracil containing"	4221	NAMED	"5,6-dihydrouridine"	"5,6-dihydrouridine"	HMDB0000497	NA	94312	Neg
+m100001426	Nucleotide	"Pyrimidine Metabolism, Uracil containing"	4243	NAMED	3-(3-amino-3-carboxypropyl)uridine*	3-(3-amino-3-carboxypropyl)uridine*	NA	NA	171198	Neg
+m100001446	Nucleotide	"Pyrimidine Metabolism, Uracil containing"	4223	NAMED	5-methyluridine (ribothymidine)	5-methyluridine (ribothymidine)	HMDB0000884	NA	445408	Neg
+m100001452	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	353	NAMED	isovalerylglycine	isovalerylglycine	HMDB00678	NA	546304	Neg
+m100001454	Lipid	"Fatty Acid, Dicarboxylate"	1687	NAMED	3-hydroxydodecanedioate*	3-hydroxydodecanedioate*	HMDB0000413	NA	16663321	Neg
+m100001456	Nucleotide	"Purine Metabolism, Guanine containing"	4185	NAMED	7-methylguanine	7-methylguanine	HMDB0000897	C02242	135398679	Pos Early
+m100001461	Lipid	Lysophospholipid	2669	NAMED	1-stearoyl-GPE (18:0)	1-stearoyl-GPE (18:0)	HMDB0011130	NA	9547068	Pos Late
+m100001462	Lipid	Lysophospholipid	2711	NAMED	1-stearoyl-GPG (18:0)	1-stearoyl-GPG (18:0)	NA	NA	NA	Neg
+m100001466	Nucleotide	"Pyrimidine Metabolism, Cytidine containing"	4253	NAMED	3-methylcytidine	3-methylcytidine	HMDB0240577	NA	14237477	Pos Early
+m100001468	Cofactors and Vitamins	Nicotinate and Nicotinamide Metabolism	4323	NAMED	N1-Methyl-2-pyridone-5-carboxamide	N1-Methyl-2-pyridone-5-carboxamide	HMDB0004193	C05842	69698	Neg
+m100001469	Cofactors and Vitamins	Nicotinate and Nicotinamide Metabolism	4324	NAMED	N1-Methyl-4-pyridone-3-carboxamide	N1-Methyl-4-pyridone-3-carboxamide	HMDB0004194	C05843	440810	Pos Early
+m100001485	Peptide	Gamma-glutamyl Amino Acid	638	NAMED	gamma-glutamylisoleucine*	gamma-glutamylisoleucine*	HMDB0011170	NA	22885096	Pos Early
+m100001501	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)"	1886	NAMED	oleoylcarnitine (C18:1)	oleoylcarnitine (C18:1)	HMDB0005065	NA	6441392	Pos Late
+m100001502	Peptide	Gamma-glutamyl Amino Acid	650	NAMED	gamma-glutamyl-2-aminobutyrate	gamma-glutamyl-2-aminobutyrate	NA	NA	NA	Pos Early
+m100001509	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	397	NAMED	2-methylbutyrylcarnitine (C5)	2-methylbutyrylcarnitine (C5)	HMDB0000378	NA	6426901	Pos Early
+m100001510	Amino Acid	Tyrosine Metabolism	190	NAMED	phenol sulfate	phenol sulfate	HMDB0060015	C02180	74426	Neg
+m100001511	Lipid	Lysophospholipid	2602	NAMED	1-palmitoleoyl-GPC (16:1)*	1-palmitoleoyl-GPC* (16:1)*	HMDB0010383	NA	24779461	Pos Late
+m100001540	Partially Characterized Molecules	Partially Characterized Molecules	6450	NAMED	glutamine_degradant*	glutamine_degradant*	NA	NA	NA	Pos Early
+m100001541	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	395	NAMED	2-hydroxy-3-methylvalerate	2-hydroxy-3-methylvalerate	HMDB0000317	NA	164623	Neg
+m100001550	Xenobiotics	Food Component/Plant	4932	NAMED	homostachydrine*	homostachydrine*	HMDB0033433	C08283	441447	Pos Early
+m100001551	Lipid	Lysophospholipid	2635	NAMED	1-arachidonoyl-GPC (20:4n6)*	1-arachidonoyl-GPC* (20:4)*	HMDB0010395	C05208	24779476	Pos Late
+m100001561	Lipid	Lysophospholipid	2603	NAMED	2-palmitoleoyl-GPC (16:1)*	2-palmitoleoyl-GPC* (16:1)*	HMDB10383	NA	122164832	Neg
+m100001562	Lipid	Lysophospholipid	2601	NAMED	2-palmitoyl-GPC (16:0)*	2-palmitoyl-GPC* (16:0)*	HMDB0061702	NA	15061532	Neg
+m100001567	Lipid	Lysophospholipid	2662	NAMED	1-palmitoyl-GPE (16:0)	1-palmitoyl-GPE (16:0)	HMDB0011503	NA	9547069	Pos Late
+m100001569	Lipid	Lysophospholipid	2671	NAMED	1-oleoyl-GPE (18:1)	1-oleoyl-GPE (18:1)	HMDB0011506	NA	9547071	Pos Late
+m100001570	Lipid	Lysophospholipid	2673	NAMED	1-linoleoyl-GPE (18:2)*	1-linoleoyl-GPE (18:2)*	HMDB0011507	NA	52925130	Pos Late
+m100001571	Lipid	Lysophospholipid	2686	NAMED	1-arachidonoyl-GPE (20:4n6)*	1-arachidonoyl-GPE (20:4n6)*	HMDB0011517	NA	42607465	Pos Late
+m100001577	Amino Acid	Urea cycle; Arginine and Proline Metabolism	504	NAMED	N-acetylcitrulline	N-acetylcitrulline	HMDB0000856	"C15532,C02851"	656979	Neg
+m100001579	Lipid	"Fatty Acid, Monohydroxy"	1968	NAMED	2-hydroxypalmitate	2-hydroxypalmitate	HMDB0031057	NA	"125,759,649,283,611,000,000"	Neg
+m100001580	Lipid	Long Chain Polyunsaturated Fatty Acid (n3 and n6)	1576	NAMED	docosapentaenoate (n6 DPA; 22:5n6)	docosapentaenoate (n6 DPA; 22:5n6)	HMDB0001976	C16513	6441454	Neg
+m100001590	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	427	NAMED	isobutyrylglycine	isobutyrylglycine (C4)	HMDB0000730	NA	10855600	Neg
+m100001593	Amino Acid	Lysine Metabolism	127	NAMED	glutarylcarnitine (C5-DC)	glutarylcarnitine (C5-DC)	HMDB0013130	NA	71317118	Pos Early
+m100001594	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	364	NAMED	beta-hydroxyisovaleroylcarnitine	beta-hydroxyisovaleroylcarnitine	NA	NA	NA	Pos Early
+m100001597	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	400	NAMED	tiglylcarnitine (C5:1-DC)	tiglyl carnitine (C5)	HMDB0002366	NA	22833596	Pos Early
+m100001604	Xenobiotics	Drug - Topical Agents	5964	NAMED	hydroquinone sulfate	hydroquinone sulfate	HMDB0240263	C00530	161220	Neg
+m100001605	Xenobiotics	Benzoate Metabolism	4497	NAMED	catechol sulfate	catechol sulfate	HMDB0059724	NA	3083879	Neg
+m100001606	Lipid	Sterol	3193	NAMED	cholesterol sulfate	cholesterol sulfate	HMDB00653	C18043	65076	Polar
+m100001609	Lipid	Sterol	3206	NAMED	7-alpha-hydroxy-3-oxo-4-cholestenoate (7-Hoca)	7-HOCA	HMDB0012458	C17337	3081085	Neg
+m100001611	Lipid	Sterol	3208	NAMED	"3beta,7alpha-dihydroxy-5-cholestenoate"	"3beta,7alpha-dihydroxy-5-cholestenoate"	HMDB0012454	C17335	3081084	Neg
+m100001612	Amino Acid	Glutamate Metabolism	55	NAMED	N-acetyl-aspartyl-glutamate (NAAG)	N-acetyl-aspartyl-glutamate (NAAG)	HMDB0001067	C12270	188803	Pos Early
+m100001613	Lipid	"Fatty Acid, Dicarboxylate"	1691	NAMED	tetradecanedioate (C14-DC)	tetradecanedioate (C14)	HMDB0000872	NA	13185	Neg
+m100001614	Lipid	"Fatty Acid, Dicarboxylate"	1695	NAMED	hexadecanedioate (C16-DC)	hexadecanedioate (C16)	HMDB0000672	C19615	10459	Neg
+m100001615	Lipid	"Fatty Acid, Dicarboxylate"	1698	NAMED	octadecanedioate (C18-DC)	octadecanedioate (C18)	HMDB0000782	NA	70095	Neg
+m100001620	Lipid	Phospholipid Metabolism	2240	NAMED	glycerophosphoethanolamine	glycerophosphoethanolamine	HMDB0000114	C01233	123874	Pos Early
+m100001624	Xenobiotics	Benzoate Metabolism	4570	NAMED	3-(3-hydroxyphenyl)propionate	3-(3-hydroxyphenyl)propionate	HMDB0000375	C11457	91	Neg
+m100001635	Xenobiotics	Chemical	6153	NAMED	ectoine	ectoine	NA	C06231	126041	Pos Early
+m100001654	Lipid	Lysophospholipid	2731	NAMED	1-arachidonoyl-GPI (20:4)*	1-arachidonoyl-GPI* (20:4)*	HMDB0061690	NA	121596217	Neg
+m100001655	Lipid	Lysophospholipid	2717	NAMED	1-palmitoyl-GPI (16:0)	1-palmitoyl-GPI* (16:0)	HMDB0061695	NA	71296207	Neg
+m100001657	Lipid	Secondary Bile Acid Metabolism	3499	NAMED	glycolithocholate sulfate*	glycolithocholate sulfate*	HMDB0002639	C11301	72222	Neg
+m100001658	Lipid	Secondary Bile Acid Metabolism	3501	NAMED	taurolithocholate 3-sulfate	taurolithocholate 3-sulfate	HMDB0002580	C03642	440071	Neg
+m100001662	Lipid	Carnitine Metabolism	1931	NAMED	deoxycarnitine	deoxycarnitine	HMDB0001161	C01181	22620	Pos Early
+m100001668	Amino Acid	Histidine Metabolism	96	NAMED	1-ribosyl-imidazoleacetate*	1-ribosyl-imidazoleacetate*	HMDB0002331	C05131	440569	Pos Early
+m100001730	Lipid	"Fatty Acid, Dihydroxy"	2037	NAMED	"3,4-dihydroxybutyrate"	"3,4-dihydroxybutyrate"	HMDB0000337	NA	150929	Polar
+m100001731	Amino Acid	Tryptophan Metabolism	307	NAMED	indoleacetylglutamine	indoleacetylglutamine	HMDB0013240	NA	25200879	Neg
+m100001733	Lipid	Fatty Acid Metabolism (Acyl Glutamine)	1781	NAMED	hexanoylglutamine	hexanoylglutamine	NA	NA	NA	Neg
+m100001734	Amino Acid	Lysine Metabolism	107	NAMED	N6-acetyllysine	N6-acetyllysine	HMDB0000206	C02727	92832	Pos Early
+m100001739	Lipid	Long Chain Polyunsaturated Fatty Acid (n3 and n6)	1572	NAMED	dihomo-linolenate (20:3n3 or n6)	dihomolinolenate (20:3n3 or 3n6)	HMDB0002925	C03242	5280581	Neg
+m100001740	Carbohydrate	"Fructose, Mannose and Galactose Metabolism"	1351	NAMED	mannitol/sorbitol	mannitol/sorbitol	"HMDB0000247,HMDB0000765"	"C00392,C00794"	"57,806,251"	Polar
+m100001743	Amino Acid	Tryptophan Metabolism	264	NAMED	tryptophan betaine	tryptophan betaine	HMDB0061115	C09213	442106	Pos Early
+m100001755	Xenobiotics	Benzoate Metabolism	4524	NAMED	4-vinylphenol sulfate	4-vinylphenol sulfate	HMDB0062775	C05627	6426766	Neg
+m100001756	Xenobiotics	Benzoate Metabolism	4522	NAMED	4-ethylphenylsulfate	4-ethylphenyl sulfate	HMDB0062551	C13637	20822574	Neg
+m100001757	Xenobiotics	Food Component/Plant	5076	NAMED	thymol sulfate	thymol sulfate	HMDB0062720	C09908	12456386	Neg
+m100001767	Xenobiotics	Food Component/Plant	5116	NAMED	pyrraline	pyrraline	HMDB0033143	C21013	14274616	Neg
+m100001777	Lipid	Lysophospholipid	2723	NAMED	1-oleoyl-GPI (18:1)	1-oleoyl-GPI (18:1)	HMDB0061693	NA	86289645	Neg
+m100001778	Lipid	Lysophospholipid	2725	NAMED	1-linoleoyl-GPI (18:2)*	1-linoleoyl-GPI* (18:2)*	NA	NA	11124828	Neg
+m100001806	Xenobiotics	Benzoate Metabolism	4558	NAMED	o-cresol sulfate	o-cresol sulfate	HMDB0011635	NA	11615528	Neg
+m100001810	Amino Acid	Urea cycle; Arginine and Proline Metabolism	498	NAMED	dimethylarginine (SDMA + ADMA)	dimethylarginine (ADMA + SDMA)	"HMDB0003334,HMDB0001539"	"C21189,C03626"	"123,831,169,148"	Pos Early
+m100001851	Amino Acid	"Glycine, Serine and Threonine Metabolism"	11	NAMED	N-acetylserine	N-acetylserine	HMDB0002931	NA	65249	Polar
+m100001856	Lipid	Phosphatidylethanolamine (PE)	2425	NAMED	1-stearoyl-2-oleoyl-GPE (18:0/18:1)	1-stearoyl-2-oleoyl-GPE (18:0/18:1)	HMDB0008993	NA	9546742	Pos Late
+m100001868	Xenobiotics	Food Component/Plant	5087	NAMED	4-allylphenol sulfate	4-allylphenol sulfate	NA	NA	66633409	Neg
+m100001869	Lipid	Phosphatidylcholine (PC)	2333	NAMED	1-stearoyl-2-arachidonoyl-GPC (18:0/20:4)	1-stearoyl-2-arachidonoyl-GPC (18:0/20:4)	HMDB0008048	NA	16219824	Pos Late
+m100001870	Lipid	Phosphatidylethanolamine (PE)	2410	NAMED	1-palmitoyl-2-linoleoyl-GPE (16:0/18:2)	1-palmitoyl-2-linoleoyl-GPE (16:0/18:2)	HMDB0005322	NA	9546747	Pos Late
+m100001872	Lipid	Phosphatidylserine (PS)	2508	NAMED	1-stearoyl-2-arachidonoyl-GPS (18:0/20:4)	1-stearoyl-2-arachidonoyl-GPS (18:0/20:4)	HMDB0012383	NA	24779545	Pos Late
+m100001876	Lipid	Sphingolipid Synthesis	3001	NAMED	sphinganine-1-phosphate	sphinganine-1-phosphate	HMDB0001383	NA	520	Pos Late
+m100001882	Lipid	Hexosylceramides (HCER)	3058	NAMED	glycosyl-N-stearoyl-sphingosine (d18:1/18:0)	glycosyl-N-stearoyl-sphingosine (d18:1/18:0)	NA	NA	NA	Pos Late
+m100001925	Peptide	Dipeptide	762	NAMED	cyclo(leu-pro)	cyclo(leu-pro)	HMDB0034276	NA	7074739	Pos Early
+m100001948	Energy	TCA Cycle	1447	NAMED	succinylcarnitine (C4-DC)	succinylcarnitine (C4-DC)	HMDB0061717	NA	71464481	Pos Early
+m100001950	Cofactors and Vitamins	Hemoglobin and Porphyrin Metabolism	4408	NAMED	"bilirubin (E,E)*"	"bilirubin (E,E)*"	NA	NA	129320511	Pos Late
+m100001951	Cofactors and Vitamins	Hemoglobin and Porphyrin Metabolism	4409	NAMED	"bilirubin (E,Z or Z,E)*"	"bilirubin (E,Z or Z,E)*"	HMDB0000488	C00486	5799469	Pos Late
+m100001956	Amino Acid	Urea cycle; Arginine and Proline Metabolism	518	NAMED	N-methylproline	N-methylproline	HMDB0094696	NA	643474	Pos Early
+m100001977	Cofactors and Vitamins	Vitamin A Metabolism	4434	NAMED	beta-cryptoxanthin	beta-cryptoxanthin	HMDB0033844	C08591	5281235	Pos Late
+m100001987	Lipid	Androgenic Steroids	3386	NAMED	"5alpha-androstan-3beta,17beta-diol disulfate"	"5alpha-androstan-3beta,17beta-diol disulfate"	HMDB00493	C12525	90186325	Neg
+m100001988	Lipid	Progestin Steroids	3280	NAMED	"5alpha-pregnan-3beta,20alpha-diol disulfate"	"5alpha-pregnan-3beta,20alpha-diol disulfate"	HMDB0094650	NA	118703093	Neg
+m100001989	Lipid	Secondary Bile Acid Metabolism	3534	NAMED	glycocholenate sulfate*	glycocholenate sulfate*	NA	NA	NA	Neg
+m100001990	Lipid	Secondary Bile Acid Metabolism	3535	NAMED	taurocholenate sulfate*	taurocholenate sulfate*	NA	NA	NA	Neg
+m100001992	Lipid	Androgenic Steroids	3363	NAMED	"androstenediol (3beta,17beta) disulfate (1)"	"androstenediol (3beta,17beta) disulfate (1)"	HMDB0240313	C04295	87120982	Neg
+m100001993	Lipid	Pregnenolone Steroids	3260	NAMED	pregnenediol disulfate (C21H34O8S2)*	pregnen-diol disulfate*	NA	NA	NA	Neg
+m100001994	Lipid	Androgenic Steroids	3364	NAMED	"androstenediol (3beta,17beta) disulfate (2)"	"androstenediol (3beta,17beta) disulfate (2)"	HMDB0240313	NA	87120982	Neg
+m100002009	Lipid	Progestin Steroids	3271	NAMED	"5alpha-pregnan-3beta,20beta-diol monosulfate (1)"	"5alpha-pregnan-3beta,20beta-diol monosulfate (1)"	HMDB0240580	NA	NA	Neg
+m100002014	Lipid	Progestin Steroids	3274	NAMED	"5alpha-pregnan-3beta,20alpha-diol monosulfate (2)"	"5alpha-pregnan-3beta,20alpha-diol monosulfate (2)"	NA	NA	NA	Neg
+m100002018	Lipid	Androgenic Steroids	3378	NAMED	"5alpha-androstan-3alpha,17beta-diol monosulfate (1)"	"5alpha-androstan-3alpha,17beta-diol monosulfate (1)"	NA	NA	"121,596,226,121,596,000"	Neg
+m100002021	Lipid	Androgenic Steroids	3389	NAMED	"5alpha-androstan-3beta,17alpha-diol disulfate"	"5alpha-androstan-3beta,17alpha-diol disulfate"	HMDB0094682	NA	56639109	Neg
+m100002024	Lipid	Androgenic Steroids	3385	NAMED	"5alpha-androstan-3beta,17beta-diol monosulfate (2)"	"5alpha-androstan-3beta,17beta-diol monosulfate (2)"	NA	NA	NA	Neg
+m100002026	Lipid	Androgenic Steroids	3367	NAMED	"androstenediol (3alpha, 17alpha) monosulfate (2)"	"androstenediol (3alpha, 17alpha) monosulfate (2)"	NA	NA	NA	Neg
+m100002027	Lipid	Androgenic Steroids	3368	NAMED	"androstenediol (3alpha, 17alpha) monosulfate (3)"	"androstenediol (3alpha, 17alpha) monosulfate (3)"	NA	NA	NA	Neg
+m100002028	Lipid	Androgenic Steroids	3360	NAMED	"androstenediol (3beta,17beta) monosulfate (1)"	"androstenediol (3beta,17beta) monosulfate (1)"	HMDB0240429	NA	"12,967,063,113,847,300"	Neg
+m100002029	Lipid	Androgenic Steroids	3361	NAMED	"androstenediol (3beta,17beta) monosulfate (2)"	"androstenediol (3beta,17beta) monosulfate (2)"	"HMDB0240429,HMDB0186954"	NA	NA	Neg
+m100002049	Xenobiotics	Drug - Cardiovascular	5654	NAMED	4-hydroxycoumarin	4-hydroxycoumarin	NA	C20414	54682930	Neg
+m100002067	Lipid	Pregnenolone Steroids	3259	NAMED	pregnenediol sulfate (C21H34O5S)*	pregnenediol sulfate (C21H34O5S)*	HMDB0000774	C18044	105074	Neg
+m100002070	Lipid	"Fatty Acid, Dicarboxylate"	1663	NAMED	2-hydroxyglutarate	2-hydroxyglutarate	HMDB0059655	C02630	43	Pos Early
+m100002094	Cofactors and Vitamins	Tocopherol Metabolism	4367	NAMED	gamma-CEHC	gamma-CEHC	HMDB0001931	NA	133098	Neg
+m100002102	Nucleotide	"Pyrimidine Metabolism, Uracil containing"	4240	NAMED	N-acetyl-beta-alanine	N-acetyl-beta-alanine	HMDB0061880	C01073	76406	Neg
+m100002106	Lipid	Sphingomyelins	3119	NAMED	"sphingomyelin (d18:1/18:1, d18:2/18:0)"	"sphingomyelin (d18:1/18:1, d18:2/18:0)"	HMDB0012101	NA	6443882	Pos Late
+m100002107	Lipid	Sphingomyelins	3103	NAMED	palmitoyl sphingomyelin (d18:1/16:0)	palmitoyl sphingomyelin (d18:1/16:0)	HMDB0010169	NA	9939941	Pos Late
+m100002113	Amino Acid	"Methionine, Cysteine, SAM and Taurine Metabolism"	468	NAMED	cysteine sulfinic acid	cysteine sulfinic acid	HMDB0000996	C00606	109	Pos Early
+m100002122	Xenobiotics	Benzoate Metabolism	4467	NAMED	3-hydroxyhippurate	3-hydroxyhippurate	HMDB0006116	NA	450268	Neg
+m100002126	Lipid	Androgenic Steroids	3339	NAMED	16a-hydroxy DHEA 3-sulfate	16a-hydroxy DHEA 3-sulfate	HMDB0062544	NA	20848950	Neg
+m100002129	Lipid	Pregnenolone Steroids	3243	NAMED	pregnenolone sulfate	pregnenolone sulfate	HMDB0000774	C18044	105074	Neg
+m100002152	Lipid	Androgenic Steroids	3393	NAMED	andro steroid monosulfate C19H28O6S (1)*	andro steroid monosulfate C19H28O6S (1)*	HMDB0002759	NA	159663	Neg
+m100002154	Xenobiotics	Food Component/Plant	4892	NAMED	ergothioneine	ergothioneine	HMDB0003045	C05570	5351619	Pos Early
+m100002167	Lipid	Eicosanoid	2141	NAMED	12-HETE	12-HETE	HMDB0006111	C14777	5283155	Neg
+m100002185	Amino Acid	Tryptophan Metabolism	316	NAMED	indole-3-carboxylate	indole-3-carboxylate	HMDB0003320	C19837	69867	Neg
+m100002196	Lipid	"Fatty Acid, Monohydroxy"	2014	NAMED	13-HODE + 9-HODE	13-HODE + 9-HODE	"HMDB0004670,HMDB0004667"	"C14767,C14762"	"53,128,305,282,945,100,000,000,000,000,000"	Neg
+m100002199	Lipid	"Fatty Acid, Dicarboxylate"	1690	NAMED	tridecenedioate (C13:1-DC)*	tridecenedioate (C13:1-DC)*	NA	NA	NA	Neg
+m100002227	Lipid	Sterol	3219	NAMED	4-cholesten-3-one	4-cholesten-3-one	HMDB0000921	C00599	91477	Pos Late
+m100002253	Xenobiotics	Food Component/Plant	4852	NAMED	cinnamoylglycine	cinnamoylglycine	HMDB0011621	NA	709625	Neg
+m100002254	Lipid	Endocannabinoid	2163	NAMED	stearoyl ethanolamide	stearoyl ethanolamide	HMDB0013078	NA	27902	Pos Late
+m100002259	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)"	1880	NAMED	cis-4-decenoylcarnitine (C10:1)	cis-4-decenoylcarnitine (C10:1)	HMDB0013205	NA	57357170	Pos Late
+m100002284	Lipid	"Fatty Acid, Dihydroxy"	2033	NAMED	"2S,3R-dihydroxybutyrate"	"2S,3R-dihydroxybutyrate"	HMDB0002453	NA	10964471	Polar
+m100002356	Lipid	"Fatty Acid, Branched"	1648	NAMED	(16 or 17)-methylstearate (a19:0 or i19:0)	(16 or 17)-methylstearate (a19:0 or i19:0)	HMDB0037397	NA	3083779	Neg
+m100002367	Lipid	"Fatty Acid, Dihydroxy"	2034	NAMED	"2R,3R-dihydroxybutyrate"	"2R,3R-dihydroxybutyrate"	HMDB0000498	NA	13120901	Polar
+m100002417	Xenobiotics	Food Component/Plant	4771	NAMED	"2,3-dihydroxyisovalerate"	"2,3-dihydroxyisovalerate"	HMDB0012141	C04039	677	Polar
+m100002458	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	367	NAMED	3-methylglutaconate	3-methylglutaconate	HMDB0000522	NA	1551553	Polar
+m100002462	Amino Acid	Lysine Metabolism	120	NAMED	5-(galactosylhydroxy)-L-lysine	5-(galactosylhydroxy)-L-lysine	NA	NA	66995551	Pos Early
+m100002466	Amino Acid	Glutathione Metabolism	577	NAMED	cysteinylglycine disulfide*	cysteinylglycine disulfide*	HMDB0000709	NA	22833544	Pos Early
+m100002488	Lipid	Secondary Bile Acid Metabolism	3508	NAMED	isoursodeoxycholate	isoursodeoxycholate	HMDB0000686	C17662	127601	Neg
+m100002500	Amino Acid	Histidine Metabolism	81	NAMED	formiminoglutamate	formiminoglutamate	HMDB0000854	C00439	439233	Pos Early
+m100002514	Amino Acid	Histidine Metabolism	77	NAMED	hydantoin-5-propionate	hydantoin-5-propionate	HMDB0001212	C05565	782	Polar
+m100002528	Xenobiotics	Chemical	6085	NAMED	sulfate*	sulfate*	HMDB01448	C00059	5152822	Neg
+m100002544	Amino Acid	Glutamate Metabolism	51	NAMED	4-hydroxyglutamate	4-hydroxyglutamate	HMDB0001344	C03079	439902	Pos Early
+m100002613	Cofactors and Vitamins	Pantothenate and CoA Metabolism	4334	NAMED	pantoate	pantoate	NA	C00522	5289105	Neg
+m100002679	Amino Acid	Glutamate Metabolism	53	NAMED	gamma-carboxyglutamate	gamma-carboxyglutamate	HMDB0041900	NA	40772	Pos Early
+m100002749	Amino Acid	"Methionine, Cysteine, SAM and Taurine Metabolism"	457	NAMED	S-methylcysteine	S-methylcysteine	HMDB0002108	NA	"24,417,705,817,488,100"	Neg
+m100002761	Lipid	Androgenic Steroids	3340	NAMED	androsterone glucuronide	androsterone glucuronide	HMDB0002829	C11135	114833	Neg
+m100002769	Amino Acid	Urea cycle; Arginine and Proline Metabolism	522	NAMED	argininate*	argininate*	HMDB0003148	NA	160437	Pos Early
+m100002784	Amino Acid	Urea cycle; Arginine and Proline Metabolism	491	NAMED	2-oxoarginine*	2-oxoarginine*	HMDB0004225	C03771	558	Pos Early
+m100002796	Lipid	Medium Chain Fatty Acid	1495	NAMED	cis-4-decenoate (10:1n6)*	cis-4-decenoate (10:1n6)*	HMDB0004980	NA	5282726	Neg
+m100002873	Lipid	Lysophospholipid	2649	NAMED	1-lignoceroyl-GPC (24:0)	1-lignoceroyl-GPC (24:0)	HMDB0010405	NA	24779481	Pos Late
+m100002875	Lipid	Lysoplasmalogen	2833	NAMED	1-(1-enyl-palmitoyl)-GPC (P-16:0)*	1-(1-enyl-palmitoyl)-GPC (P-16:0)*	HMDB0010407	NA	10917802	Pos Late
+m100002910	Amino Acid	Histidine Metabolism	92	NAMED	1-methyl-5-imidazoleacetate	1-methyl-5-imidazoleacetate	HMDB04988	NA	6451814	Pos Early
+m100002911	Lipid	Secondary Bile Acid Metabolism	3513	NAMED	glycoursodeoxycholate	glycoursodeoxycholate	HMDB0000708	NA	12310288	Neg
+m100002927	Amino Acid	"Methionine, Cysteine, SAM and Taurine Metabolism"	458	NAMED	S-methylcysteine sulfoxide	S-methylcysteine sulfoxide	HMDB0029432	NA	82142	Pos Early
+m100002945	Lipid	"Fatty Acid, Branched"	1642	NAMED	(14 or 15)-methylpalmitate (a17:0 or i17:0)	(14 or 15)-methylpalmitate (a17:0 or i17:0)	HMDB0061859	C16995	"818,117,903,417"	Neg
+m100002951	Lipid	"Fatty Acid, Dicarboxylate"	1702	NAMED	eicosanedioate (C20-DC)	eicosanedioate (C20-DC)	NA	NA	75502	Neg
+m100002953	Lipid	"Fatty Acid, Monohydroxy"	2010	NAMED	16-hydroxypalmitate	16-hydroxypalmitate	HMDB0006294	C18218	10466	Neg
+m100002989	Lipid	Diacylglycerol	2926	NAMED	oleoyl-linoleoyl-glycerol (18:1/18:2) [1]	oleoyl-linoleoyl-glycerol (18:1/18:2) [1]	HMDB0007219	NA	14275396	Pos Late
+m100002990	Lipid	Diacylglycerol	2927	NAMED	oleoyl-linoleoyl-glycerol (18:1/18:2) [2]	oleoyl-linoleoyl-glycerol (18:1/18:2) [2]	HMDB0007219	NA	71433693	Pos Late
+m100003000	Lipid	Lysoplasmalogen	2834	NAMED	1-(1-enyl-palmitoyl)-GPE (P-16:0)*	1-(1-enyl-palmitoyl)-GPE (P-16:0)*	HMDB0011152	NA	NA	Pos Late
+m100003001	Lipid	Lysoplasmalogen	2838	NAMED	1-(1-enyl-stearoyl)-GPE (P-18:0)*	1-(1-enyl-stearoyl)-GPE (P-18:0)*	NA	NA	NA	Pos Late
+m100003119	Lipid	Endocannabinoid	2172	NAMED	N-oleoyltaurine	N-oleoyltaurine	NA	NA	6437033	Neg
+m100003151	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Polyunsaturated)"	1891	NAMED	linoleoylcarnitine (C18:2)*	linoleoylcarnitine (C18:2)*	HMDB0006469	NA	6450015	Pos Late
+m100003169	Peptide	Dipeptide	853	NAMED	isoleucylglycine	isoleucylglycine	HMDB0028907	NA	342532	Neg
+m100003240	Lipid	Endocannabinoid	2173	NAMED	N-stearoyltaurine	N-stearoyltaurine	NA	NA	168274	Neg
+m100003258	Cofactors and Vitamins	Ascorbate and Aldarate Metabolism	4351	NAMED	2-O-methylascorbic acid	2-O-methylascorbic acid	HMDB0240294	NA	54726398	Neg
+m100003260	Amino Acid	Glutamate Metabolism	58	NAMED	carboxyethyl-GABA	carboxyethyl-GABA	HMDB0002201	NA	2572	Pos Early
+m100003271	Amino Acid	Glutamate Metabolism	56	NAMED	beta-citrylglutamate	beta-citrylglutamate	NA	C20775	189741	Neg
+m100003397	Lipid	Phospholipid Metabolism	2243	NAMED	trimethylamine N-oxide	trimethylamine N-oxide	HMDB0000925	C01104	1145	Pos Early
+m100003415	Amino Acid	Lysine Metabolism	114	NAMED	N6-methyllysine	N6-methyllysine	HMDB0002038	C02728	164795	Pos Early
+m100003434	Amino Acid	Histidine Metabolism	80	NAMED	imidazole propionate	imidazole propionate	HMDB0002271	NA	70630	Pos Early
+m100003470	Lipid	Progestin Steroids	3283	NAMED	pregnanediol-3-glucuronide	pregnanediol-3-glucuronide	HMDB0010318	NA	123796	Neg
+m100003641	Peptide	Dipeptide	1034	NAMED	valylglycine	valylglycine	HMDB0029127	NA	136487	Neg
+m100003686	Lipid	Fatty Acid Metabolism (Acyl Glycine)	1823	NAMED	N-palmitoylglycine	N-palmitoylglycine	HMDB0013034	NA	151008	Neg
+m100003892	Amino Acid	"Methionine, Cysteine, SAM and Taurine Metabolism"	466	NAMED	lanthionine	lanthionine	NA	NA	98504	Pos Early
+m100003901	Lipid	Lysophospholipid	2670	NAMED	2-stearoyl-GPE (18:0)*	2-stearoyl-GPE (18:0)*	HMDB0011129	NA	"9,065,845,353,480,660"	Neg
+m100004046	Amino Acid	Histidine Metabolism	86	NAMED	N-acetylcarnosine	N-acetylcarnosine	HMDB0012881	NA	9903482	Pos Early
+m100004054	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Long Chain Saturated)"	1865	NAMED	margaroylcarnitine (C17)*	margaroylcarnitine (C17)*	HMDB0006210	NA	53477803	Pos Late
+m100004083	Lipid	Secondary Bile Acid Metabolism	3525	NAMED	glycohyocholate	glycohyocholate	HMDB0000138	NA	71361462	Neg
+m100004088	Cofactors and Vitamins	Vitamin A Metabolism	4436	NAMED	retinal	retinal	HMDB0001358	C00376	638015	Pos Late
+m100004089	Lipid	"Fatty Acid, Monohydroxy"	1962	NAMED	2-hydroxydecanoate	2-hydroxydecanoate	HMDB0094656	NA	21488	Neg
+m100004110	Xenobiotics	Benzoate Metabolism	4502	NAMED	3-methyl catechol sulfate (2)	3-methyl catechol sulfate (2)	NA	NA	NA	Neg
+m100004111	Xenobiotics	Benzoate Metabolism	4504	NAMED	4-methylcatechol sulfate	4-methylcatechol sulfate	HMDB0240459	NA	54104170	Neg
+m100004112	Xenobiotics	Benzoate Metabolism	4501	NAMED	3-methyl catechol sulfate (1)	3-methyl catechol sulfate (1)	NA	NA	118431379	Neg
+m100004182	Lipid	Secondary Bile Acid Metabolism	3538	NAMED	3b-hydroxy-5-cholenoic acid	3b-hydroxy-5-cholenoic acid	HMDB0000308	NA	92997	Neg
+m100004208	Xenobiotics	Benzoate Metabolism	4500	NAMED	guaiacol sulfate	guaiacol sulfate	HMDB0060013	NA	22473	Neg
+m100004227	Lipid	"Fatty Acid, Amino"	1755	NAMED	2-aminooctanoate	2-aminooctanoate	HMDB0000991	NA	69522	Pos Late
+m100004295	Xenobiotics	Food Component/Plant	4635	NAMED	2-piperidinone	2-piperidinone	HMDB0011749	NA	12665	Pos Early
+m100004299	Amino Acid	Histidine Metabolism	76	NAMED	N-acetyl-1-methylhistidine*	N-acetyl-1-methylhistidine*	NA	NA	53859791	Pos Early
+m100004318	Xenobiotics	Food Component/Plant	4937	NAMED	indolin-2-one	indolin-2-one	NA	C12312	321710	Pos Early
+m100004322	Xenobiotics	Food Component/Plant	5249	NAMED	2-aminophenol sulfate	2-aminophenol sulfate	HMDB0061116	NA	181670	Neg
+m100004326	Xenobiotics	Chemical	6106	NAMED	3-acetylphenol sulfate	3-acetylphenol sulfate	NA	NA	NA	Neg
+m100004328	Lipid	Sphingomyelins	3113	NAMED	"sphingomyelin (d18:1/14:0, d16:1/16:0)*"	"sphingomyelin (d18:1/14:0, d16:1/16:0)*"	HMDB0012097	NA	11433862	Pos Late
+m100004329	Lipid	Sphingomyelins	3117	NAMED	"sphingomyelin (d18:2/16:0, d18:1/16:1)*"	"sphingomyelin (d18:2/16:0, d18:1/16:1)*"	NA	NA	NA	Pos Late
+m100004499	Amino Acid	Lysine Metabolism	133	NAMED	6-oxopiperidine-2-carboxylate	6-oxopiperidine-2-carboxylate	HMDB0061705	NA	3014237	Neg
+m100004523	Amino Acid	Urea cycle; Arginine and Proline Metabolism	508	NAMED	N-delta-acetylornithine	N-delta-acetylornithine	HMDB0003357	C00437	9920500	Pos Early
+m100004541	Amino Acid	Polyamine Metabolism	551	NAMED	acisoga	acisoga	HMDB0061384	NA	129397	Neg
+m100004542	Lipid	"Fatty Acid, Amino"	1750	NAMED	2-aminoheptanoate	2-aminoheptanoate	HMDB0094649	NA	227939	Pos Early
+m100004575	Amino Acid	Urea cycle; Arginine and Proline Metabolism	510	NAMED	"N2,N5-diacetylornithine"	"N2,N5-diacetylornithine"	NA	NA	65977	Neg
+m100004601	Xenobiotics	Bacterial/Fungal	5326	NAMED	1H-indole-7-acetic acid	1H-indole-7-acetic acid	NA	NA	18356439	Neg
+m100004634	Amino Acid	Tyrosine Metabolism	206	NAMED	3-methoxytyramine sulfate	3-methoxytyramine sulfate	NA	NA	54133459	Neg
+m100004635	Amino Acid	"Methionine, Cysteine, SAM and Taurine Metabolism"	439	NAMED	methionine sulfone	methionine sulfone	HMDB0062174	NA	69961	Pos Early
+m100005350	Lipid	Lysophospholipid	2618	NAMED	1-linolenoyl-GPC (18:3)*	1-linolenoyl-GPC (18:3)*	HMDB0010388	C04100	NA	Pos Late
+m100005372	Lipid	Lysoplasmalogen	2836	NAMED	1-(1-enyl-oleoyl)-GPE (P-18:1)*	1-(1-enyl-oleoyl)-GPE (P-18:1)*	NA	NA	NA	Pos Late
+m100005373	Amino Acid	Lysine Metabolism	121	NAMED	fructosyllysine	fructosyllysine	HMDB0034879	NA	9839580	Pos Early
+m100005383	Xenobiotics	Bacterial/Fungal	5327	NAMED	N-methylpipecolate	N-methylpipecolate	NA	NA	11286529	Pos Early
+m100005384	Xenobiotics	Chemical	6088	NAMED	O-sulfo-L-tyrosine	O-sulfo-L-tyrosine	NA	NA	514186	Neg
+m100005391	Xenobiotics	Benzoate Metabolism	4567	NAMED	3-(3-hydroxyphenyl)propionate sulfate	3-(3-hydroxyphenyl)propionate sulfate	HMDB0094710	NA	187488	Neg
+m100005402	Lipid	Androgenic Steroids	3336	NAMED	11-ketoetiocholanolone glucuronide	11-ketoetiocholanolone glucuronide	NA	NA	NA	Neg
+m100005403	Lipid	Androgenic Steroids	3353	NAMED	etiocholanolone glucuronide	etiocholanolone glucuronide	HMDB0004484	NA	270605	Neg
+m100005418	Lipid	Pregnenolone Steroids	3248	NAMED	17alpha-hydroxypregnanolone glucuronide	17alpha-hydroxypregnanolone glucuronide	NA	NA	NA	Neg
+m100005717	Lipid	Lysophospholipid	2708	NAMED	1-palmitoyl-GPG (16:0)*	1-palmitoyl-GPG (16:0)*	NA	NA	3300276	Neg
+m100005834	Lipid	"Fatty Acid, Monohydroxy"	2002	NAMED	9-hydroxystearate	9-hydroxystearate	HMDB0061661	NA	9570127	Neg
+m100005850	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	375	NAMED	3-methylglutarylcarnitine (2)	3-methylglutarylcarnitine (2)	HMDB0000552	NA	128145	Pos Early
+m100005864	Xenobiotics	Food Component/Plant	5089	NAMED	methyl glucopyranoside (alpha + beta)	methyl glucopyranoside (alpha + beta)	HMDB0029965	NA	"44,523,830,367,432,100"	Neg
+m100005985	Lipid	Sphingomyelins	3114	NAMED	"sphingomyelin (d18:2/14:0, d18:1/14:1)*"	"sphingomyelin (d18:2/14:0, d18:1/14:1)*"	NA	NA	NA	Pos Late
+m100005986	Lipid	Sphingomyelins	3129	NAMED	"sphingomyelin (d18:1/24:1, d18:2/24:0)*"	"sphingomyelin (d18:1/24:1, d18:2/24:0)*"	HMDB0012107	NA	44260126	Pos Late
+m100005996	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Dicarboxylate)"	1918	NAMED	octadecenedioylcarnitine (C18:1-DC)*	octadecenedioylcarnitine (C18:1-DC)*	NA	NA	NA	Pos Late
+m100005998	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Dicarboxylate)"	1917	NAMED	octadecanedioylcarnitine (C18-DC)*	octadecanedioylcarnitine (C18-DC)*	NA	NA	NA	Pos Late
+m100006005	Lipid	Androgenic Steroids	3379	NAMED	"5alpha-androstan-3alpha,17beta-diol monosulfate (2)"	"5alpha-androstan-3alpha,17beta-diol monosulfate (2)"	NA	NA	121596225	Neg
+m100006051	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)"	1884	NAMED	myristoleoylcarnitine (C14:1)*	myristoleoylcarnitine (C14:1)*	HMDB0240588	NA	129691961	Pos Late
+m100006082	Xenobiotics	Chemical	6212	NAMED	4-hydroxychlorothalonil	4-hydroxychlorothalonil	NA	NA	34217	Neg
+m100006092	Amino Acid	Tyrosine Metabolism	226	NAMED	tyramine O-sulfate	tyramine O-sulfate	HMDB0006409	NA	153005	Neg
+m100006098	Xenobiotics	Chemical	6220	NAMED	3-hydroxypyridine sulfate	3-hydroxypyridine sulfate	NA	NA	NA	Neg
+m100006105	Xenobiotics	Benzoate Metabolism	4499	NAMED	4-methylguaiacol sulfate	4-methylguaiacol sulfate	NA	NA	NA	Neg
+m100006108	Peptide	Acetylated Peptides	1184	NAMED	phenylacetylcarnitine	phenylacetylcarnitine	NA	NA	101724840	Pos Early
+m100006115	Carbohydrate	Pentose Metabolism	1283	NAMED	arabonate/xylonate	arabonate/xylonate	HMDB0000539	"C00502,C05411"	"1,220,456,602,431"	Polar
+m100006126	Xenobiotics	Food Component/Plant	5115	NAMED	4-vinylguaiacol sulfate	4-vinylguaiacol sulfate	HMDB0127980	NA	53803570	Neg
+m100006129	Amino Acid	Tyrosine Metabolism	201	NAMED	vanillactate	vanillactate	HMDB0000913	NA	160637	Neg
+m100006171	Xenobiotics	Food Component/Plant	5121	NAMED	eugenol sulfate	eugenol sulfate	HMDB0135245	NA	180632	Neg
+m100006190	Xenobiotics	Food Component/Plant	5248	NAMED	2-acetamidophenol sulfate	2-acetamidophenol sulfate	NA	NA	181671	Neg
+m100006191	Amino Acid	Tyrosine Metabolism	225	NAMED	p-cresol glucuronide*	p-cresol glucuronide*	HMDB0011686	NA	154035	Neg
+m100006260	Xenobiotics	Chemical	6234	NAMED	6-hydroxyindole sulfate	6-hydroxyindole sulfate	HMDB0000682	NA	122198196	Neg
+m100006262	Amino Acid	Tyrosine Metabolism	193	NAMED	4-methoxyphenol sulfate	4-methoxyphenol sulfate	NA	NA	NA	Neg
+m100006282	Xenobiotics	Food Component/Plant	5118	NAMED	umbelliferone sulfate	umbelliferone sulfate	HMDB0240565	NA	129659	Neg
+m100006290	Lipid	Sphingomyelins	3121	NAMED	"sphingomyelin (d18:1/20:0, d16:1/22:0)*"	"sphingomyelin (d18:1/20:0, d16:1/22:0)*"	HMDB0012102	NA	44260124	Pos Late
+m100006292	Lipid	Sphingomyelins	3122	NAMED	"sphingomyelin (d18:1/20:1, d18:2/20:0)*"	"sphingomyelin (d18:1/20:1, d18:2/20:0)*"	NA	NA	NA	Pos Late
+m100006293	Lipid	Sphingomyelins	3123	NAMED	"sphingomyelin (d18:1/20:2, d18:2/20:1, d16:1/22:2)*"	"sphingomyelin (d18:1/20:2, d18:2/20:1, d16:1/22:2)*"	NA	NA	NA	Pos Late
+m100006294	Lipid	Sphingomyelins	3106	NAMED	behenoyl sphingomyelin (d18:1/22:0)*	behenoyl sphingomyelin (d18:1/22:0)*	HMDB0012103	NA	44260125	Pos Late
+m100006295	Lipid	Sphingomyelins	3126	NAMED	"sphingomyelin (d18:1/22:1, d18:2/22:0, d16:1/24:1)*"	"sphingomyelin (d18:1/22:1, d18:2/22:0, d16:1/24:1)*"	HMDB0012104	NA	NA	Pos Late
+m100006296	Lipid	Sphingomyelins	3127	NAMED	"sphingomyelin (d18:1/22:2, d18:2/22:1, d16:1/24:2)*"	"sphingomyelin (d18:1/22:2, d18:2/22:1, d16:1/24:2)*"	NA	NA	NA	Pos Late
+m100006298	Lipid	Sphingomyelins	3108	NAMED	lignoceroyl sphingomyelin (d18:1/24:0)	lignoceroyl sphingomyelin (d18:1/24:0)	NA	NA	NA	Pos Late
+m100006314	Lipid	Sphingomyelins	3115	NAMED	"sphingomyelin (d17:1/16:0, d18:1/15:0, d16:1/17:0)*"	"sphingomyelin (d17:1/16:0, d18:1/15:0, d16:1/17:0)*"	NA	NA	NA	Pos Late
+m100006361	Amino Acid	Tyrosine Metabolism	224	NAMED	dopamine 3-O-sulfate	dopamine 3-O-sulfate	HMDB0006275	C13690	122136	Neg
+m100006367	Lipid	"Fatty Acid, Monohydroxy"	1979	NAMED	3-hydroxyhexanoate	3-hydroxyhexanoate	"HMDB0061652,HMDB0010718"	NA	151492	Neg
+m100006369	Amino Acid	Alanine and Aspartate Metabolism	35	NAMED	N-carbamoylalanine	N-carbamoylalanine	NA	NA	426409	Pos Early
+m100006370	Lipid	Sterol	3209	NAMED	3beta-hydroxy-5-cholestenoate	3beta-hydroxy-5-cholestenoate	NA	C17333	165511	Neg
+m100006375	Xenobiotics	Benzoate Metabolism	4540	NAMED	3-methoxycatechol sulfate (1)	3-methoxycatechol sulfate (1)	NA	NA	129892430	Neg
+m100006376	Xenobiotics	Benzoate Metabolism	4541	NAMED	3-methoxycatechol sulfate (2)	3-methoxycatechol sulfate (2)	NA	NA	NA	Neg
+m100006378	Amino Acid	Tryptophan Metabolism	270	NAMED	N-acetylkynurenine (2)	N-acetylkynurenine (2)	NA	NA	73817779	Neg
+m100006379	Amino Acid	Tryptophan Metabolism	261	NAMED	C-glycosyltryptophan	C-glycosyltryptophan	HMDB0240296	NA	10981970	Neg
+m100006430	Carbohydrate	Pentose Metabolism	1277	NAMED	arabitol/xylitol	arabitol/xylitol	"HMDB0001851,HMDB0000568,HMDB0002917"	"C00379,C00542,C01904"	"941,546,912"	Polar
+m100006435	Carbohydrate	Aminosugar Metabolism	1433	NAMED	N-acetylglucosamine/N-acetylgalactosamine	N-acetylglucosamine/N-acetylgalactosamine	"HMDB0000212,HMDB0000215"	C01074	"43,917,484,265"	Pos Early
+m100006438	Energy	TCA Cycle	1462	NAMED	citraconate/glutaconate	citraconate/glutaconate	"HMDB0000634,HMDB0000620"	"C02226,C02214"	"5,280,498,643,798"	Polar
+m100006614	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Dicarboxylate)"	1907	NAMED	adipoylcarnitine (C6-DC)	adipoylcarnitine (C6-DC)	HMDB0061677	NA	71296139	Pos Early
+m100006620	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Medium Chain)"	1857	NAMED	nonanoylcarnitine (C9)	nonanoylcarnitine (C9)	HMDB0013288	NA	91825642	Pos Late
+m100006641	Lipid	Primary Bile Acid Metabolism	3474	NAMED	glycochenodeoxycholate 3-sulfate	glycochenodeoxycholate 3-sulfate	"HMDB0002409,HMDB0002496,HMDB0002497"	NA	"211,169,172,112,500,000,000,000"	Neg
+m100006642	Lipid	Secondary Bile Acid Metabolism	3539	NAMED	glycodeoxycholate 3-sulfate	glycodeoxycholate 3-sulfate	NA	NA	101602538	Neg
+m100006644	Lipid	Secondary Bile Acid Metabolism	3489	NAMED	taurodeoxycholic acid 3-sulfate	taurodeoxycholic acid 3-sulfate	NA	NA	NA	Neg
+m100006726	Lipid	Endocannabinoid	2182	NAMED	linoleoyl ethanolamide	linoleoyl ethanolamide	HMDB0012252	NA	5283446	Neg
+m100008903	Lipid	Phosphatidylcholine (PC)	2359	NAMED	"1,2-dilinoleoyl-GPC (18:2/18:2)"	"1,2-dilinoleoyl-GPC (18:2/18:2)"	HMDB0008138	NA	5288075	Pos Late
+m100008904	Lipid	Phosphatidylcholine (PC)	2322	NAMED	1-stearoyl-2-oleoyl-GPC (18:0/18:1)	1-stearoyl-2-oleoyl-GPC (18:0/18:1)	HMDB0008038	NA	24778825	Pos Late
+m100008914	Lipid	Phosphatidylcholine (PC)	2297	NAMED	1-palmitoyl-2-arachidonoyl-GPC (16:0/20:4n6)	1-palmitoyl-2-arachidonoyl-GPC (16:0/20:4n6)	HMDB0007982	C05208	10747814	Pos Late
+m100008915	Lipid	Phosphatidylcholine (PC)	2303	NAMED	1-palmitoyl-2-docosahexaenoyl-GPC (16:0/22:6)	1-palmitoyl-2-docosahexaenoyl-GPC (16:0/22:6)	HMDB0007991	NA	6441886	Pos Late
+m100008916	Lipid	Phosphatidylcholine (PC)	2339	NAMED	1-stearoyl-2-docosahexaenoyl-GPC (18:0/22:6)	1-stearoyl-2-docosahexaenoyl-GPC (18:0/22:6)	HMDB0008057	NA	24778876	Pos Late
+m100008919	Lipid	Plasmalogen	2809	NAMED	1-(1-enyl-stearoyl)-2-oleoyl-GPE (P-18:0/18:1)	1-(1-enyl-stearoyl)-2-oleoyl-GPE (P-18:0/18:1)	HMDB0011375	NA	42607457	Pos Late
+m100008920	Lipid	Sphingomyelins	3118	NAMED	"sphingomyelin (d18:1/17:0, d17:1/18:0, d19:1/16:0)"	"sphingomyelin (d18:1/17:0, d17:1/18:0, d19:1/16:0)"	NA	NA	46891763	Pos Late
+m100008921	Lipid	Phosphatidylcholine (PC)	2281	NAMED	1-palmitoyl-2-stearoyl-GPC (16:0/18:0)	1-palmitoyl-2-stearoyl-GPC (16:0/18:0)	HMDB0007970	C03889	24778686	Pos Late
+m100008928	Amino Acid	Glutathione Metabolism	582	NAMED	2-hydroxybutyrate/2-hydroxyisobutyrate	2-hydroxybutyrate/2-hydroxyisobutyrate	"HMDB0000729,HMDB00008"	"C21297,C05984"	"4,408,644,277,439"	Polar
+m100008930	Lipid	Long Chain Monounsaturated Fatty Acid	1533	NAMED	oleate/vaccenate (18:1)	oleate/vaccenate (18:1)	"HMDB0003231,HMDB0000573,HMDB0240219,HMDB0000207"	"C21944,C08367,C01712,C00712"	"52,827,616,375,175,200,000,000,000"	Neg
+m100008952	Lipid	Monoacylglycerol	2852	NAMED	1-palmitoleoylglycerol (16:1)*	1-palmitoleoylglycerol (16:1)*	NA	NA	NA	Neg
+m100008954	Lipid	Dihydrosphingomyelins	3099	NAMED	palmitoyl dihydrosphingomyelin (d18:0/16:0)*	palmitoyl dihydrosphingomyelin (d18:0/16:0)*	HMDB0010168	NA	9939965	Pos Late
+m100008955	Lipid	Sphingomyelins	3107	NAMED	tricosanoyl sphingomyelin (d18:1/23:0)*	tricosanoyl sphingomyelin (d18:1/23:0)*	HMDB0012105	NA	NA	Pos Late
+m100008956	Lipid	Sphingomyelins	3128	NAMED	"sphingomyelin (d18:2/23:0, d18:1/23:1, d17:1/24:1)*"	"sphingomyelin (d18:2/23:0, d18:1/23:1, d17:1/24:1)*"	NA	NA	134757653	Pos Late
+m100008957	Lipid	Sphingomyelins	3130	NAMED	"sphingomyelin (d18:2/24:1, d18:1/24:2)*"	"sphingomyelin (d18:2/24:1, d18:1/24:2)*"	NA	NA	85336023	Pos Late
+m100008976	Lipid	Phosphatidylethanolamine (PE)	2429	NAMED	1-stearoyl-2-linoleoyl-GPE (18:0/18:2)*	1-stearoyl-2-linoleoyl-GPE (18:0/18:2)*	HMDB0008994	NA	9546749	Pos Late
+m100008977	Lipid	Phosphatidylethanolamine (PE)	2438	NAMED	1-stearoyl-2-arachidonoyl-GPE (18:0/20:4)	1-stearoyl-2-arachidonoyl-GPE (18:0/20:4)	HMDB0009003	C05210	5289133	Pos Late
+m100008980	Lipid	Phosphatidylcholine (PC)	2325	NAMED	1-stearoyl-2-linoleoyl-GPC (18:0/18:2)*	1-stearoyl-2-linoleoyl-GPC (18:0/18:2)*	HMDB0008039	NA	6441487	Pos Late
+m100008984	Lipid	Phosphatidylcholine (PC)	2279	NAMED	1-palmitoyl-2-palmitoleoyl-GPC (16:0/16:1)*	1-palmitoyl-2-palmitoleoyl-GPC (16:0/16:1)*	HMDB0007969	NA	6443788	Pos Late
+m100008985	Lipid	Phosphatidylcholine (PC)	2293	NAMED	1-palmitoyl-2-dihomo-linolenoyl-GPC (16:0/20:3n3 or 6)*	1-palmitoyl-2-dihomo-linolenoyl-GPC (16:0/20:3n3 or 6)*	NA	NA	NA	Pos Late
+m100008990	Lipid	Phosphatidylethanolamine (PE)	2416	NAMED	1-palmitoyl-2-arachidonoyl-GPE (16:0/20:4)*	1-palmitoyl-2-arachidonoyl-GPE (16:0/20:4)*	HMDB0005323	C05210	9546800	Pos Late
+m100008991	Lipid	Phosphatidylethanolamine (PE)	2418	NAMED	1-palmitoyl-2-docosahexaenoyl-GPE (16:0/22:6)*	1-palmitoyl-2-docosahexaenoyl-GPE (16:0/22:6)*	HMDB0008946	NA	9546799	Pos Late
+m100008992	Lipid	Phosphatidylethanolamine (PE)	2442	NAMED	1-stearoyl-2-docosahexaenoyl-GPE (18:0/22:6)*	1-stearoyl-2-docosahexaenoyl-GPE (18:0/22:6)*	HMDB0009012	NA	9546798	Pos Late
+m100008993	Lipid	Phosphatidylinositol (PI)	2539	NAMED	1-palmitoyl-2-arachidonoyl-GPI (16:0/20:4)*	1-palmitoyl-2-arachidonoyl-GPI (16:0/20:4)*	HMDB0009789	NA	NA	Pos Late
+m100008994	Lipid	Phosphatidylinositol (PI)	2543	NAMED	1-stearoyl-2-linoleoyl-GPI (18:0/18:2)	1-stearoyl-2-linoleoyl-GPI (18:0/18:2)	HMDB0009809	NA	NA	Pos Late
+m100008998	Cofactors and Vitamins	Tocopherol Metabolism	4381	NAMED	gamma-tocopherol/beta-tocopherol	gamma-tocopherol/beta-tocopherol	"HMDB0006335,HMDB0001492"	"C14152,C02483"	NA	Pos Late
+m100008999	Lipid	Plasmalogen	2818	NAMED	1-(1-enyl-stearoyl)-2-arachidonoyl-GPE (P-18:0/20:4)*	1-(1-enyl-stearoyl)-2-arachidonoyl-GPE (P-18:0/20:4)*	HMDB0005779	NA	9547058	Pos Late
+m100009002	Lipid	Plasmalogen	2804	NAMED	1-(1-enyl-palmitoyl)-2-arachidonoyl-GPE (P-16:0/20:4)*	1-(1-enyl-palmitoyl)-2-arachidonoyl-GPE (P-16:0/20:4)*	HMDB0011352	NA	52925126	Pos Late
+m100009005	Lipid	Plasmalogen	2800	NAMED	1-(1-enyl-palmitoyl)-2-oleoyl-GPE (P-16:0/18:1)*	1-(1-enyl-palmitoyl)-2-oleoyl-GPE (P-16:0/18:1)*	HMDB0011342	NA	52925128	Pos Late
+m100009007	Lipid	Plasmalogen	2806	NAMED	1-(1-enyl-palmitoyl)-2-oleoyl-GPC (P-16:0/18:1)*	1-(1-enyl-palmitoyl)-2-oleoyl-GPC (P-16:0/18:1)*	HMDB0007996	NA	34779384	Pos Late
+m100009009	Lipid	Plasmalogen	2814	NAMED	1-(1-enyl-palmitoyl)-2-linoleoyl-GPC (P-16:0/18:2)*	1-(1-enyl-palmitoyl)-2-linoleoyl-GPC (P-16:0/18:2)*	HMDB0011211	NA	24779386	Pos Late
+m100009014	Lipid	Plasmalogen	2813	NAMED	1-(1-enyl-palmitoyl)-2-arachidonoyl-GPC (P-16:0/20:4)*	1-(1-enyl-palmitoyl)-2-arachidonoyl-GPC (P-16:0/20:4)*	HMDB0011220	NA	NA	Pos Late
+m100009025	Lipid	Sphingomyelins	3124	NAMED	"sphingomyelin (d18:1/21:0, d17:1/22:0, d16:1/23:0)*"	"sphingomyelin (d18:1/21:0, d17:1/22:0, d16:1/23:0)*"	NA	NA	NA	Pos Late
+m100009026	Lipid	Dihydrosphingomyelins	3100	NAMED	behenoyl dihydrosphingomyelin (d18:0/22:0)*	behenoyl dihydrosphingomyelin (d18:0/22:0)*	HMDB0012091	NA	44260132	Pos Late
+m100009027	Lipid	Dihydrosphingomyelins	3101	NAMED	"sphingomyelin (d18:0/18:0, d19:0/17:0)*"	"sphingomyelin (d18:0/18:0, d19:0/17:0)*"	HMDB0012087	NA	44260130	Pos Late
+m100009028	Lipid	Dihydroceramides	3009	NAMED	N-palmitoyl-sphinganine (d18:0/16:0)	N-palmitoyl-sphinganine (d18:0/16:0)	HMDB11760	NA	5283572	Pos Late
+m100009030	Lipid	Lactosylceramides (LCER)	3087	NAMED	lactosyl-N-palmitoyl-sphingosine (d18:1/16:0)	lactosyl-N-palmitoyl-sphingosine (d18:1/16:0)	NA	NA	53477895	Pos Late
+m100009038	Lipid	Dihydrosphingomyelins	3098	NAMED	myristoyl dihydrosphingomyelin (d18:0/14:0)*	myristoyl dihydrosphingomyelin (d18:0/14:0)*	HMDB0012085	NA	44260138	Pos Late
+m100009042	Amino Acid	Tryptophan Metabolism	320	NAMED	5-hydroxyindole sulfate	5-hydroxyindole sulfate	NA	NA	NA	Neg
+m100009045	Peptide	Acetylated Peptides	1186	NAMED	phenylacetylglutamate	phenylacetylglutamate	HMDB0059772	NA	11579826	Neg
+m100009054	Lipid	Diacylglycerol	2910	NAMED	palmitoleoyl-oleoyl-glycerol (16:1/18:1) [2]*	palmitoleoyl-oleoyl-glycerol (16:1/18:1) [2]*	NA	NA	71768100	Pos Late
+m100009055	Lipid	Diacylglycerol	2907	NAMED	palmitoyl-linoleoyl-glycerol (16:0/18:2) [2]*	palmitoyl-linoleoyl-glycerol (16:0/18:2) [2]*	HMDB0007103	NA	131801744	Pos Late
+m100009066	Lipid	Phosphatidylinositol (PI)	2534	NAMED	1-palmitoyl-2-oleoyl-GPI (16:0/18:1)*	1-palmitoyl-2-oleoyl-GPI (16:0/18:1)*	HMDB0009783	NA	71296232	Pos Late
+m100009069	Lipid	Plasmalogen	2801	NAMED	1-(1-enyl-palmitoyl)-2-linoleoyl-GPE (P-16:0/18:2)*	1-(1-enyl-palmitoyl)-2-linoleoyl-GPE (P-16:0/18:2)*	HMDB0011343	NA	52925127	Pos Late
+m100009078	Lipid	Phosphatidylethanolamine (PE)	2444	NAMED	1-oleoyl-2-linoleoyl-GPE (18:1/18:2)*	1-oleoyl-2-linoleoyl-GPE (18:1/18:2)*	HMDB0005349	NA	9546753	Pos Late
+m100009130	Lipid	Phosphatidylcholine (PC)	2358	NAMED	1-oleoyl-2-docosahexaenoyl-GPC (18:1/22:6)*	1-oleoyl-2-docosahexaenoyl-GPC (18:1/22:6)*	HMDB0008123	NA	24778955	Pos Late
+m100009131	Lipid	Phosphatidylcholine (PC)	2365	NAMED	1-linoleoyl-2-arachidonoyl-GPC (18:2/20:4n6)*	1-linoleoyl-2-arachidonoyl-GPC (18:2/20:4n6)*	HMDB0008147	C05208	24778979	Pos Late
+m100009139	Lipid	Phosphatidylcholine (PC)	2266	NAMED	1-myristoyl-2-arachidonoyl-GPC (14:0/20:4)*	1-myristoyl-2-arachidonoyl-GPC (14:0/20:4)*	HMDB0007883	NA	24778634	Pos Late
+m100009160	Lipid	Plasmalogen	2803	NAMED	1-(1-enyl-palmitoyl)-2-palmitoleoyl-GPC (P-16:0/16:1)*	1-(1-enyl-palmitoyl)-2-palmitoleoyl-GPC (P-16:0/16:1)*	HMDB0011207	NA	52923882	Pos Late
+m100009162	Lipid	Plasmalogen	2802	NAMED	1-(1-enyl-palmitoyl)-2-palmitoyl-GPC (P-16:0/16:0)*	1-(1-enyl-palmitoyl)-2-palmitoyl-GPC (P-16:0/16:0)*	HMDB0011206	NA	11146967	Pos Late
+m100009181	Lipid	Phosphatidylinositol (PI)	2542	NAMED	1-stearoyl-2-oleoyl-GPI (18:0/18:1)*	1-stearoyl-2-oleoyl-GPI (18:0/18:1)*	NA	NA	NA	Pos Late
+m100009219	Lipid	Phosphatidylethanolamine (PE)	2447	NAMED	1-oleoyl-2-arachidonoyl-GPE (18:1/20:4)*	1-oleoyl-2-arachidonoyl-GPE (18:1/20:4)*	HMDB0009069	NA	348281223	Pos Late
+m100009225	Lipid	Plasmalogen	2810	NAMED	1-(1-enyl-stearoyl)-2-linoleoyl-GPE (P-18:0/18:2)*	1-(1-enyl-stearoyl)-2-linoleoyl-GPE (P-18:0/18:2)*	HMDB0011376	NA	NA	Pos Late
+m100009227	Lipid	Lysophospholipid	2715	NAMED	1-linoleoyl-GPG (18:2)*	1-linoleoyl-GPG (18:2)*	NA	NA	NA	Neg
+m100009232	Xenobiotics	Chemical	6238	NAMED	thioproline	thioproline	NA	NA	93176	Pos Early
+m100009246	Amino Acid	"Glycine, Serine and Threonine Metabolism"	16	NAMED	2-methylserine	2-methylserine	NA	C02115	94309	Pos Early
+m100009264	Lipid	Primary Bile Acid Metabolism	3472	NAMED	glycochenodeoxycholate glucuronide (1)	glycochenodeoxycholate glucuronide (1)	HMDB0002579	NA	44263370	Neg
+m100009271	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Hydroxy)"	1920	NAMED	(S)-3-hydroxybutyrylcarnitine	(S)-3-hydroxybutyrylcarnitine	HMDB0013127	NA	71464477	Pos Early
+m100009272	Lipid	Hexosylceramides (HCER)	3057	NAMED	glycosyl-N-palmitoyl-sphingosine (d18:1/16:0)	glycosyl-N-palmitoyl-sphingosine (d18:1/16:0)	NA	NA	NA	Pos Late
+m100009275	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	411	NAMED	methylsuccinoylcarnitine	methylsuccinoylcarnitine	NA	NA	NA	Pos Early
+m100009329	Cofactors and Vitamins	Ascorbate and Aldarate Metabolism	4347	NAMED	ascorbic acid 2-sulfate	ascorbic acid 2-sulfate	HMDB0060649	NA	54676864	Polar
+m100009343	Lipid	Phosphatidylcholine (PC)	2360	NAMED	1-linoleoyl-2-linolenoyl-GPC (18:2/18:3)*	1-linoleoyl-2-linolenoyl-GPC (18:2/18:3)*	HMDB0008141	NA	52922731	Pos Late
+m100009345	Lipid	Phosphatidylcholine (PC)	2310	NAMED	1-palmitoleoyl-2-linolenoyl-GPC (16:1/18:3)*	1-palmitoleoyl-2-linolenoyl-GPC (16:1/18:3)*	HMDB0008008	NA	52922452	Pos Late
+m100009394	Lipid	Long Chain Polyunsaturated Fatty Acid (n3 and n6)	1566	NAMED	hexadecadienoate (16:2n6)	hexadecadienoate (16:2n6)	HMDB0000477	NA	13932172	Neg
+m100009406	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)"	1885	NAMED	palmitoleoylcarnitine (C16:1)*	palmitoleoylcarnitine (C16:1)*	NA	NA	71464547	Pos Late
+m100009407	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Dicarboxylate)"	1914	NAMED	pimeloylcarnitine/3-methyladipoylcarnitine (C7-DC)	pimeloylcarnitine/3-methyladipoylcarnitine (C7-DC)	NA	NA	NA	Pos Early
+m100010850	Peptide	Acetylated Peptides	1189	NAMED	4-hydroxyphenylacetylglutamine	4-hydroxyphenylacetylglutamine	NA	NA	NA	Neg
+m100010895	Nucleotide	"Pyrimidine Metabolism, Cytidine containing"	4263	NAMED	2'-O-methylcytidine	2'-O-methylcytidine	NA	NA	150971	Pos Early
+m100010901	Peptide	Gamma-glutamyl Amino Acid	640	NAMED	gamma-glutamyl-alpha-lysine	gamma-glutamyl-alpha-lysine	NA	NA	65254	Pos Early
+m100010916	Lipid	Diacylglycerol	2904	NAMED	palmitoyl-oleoyl-glycerol (16:0/18:1) [1]*	palmitoyl-oleoyl-glycerol (16:0/18:1) [1]*	HMDB0007102	C13861	5282283	Pos Late
+m100010917	Lipid	Diacylglycerol	2905	NAMED	palmitoyl-oleoyl-glycerol (16:0/18:1) [2]*	palmitoyl-oleoyl-glycerol (16:0/18:1) [2]*	HMDB0007102	C13861	5282283	Pos Late
+m100010918	Lipid	Diacylglycerol	2923	NAMED	oleoyl-oleoyl-glycerol (18:1/18:1)  [1]*	oleoyl-oleoyl-glycerol (18:1/18:1)  [1]*	HMDB0007218	NA	9543716	Pos Late
+m100010922	Lipid	Diacylglycerol	2941	NAMED	linoleoyl-arachidonoyl-glycerol (18:2/20:4) [1]*	linoleoyl-arachidonoyl-glycerol (18:2/20:4) [1]*	HMDB0007257	NA	9543796	Pos Late
+m100010923	Lipid	Diacylglycerol	2942	NAMED	linoleoyl-arachidonoyl-glycerol (18:2/20:4) [2]*	linoleoyl-arachidonoyl-glycerol (18:2/20:4) [2]*	HMDB0007257	NA	9543796	Pos Late
+m100010925	Lipid	Diacylglycerol	2914	NAMED	palmitoyl-arachidonoyl-glycerol (16:0/20:4) [2]*	palmitoyl-arachidonoyl-glycerol (16:0/20:4) [2]*	HMDB0007112	NA	9543736	Pos Late
+m100010927	Lipid	Diacylglycerol	2934	NAMED	linoleoyl-linolenoyl-glycerol (18:2/18:3) [2]*	linoleoyl-linolenoyl-glycerol (18:2/18:3) [2]*	HMDB0007250	NA	9543737	Pos Late
+m100010930	Lipid	Diacylglycerol	2911	NAMED	palmitoleoyl-linoleoyl-glycerol (16:1/18:2) [1]*	palmitoleoyl-linoleoyl-glycerol (16:1/18:2) [1]*	HMDB0007132	NA	9543699	Pos Late
+m100010936	Lipid	Diacylglycerol	2939	NAMED	oleoyl-arachidonoyl-glycerol (18:1/20:4) [1]*	oleoyl-arachidonoyl-glycerol (18:1/20:4) [1]*	HMDB0007228	NA	9543786	Pos Late
+m100010937	Lipid	Diacylglycerol	2940	NAMED	oleoyl-arachidonoyl-glycerol (18:1/20:4) [2]*	oleoyl-arachidonoyl-glycerol (18:1/20:4) [2]*	HMDB0007228	NA	9543786	Pos Late
+m100010940	Lipid	Diacylglycerol	2889	NAMED	"diacylglycerol (16:1/18:2 [2], 16:0/18:3 [1])*"	"diacylglycerol (16:1/18:2 [2], 16:0/18:3 [1])*"	NA	NA	NA	Pos Late
+m100010941	Lipid	Diacylglycerol	2931	NAMED	linoleoyl-linoleoyl-glycerol (18:2/18:2) [1]*	linoleoyl-linoleoyl-glycerol (18:2/18:2) [1]*	HMDB0007248	NA	9543729	Pos Late
+m100010942	Lipid	Diacylglycerol	2932	NAMED	linoleoyl-linoleoyl-glycerol (18:2/18:2) [2]*	linoleoyl-linoleoyl-glycerol (18:2/18:2) [2]*	HMDB0007248	NA	9543729	Pos Late
+m100010949	Lipid	Diacylglycerol	2937	NAMED	stearoyl-arachidonoyl-glycerol (18:0/20:4) [1]*	stearoyl-arachidonoyl-glycerol (18:0/20:4) [1]*	HMDB0007170	C00165	6438587	Pos Late
+m100010950	Lipid	Diacylglycerol	2938	NAMED	stearoyl-arachidonoyl-glycerol (18:0/20:4) [2]*	stearoyl-arachidonoyl-glycerol (18:0/20:4) [2]*	HMDB0007170	NA	6438587	Pos Late
+m100010955	Xenobiotics	Chemical	6189	NAMED	perfluorooctanesulfonate (PFOS)	perfluorooctanesulfonate (PFOS)	HMDB0059586	C18142	74483	Polar
+m100015609	Lipid	Ceramides	3031	NAMED	N-palmitoyl-sphingadienine (d18:2/16:0)*	N-palmitoyl-sphingadienine (d18:2/16:0)*	NA	NA	NA	Pos Late
+m100015618	Lipid	Diacylglycerol	2916	NAMED	palmitoyl-docosahexaenoyl-glycerol (16:0/22:6) [1]*	palmitoyl-docosahexaenoyl-glycerol (16:0/22:6) [1]*	HMDB0007121	NA	9543827	Pos Late
+m100015620	Lipid	Lactosylceramides (LCER)	3091	NAMED	lactosyl-N-nervonoyl-sphingosine (d18:1/24:1)*	lactosyl-N-nervonoyl-sphingosine (d18:1/24:1)*	NA	NA	NA	Pos Late
+m100015623	Lipid	Lactosylceramides (LCER)	3090	NAMED	lactosyl-N-behenoyl-sphingosine (d18:1/22:0)*	lactosyl-N-behenoyl-sphingosine (d18:1/22:0)*	HMDB0011594	NA	44260143	Pos Late
+m100015624	Lipid	Ceramides	3033	NAMED	N-behenoyl-sphingadienine (d18:2/22:0)*	N-behenoyl-sphingadienine (d18:2/22:0)*	NA	NA	NA	Pos Late
+m100015625	Lipid	Hexosylceramides (HCER)	3068	NAMED	glycosyl-N-behenoyl-sphingadienine (d18:2/22:0)*	glycosyl-N-behenoyl-sphingadienine (d18:2/22:0)*	NA	NA	NA	Pos Late
+m100015632	Lipid	Ceramides	3032	NAMED	N-stearoyl-sphingadienine (d18:2/18:0)*	N-stearoyl-sphingadienine (d18:2/18:0)*	NA	NA	132282053	Pos Late
+m100015637	Lipid	"Fatty Acid, Monohydroxy"	1974	NAMED	2-hydroxybehenate	2-hydroxybehenate	HMDB0061660	NA	193484	Neg
+m100015638	Lipid	"Fatty Acid, Monohydroxy"	1976	NAMED	2-hydroxynervonate*	2-hydroxynervonate*	NA	NA	5312783	Neg
+m100015640	Lipid	Endocannabinoid	2198	NAMED	N-palmitoylserine	N-palmitoylserine	NA	NA	6453686	Neg
+m100015641	Lipid	Endocannabinoid	2196	NAMED	N-oleoylserine	N-oleoylserine	NA	NA	44190514	Neg
+m100015681	Lipid	Diacylglycerol	2915	NAMED	palmitoleoyl-arachidonoyl-glycerol (16:1/20:4) [2]*	palmitoleoyl-arachidonoyl-glycerol (16:1/20:4) [2]*	NA	NA	NA	Pos Late
+m100015684	Lipid	Diacylglycerol	2899	NAMED	myristoyl-linoleoyl-glycerol (14:0/18:2) [2]*	myristoyl-linoleoyl-glycerol (14:0/18:2) [2]*	HMDB0007016	NA	14275352	Pos Late
+m100015723	Lipid	Sphingosines	3167	NAMED	hexadecasphingosine (d16:1)*	hexadecasphingosine (d16:1)*	NA	NA	14767871	Pos Late
+m100015727	Lipid	Ceramides	3051	NAMED	"ceramide (d16:1/24:1, d18:1/22:1)*"	"ceramide (d16:1/24:1, d18:1/22:1)*"	NA	NA	NA	Pos Late
+m100015731	Lipid	Ceramides	3043	NAMED	N-palmitoyl-heptadecasphingosine (d17:1/16:0)*	N-palmitoyl-heptadecasphingosine (d17:1/16:0)*	NA	NA	NA	Pos Late
+m100015735	Lipid	Ceramides	3047	NAMED	"ceramide (d18:1/14:0, d16:1/16:0)*"	"ceramide (d18:1/14:0, d16:1/16:0)*"	NA	NA	NA	Pos Late
+m100015737	Lipid	Ceramides	3048	NAMED	"ceramide (d18:1/17:0, d17:1/18:0)*"	"ceramide (d18:1/17:0, d17:1/18:0)*"	NA	NA	NA	Pos Late
+m100015744	Lipid	Ceramides	3052	NAMED	"ceramide (d18:2/24:1, d18:1/24:2)*"	"ceramide (d18:2/24:1, d18:1/24:2)*"	NA	NA	NA	Pos Late
+m100015745	Lipid	Hexosylceramides (HCER)	3082	NAMED	"glycosyl ceramide (d18:2/24:1, d18:1/24:2)*"	"glycosyl ceramide (d18:2/24:1, d18:1/24:2)*"	NA	NA	NA	Pos Late
+m100015751	Lipid	Hexosylceramides (HCER)	3081	NAMED	"glycosyl ceramide (d18:1/23:1, d17:1/24:1)*"	"glycosyl ceramide (d18:1/23:1, d17:1/24:1)*"	NA	NA	NA	Pos Late
+m100015752	Lipid	Hexosylceramides (HCER)	3064	NAMED	glycosyl-N-(2-hydroxynervonoyl)-sphingosine (d18:1/24:1(2OH))*	glycosyl-N-(2-hydroxynervonoyl)-sphingosine (d18:1/24:1(2OH))*	NA	NA	NA	Pos Late
+m100015755	Lipid	Ceramides	3050	NAMED	"ceramide (d18:1/20:0, d16:1/22:0, d20:1/18:0)*"	"ceramide (d18:1/20:0, d16:1/22:0, d20:1/18:0)*"	NA	NA	NA	Pos Late
+m100015786	Lipid	Dihydrosphingomyelins	3102	NAMED	"sphingomyelin (d18:0/20:0, d16:0/22:0)*"	"sphingomyelin (d18:0/20:0, d16:0/22:0)*"	NA	NA	NA	Pos Late
+m100015787	Lipid	Sphingomyelins	3120	NAMED	"sphingomyelin (d18:1/19:0, d19:1/18:0)*"	"sphingomyelin (d18:1/19:0, d19:1/18:0)*"	NA	NA	NA	Pos Late
+m100015788	Lipid	Sphingomyelins	3109	NAMED	sphingomyelin (d18:2/18:1)*	sphingomyelin (d18:2/18:1)*	HMDB0001348	NA	52931155	Pos Late
+m100015789	Lipid	Sphingomyelins	3111	NAMED	sphingomyelin (d18:2/24:2)*	sphingomyelin (d18:2/24:2)*	NA	NA	NA	Pos Late
+m100015790	Lipid	Sphingomyelins	3125	NAMED	"sphingomyelin (d18:2/21:0, d16:2/23:0)*"	"sphingomyelin (d18:2/21:0, d16:2/23:0)*"	NA	NA	NA	Pos Late
+m100015791	Lipid	Sphingomyelins	3110	NAMED	sphingomyelin (d18:2/23:1)*	sphingomyelin (d18:2/23:1)*	NA	NA	NA	Pos Late
+m100015792	Lipid	Sphingomyelins	3131	NAMED	"sphingomyelin (d18:1/25:0, d19:0/24:1, d20:1/23:0, d19:1/24:0)*"	"sphingomyelin (d18:1/25:0, d19:0/24:1, d20:1/23:0, d19:1/24:0)*"	NA	NA	NA	Pos Late
+m100015793	Lipid	Sphingomyelins	3116	NAMED	"sphingomyelin (d17:2/16:0, d18:2/15:0)*"	"sphingomyelin (d17:2/16:0, d18:2/15:0)*"	NA	NA	NA	Pos Late
+m100015797	Lipid	Long Chain Polyunsaturated Fatty Acid (n3 and n6)	1561	NAMED	heneicosapentaenoate (21:5n3)	heneicosapentaenoate (21:5n3)	NA	NA	11998573	Neg
+m100015831	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Polyunsaturated)"	1892	NAMED	linolenoylcarnitine (C18:3)*	linolenoylcarnitine (C18:3)*	NA	NA	NA	Pos Late
+m100015833	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Long Chain Saturated)"	1867	NAMED	arachidoylcarnitine (C20)*	arachidoylcarnitine (C20)*	HMDB0006460	NA	53477833	Pos Late
+m100015834	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Long Chain Saturated)"	1869	NAMED	lignoceroylcarnitine (C24)*	lignoceroylcarnitine (C24)*	NA	NA	NA	Pos Late
+m100015835	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Long Chain Saturated)"	1870	NAMED	cerotoylcarnitine (C26)*	cerotoylcarnitine (C26)*	HMDB0006347	NA	53477828	Pos Late
+m100015836	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)"	1890	NAMED	ximenoylcarnitine (C26:1)*	ximenoylcarnitine (C26:1)*	NA	NA	NA	Pos Late
+m100015837	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Polyunsaturated)"	1894	NAMED	arachidonoylcarnitine (C20:4)	arachidonoylcarnitine (C20:4)	HMDB0006455	NA	136212424	Pos Late
+m100015838	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)"	1887	NAMED	eicosenoylcarnitine (C20:1)*	eicosenoylcarnitine (C20:1)*	NA	NA	NA	Pos Late
+m100015839	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Polyunsaturated)"	1893	NAMED	dihomo-linoleoylcarnitine (C20:2)*	dihomo-linoleoylcarnitine (C20:2)*	NA	NA	NA	Pos Late
+m100015840	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Polyunsaturated)"	1895	NAMED	dihomo-linolenoylcarnitine (C20:3n3 or 6)*	dihomo-linolenoylcarnitine (C20:3n3 or 6)*	NA	NA	NA	Pos Late
+m100015882	Lipid	Hexosylceramides (HCER)	3078	NAMED	"glycosyl ceramide (d18:1/20:0, d16:1/22:0)*"	"glycosyl ceramide (d18:1/20:0, d16:1/22:0)*"	NA	NA	NA	Pos Late
+m100015962	Amino Acid	Lysine Metabolism	138	NAMED	"N,N,N-trimethyl-5-aminovalerate"	"N,N,N-trimethyl-5-aminovalerate"	NA	NA	14274897	Pos Early
+m100015965	Xenobiotics	Food Component/Plant	5088	NAMED	ethyl alpha-glucopyranoside	ethyl alpha-glucopyranoside	HMDB0029968	NA	11127487	Pos Early
+m100015966	Cofactors and Vitamins	Vitamin A Metabolism	4430	NAMED	carotene diol (1)	carotene diol (1)	NA	NA	NA	Pos Late
+m100015967	Cofactors and Vitamins	Vitamin A Metabolism	4431	NAMED	carotene diol (2)	carotene diol (2)	NA	NA	NA	Pos Late
+m100015968	Cofactors and Vitamins	Vitamin A Metabolism	4432	NAMED	carotene diol (3)	carotene diol (3)	NA	NA	NA	Pos Late
+m100015971	Lipid	Corticosteroids	3326	NAMED	cortolone glucuronide (1)	cortolone glucuronide (1)	NA	NA	NA	Neg
+m100016038	Amino Acid	Polyamine Metabolism	550	NAMED	(N(1) + N(8))-acetylspermidine	(N(1) + N(8))-acetylspermidine	"HMDB0002189,HMDB0001276"	"C01029,C00612"	"496,123,689"	Pos Early
+m100016069	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)"	1882	NAMED	5-dodecenoylcarnitine (C12:1)	5-dodecenoylcarnitine (C12:1)	HMDB13326	NA	91825571	Pos Late
+m100019794	Lipid	"Fatty Acid, Dicarboxylate"	1706	NAMED	hydroxy-CMPF*	hydroxy-CMPF*	NA	NA	NA	Neg
+m100019801	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Hydroxy)"	1929	NAMED	3-hydroxyoleoylcarnitine	3-hydroxyoleoylcarnitine	NA	NA	129637446	Pos Late
+m100019831	Peptide	Acetylated Peptides	1188	NAMED	3-hydroxyphenylacetoylglutamine	3-hydroxyphenylacetoylglutamine	NA	NA	NA	Neg
+m100019892	Lipid	"Fatty Acid, Monohydroxy"	1973	NAMED	2-hydroxyarachidate*	2-hydroxyarachidate*	NA	NA	5225199	Neg
+m100019968	Carbohydrate	Pentose Metabolism	1289	NAMED	lyxonate	lyxonate	NA	NA	NA	Polar
+m100019972	Lipid	"Fatty Acid, Dicarboxylate"	1688	NAMED	dodecenedioate (C12:1-DC)*	dodecenedioate (C12:1-DC)*	HMDB0000933	NA	5283028	Neg
+m100019975	Lipid	"Fatty Acid, Dicarboxylate"	1696	NAMED	hexadecenedioate (C16:1-DC)*	hexadecenedioate (C16:1-DC)*	NA	NA	NA	Neg
+m100019978	Lipid	"Fatty Acid, Dicarboxylate"	1699	NAMED	octadecenedioate (C18:1-DC)	octadecenedioate (C18:1-DC)	NA	NA	9543674	Neg
+m100019981	Lipid	"Fatty Acid, Dicarboxylate"	1674	NAMED	heptenedioate (C7:1-DC)*	heptenedioate (C7:1-DC)*	NA	NA	NA	Polar
+m100019982	Lipid	"Fatty Acid, Dicarboxylate"	1700	NAMED	octadecadienedioate (C18:2-DC)*	octadecadienedioate (C18:2-DC)*	NA	NA	NA	Neg
+m100020004	Lipid	"Fatty Acid, Dicarboxylate"	1707	NAMED	3-carboxy-4-methyl-5-pentyl-2-furanpropionate (3-CMPFP)**	3-carboxy-4-methyl-5-pentyl-2-furanpropionate (3-CMPFP)	HMDB0061643	NA	194501	Neg
+m100020014	Partially Characterized Molecules	Partially Characterized Molecules	6375	NAMED	glucuronide of C10H18O2 (7)*	glucuronide of C10H18O2 (7)*	NA	NA	NA	Neg
+m100020203	Xenobiotics	Food Component/Plant	5063	NAMED	3-hydroxystachydrine*	3-hydroxystachydrine*	NA	C10151	46173781	Pos Early
+m100020204	Lipid	"Fatty Acid, Amino"	1756	NAMED	N-acetyl-2-aminooctanoate*	N-acetyl-2-aminooctanoate*	HMDB0059745	NA	95555	Neg
+m100020205	Amino Acid	Alanine and Aspartate Metabolism	43	NAMED	hydroxyasparagine**	hydroxyasparagine	HMDB32332	C20631	15991574	Pos Early
+m100020208	Xenobiotics	Chemical	6240	NAMED	perfluorooctanoate (PFOA)	perfluorooctanoate (PFOA)	HMDB0059587	NA	9554	Neg
+m100020211	Lipid	Fatty Acid Metabolism (Acyl Glycine)	1831	NAMED	3-hydroxybutyroylglycine**	3-hydroxybutyroylglycine	NA	NA	NA	Pos Early
+m100020214	Lipid	Primary Bile Acid Metabolism	3469	NAMED	glyco-beta-muricholate**	glyco-beta-muricholate	NA	NA	NA	Neg
+m100020215	Amino Acid	Urea cycle; Arginine and Proline Metabolism	512	NAMED	N-methylhydroxyproline**	N-methylhydroxyproline	NA	NA	9860390	Pos Early
+m100020217	Amino Acid	Urea cycle; Arginine and Proline Metabolism	519	NAMED	"N,N,N-trimethyl-alanylproline betaine (TMAP)"	"N,N,N-trimethyl-alanylproline betaine (TMAP)"	HMDB0240365	NA	NA	Pos Early
+m100020219	Xenobiotics	Food Component/Plant	4784	NAMED	3-formylindole	3-formylindole	HMDB29737	C08493	10256	Pos Early
+m100020241	Peptide	Gamma-glutamyl Amino Acid	649	NAMED	gamma-glutamylcitrulline*	gamma-glutamylcitrulline*	NA	NA	NA	Pos Early
+m100020253	Partially Characterized Molecules	Partially Characterized Molecules	6415	NAMED	glycine conjugate of C10H12O2*	glycine conjugate of C10H12O2*	NA	NA	NA	Neg
+m100020254	Partially Characterized Molecules	Partially Characterized Molecules	6416	NAMED	glycine conjugate of C10H14O2 (1)*	glycine conjugate of C10H14O2 (1)*	NA	NA	NA	Neg
+m100020259	Partially Characterized Molecules	Partially Characterized Molecules	6399	NAMED	glutamine conjugate of C7H12O2*	glutamine conjugate of C7H12O2*	NA	NA	NA	Neg
+m100020261	Partially Characterized Molecules	Partially Characterized Molecules	6397	NAMED	glutamine conjugate of C6H10O2 (1)*	glutamine conjugate of C6H10O2 (1)*	NA	NA	NA	Neg
+m100020262	Partially Characterized Molecules	Partially Characterized Molecules	6398	NAMED	glutamine conjugate of C6H10O2 (2)*	glutamine conjugate of C6H10O2 (2)*	NA	NA	NA	Neg
+m100020276	Lipid	Sphingomyelins	3112	NAMED	"sphingomyelin (d17:1/14:0, d16:1/15:0)*"	"sphingomyelin (d17:1/14:0, d16:1/15:0)*"	NA	NA	NA	Pos Late
+m100020343	Lipid	Long Chain Polyunsaturated Fatty Acid (n3 and n6)	1550	NAMED	tetradecadienoate (14:2)*	tetradecadienoate (14:2)*	HMDB0000560	NA	5312409	Neg
+m100020351	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	419	NAMED	N-carbamoylvaline	N-carbamoylvaline	NA	NA	448879	Neg
+m100020360	Amino Acid	Tryptophan Metabolism	279	NAMED	8-methoxykynurenate	8-methoxykynurenate	HMDB0060426	C05830	76230	Neg
+m100020361	Amino Acid	Urea cycle; Arginine and Proline Metabolism	489	NAMED	3-amino-2-piperidone	3-amino-2-piperidone	HMDB0000323	NA	5200225	Pos Early
+m100020371	Amino Acid	Alanine and Aspartate Metabolism	33	NAMED	"N,N-dimethylalanine"	"N,N-dimethylalanine"	NA	NA	5488191	Pos Early
+m100020377	Xenobiotics	Food Component/Plant	5223	NAMED	ethyl beta-glucopyranoside	ethyl beta-glucopyranoside	HMDB0029968	NA	121667	Neg
+m100020378	Lipid	"Fatty Acid, Dicarboxylate"	1709	NAMED	2-hydroxysebacate	2-hydroxysebacate	HMDB0000424	NA	128458	Neg
+m100020409	Cofactors and Vitamins	Ascorbate and Aldarate Metabolism	4348	NAMED	ascorbic acid 3-sulfate*	ascorbic acid 3-sulfate*	NA	NA	11425365	Polar
+m100020414	Amino Acid	Tryptophan Metabolism	327	NAMED	6-bromotryptophan	6-bromotryptophan	NA	NA	9856996	Neg
+m100020417	Amino Acid	Lysine Metabolism	115	NAMED	"N6,N6-dimethyllysine"	"N6,N6-dimethyllysine"	HMDB0013287	C05545	193344	Pos Early
+m100020419	Amino Acid	Phenylalanine Metabolism	146	NAMED	1-carboxyethylphenylalanine	1-carboxyethylphenylalanine	NA	NA	59100900	Neg
+m100020421	Amino Acid	Tyrosine Metabolism	164	NAMED	1-carboxyethyltyrosine	1-carboxyethyltyrosine	NA	NA	NA	Neg
+m100020423	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	420	NAMED	1-carboxyethylvaline	1-carboxyethylvaline	NA	NA	NA	Neg
+m100020425	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	340	NAMED	1-carboxyethylleucine	1-carboxyethylleucine	NA	NA	NA	Neg
+m100020427	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	391	NAMED	1-carboxyethylisoleucine	1-carboxyethylisoleucine	NA	NA	NA	Neg
+m100020478	Lipid	"Fatty Acid, Dicarboxylate"	1689	NAMED	dodecadienoate (12:2)*	dodecadienoate (12:2)*	NA	NA	25480	Neg
+m100020479	Amino Acid	Tryptophan Metabolism	319	NAMED	indoleacetoylcarnitine*	indoleacetoylcarnitine*	NA	NA	NA	Pos Early
+m100020487	Amino Acid	Polyamine Metabolism	544	NAMED	N-acetyl-isoputreanine	N-acetyl-isoputreanine	NA	NA	131802901	Pos Early
+m100020492	Xenobiotics	Food Component/Plant	5008	NAMED	glucuronide of piperine metabolite C17H21NO3 (4)*	glucuronide of piperine metabolite C17H21NO3 (4)*	NA	NA	NA	Neg
+m100020496	Xenobiotics	Food Component/Plant	5016	NAMED	sulfate of piperine metabolite C16H19NO3 (2)*	sulfate of piperine metabolite C16H19NO3 (2)*	NA	NA	NA	Neg
+m100020497	Xenobiotics	Food Component/Plant	5017	NAMED	sulfate of piperine metabolite C16H19NO3 (3)*	sulfate of piperine metabolite C16H19NO3 (3)*	NA	NA	NA	Neg
+m100020502	Xenobiotics	Food Component/Plant	5022	NAMED	sulfate of piperine metabolite C18H21NO3 (1)*	sulfate of piperine metabolite C18H21NO3 (1)*	NA	NA	NA	Neg
+m100020504	Xenobiotics	Food Component/Plant	5024	NAMED	sulfate of piperine metabolite C18H21NO3 (3)*	sulfate of piperine metabolite C18H21NO3 (3)*	NA	NA	NA	Neg
+m100020515	Xenobiotics	Chemical	6174	NAMED	2-naphthol sulfate	2-naphthol sulfate	NA	NA	74428	Neg
+m100020536	Xenobiotics	Benzoate Metabolism	4503	NAMED	4-ethylcatechol sulfate	4-ethylcatechol sulfate	NA	NA	NA	Neg
+m100020541	Lipid	Androgenic Steroids	3401	NAMED	11beta-hydroxyandrosterone glucuronide	11beta-hydroxyandrosterone glucuronide	NA	NA	NA	Neg
+m100020542	Lipid	Androgenic Steroids	3357	NAMED	11beta-hydroxyetiocholanolone glucuronide*	11beta-hydroxyetiocholanolone glucuronide*	NA	NA	NA	Neg
+m100020545	Amino Acid	Lysine Metabolism	110	NAMED	"N2-acetyl,N6,N6-dimethyllysine"	"N2-acetyl,N6,N6-dimethyllysine"	NA	NA	NA	Pos Early
+m100020546	Amino Acid	Lysine Metabolism	109	NAMED	"N2-acetyl,N6-methyllysine"	"N2-acetyl,N6-methyllysine"	NA	NA	NA	Pos Early
+m100020550	Lipid	Secondary Bile Acid Metabolism	3483	NAMED	deoxycholic acid glucuronide	deoxycholic acid glucuronide	NA	NA	NA	Neg
+m100020578	Xenobiotics	Benzoate Metabolism	4505	NAMED	4-allylcatechol sulfate	4-allylcatechol sulfate	NA	NA	NA	Neg
+m100020631	Lipid	Fatty Acid Metabolism (Acyl Glutamine)	1784	NAMED	4-methylhexanoylglutamine	4-methylhexanoylglutamine	NA	NA	NA	Neg
+m100020819	Lipid	Secondary Bile Acid Metabolism	3516	NAMED	glycoursodeoxycholic acid sulfate (1)	glycoursodeoxycholic acid sulfate (1)	NA	NA	NA	Neg
+m100020823	Lipid	Secondary Bile Acid Metabolism	3496	NAMED	lithocholate sulfate (1)	lithocholate sulfate (1)	NA	NA	451489	Neg
+m100020825	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Hydroxy)"	1921	NAMED	3-hydroxyhexanoylcarnitine (1)	3-hydroxyhexanoylcarnitine (1)	NA	NA	NA	Pos Early
+m100020833	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	348	NAMED	2-ketocaprylate	2-ketocaprylate	HMDB13211	NA	67600	Neg
+m100020837	Xenobiotics	Drug - Topical Agents	5960	NAMED	"2,6-dihydroxybenzoic acid"	"2,6-dihydroxybenzoic acid"	HMDB0013676	NA	9338	Neg
+m100020851	Xenobiotics	Food Component/Plant	4896	NAMED	3-ethylcatechol sulfate (1)	3-ethylcatechol sulfate (1)	NA	NA	NA	Neg
+m100020893	Amino Acid	"Methionine, Cysteine, SAM and Taurine Metabolism"	448	NAMED	"2,3-dihydroxy-5-methylthio-4-pentenoate (DMTPA)*"	"2,3-dihydroxy-5-methylthio-4-pentenoate (DMTPA)*"	HMDB0240388	NA	NA	Neg
+m100020975	Xenobiotics	Chemical	6253	NAMED	3-hydroxy-2-methylpyridine sulfate	3-hydroxy-2-methylpyridine sulfate	NA	NA	NA	Neg
+m100021000	Lipid	Sphingomyelins	3104	NAMED	hydroxypalmitoyl sphingomyelin (d18:1/16:0(OH))**	hydroxypalmitoyl sphingomyelin (d18:1/16:0(OH))	NA	NA	NA	Pos Late
+m100021093	Lipid	Secondary Bile Acid Metabolism	3540	NAMED	taurochenodeoxycholic acid 3-sulfate	taurochenodeoxycholic acid 3-sulfate	HMDB0002486	NA	52931550	Neg
+m100021100	Lipid	"Fatty Acid, Dicarboxylate"	1694	NAMED	tetradecadienedioate (C14:2-DC)*	tetradecadienedioate (C14:2-DC)*	NA	NA	86018718	Neg
+m100021103	Lipid	Pregnenolone Steroids	3261	NAMED	pregnenetriol sulfate*	pregnenetriol sulfate*	NA	NA	129671303	Neg
+m100021104	Lipid	Pregnenolone Steroids	3262	NAMED	pregnenetriol disulfate*	pregnenetriol disulfate*	NA	NA	NA	Neg
+m100021105	Lipid	"Fatty Acid, Dicarboxylate"	1703	NAMED	eicosenedioate (C20:1-DC)*	eicosenedioate (C20:1-DC)*	NA	NA	NA	Neg
+m100021123	Amino Acid	Lysine Metabolism	117	NAMED	"hydroxy-N6,N6,N6-trimethyllysine*"	"hydroxy-N6,N6,N6-trimethyllysine*"	NA	NA	NA	Pos Early
+m100021131	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Monounsaturated)"	1881	NAMED	undecenoylcarnitine (C11:1)	undecenoylcarnitine (C11:1)	NA	NA	NA	Pos Late
+m100021141	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Hydroxy)"	1927	NAMED	3-hydroxydecanoylcarnitine	3-hydroxydecanoylcarnitine	HMDB0061636	NA	121454166	Pos Late
+m100021162	Lipid	Ceramide PEs	3134	NAMED	palmitoyl-sphingosine-phosphoethanolamine (d18:1/16:0)	palmitoyl-sphingosine-phosphoethanolamine (d18:1/16:0)	NA	NA	NA	Pos Late
+m100021198	Lipid	Fatty Acid Metabolism (Acyl Glycine)	1837	NAMED	picolinoylglycine	picolinoylglycine	HMDB0059766	NA	11788622	Neg
+m100021208	Xenobiotics	Benzoate Metabolism	4529	NAMED	4-vinylcatechol sulfate	4-vinylcatechol sulfate	NA	NA	NA	Neg
+m100021324	Xenobiotics	Chemical	6258	NAMED	"3,5-dichloro-2,6-dihydroxybenzoic acid"	"3,5-dichloro-2,6-dihydroxybenzoic acid"	NA	NA	24721632	Polar
+m100021331	Partially Characterized Molecules	Partially Characterized Molecules	6420	NAMED	metabolonic lactone sulfate	metabolonic lactone sulfate	NA	NA	NA	Neg
+m100021363	Xenobiotics	Food Component/Plant	5217	NAMED	vanillic acid glycine	vanillic acid glycine	HMDB0060026	NA	3083688	Neg
+m100021372	Amino Acid	"Methionine, Cysteine, SAM and Taurine Metabolism"	449	NAMED	2-hydroxy-4-(methylthio)butanoic acid	2-hydroxy-4-(methylthio)butanoic acid	HMDB0037115	NA	11427	Polar
+m100021457	Xenobiotics	Chemical	6255	NAMED	(2-butoxyethoxy)acetic acid	(2-butoxyethoxy)acetic acid	NA	NA	106312	Pos Early
+m100021467	Partially Characterized Molecules	Partially Characterized Molecules	6421	NAMED	pentose acid*	pentose acid*	HMDB0000892	C00803	7991	Polar
+m100021478	Amino Acid	Histidine Metabolism	93	NAMED	1-methyl-5-imidazolelactate	1-methyl-5-imidazolelactate	NA	NA	NA	Neg
+m100021502	Lipid	Medium Chain Fatty Acid	1498	NAMED	(2 or 3)-decenoate (10:1n7 or n8)	(2 or 3)-decenoate (10:1n7 or n8)	NA	NA	NA	Neg
+m100021530	Amino Acid	"Methionine, Cysteine, SAM and Taurine Metabolism"	460	NAMED	S-carboxyethylcysteine	S-carboxyethylcysteine	NA	NA	NA	Pos Early
+m100021538	Xenobiotics	Chemical	6260	NAMED	dibutyl sulfosuccinate	dibutyl sulfosuccinate	NA	NA	423891	Neg
+m100021666	Partially Characterized Molecules	Partially Characterized Molecules	6428	NAMED	"branched-chain, straight-chain, or cyclopropyl 10:1 fatty acid (1)*"	"branched-chain, straight-chain, or cyclopropyl 10:1 fatty acid (1)*"	NA	NA	NA	Neg
+m100021707	Xenobiotics	Chemical	6259	NAMED	"3-bromo-5-chloro-2,6-dihydroxybenzoic acid*"	"3-bromo-5-chloro-2,6-dihydroxybenzoic acid*"	NA	NA	134581543	Neg
+m100021709	Partially Characterized Molecules	Partially Characterized Molecules	6431	NAMED	"branched-chain, straight-chain, or cyclopropyl 12:1 fatty acid*"	"branched-chain, straight-chain, or cyclopropyl 12:1 fatty acid*"	NA	NA	NA	Neg
+m100021711	Lipid	"Fatty Acid, Dicarboxylate"	1682	NAMED	decadienedioic acid (C10:2-DC)**	decadienedioic acid (C10:2-DC)	NA	NA	17789717	Neg
+m100021727	Lipid	"Fatty Acid, Branched"	1643	NAMED	"cis-3,4-methyleneheptanoate"	"cis-3,4-methyleneheptanoate"	NA	NA	NA	Neg
+m100021728	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Medium Chain)"	1856	NAMED	"cis-3,4-methyleneheptanoylcarnitine"	"cis-3,4-methyleneheptanoylcarnitine"	NA	NA	NA	Pos Late
+m100021760	Amino Acid	Lysine Metabolism	139	NAMED	N-acetyl-2-aminoadipate	N-acetyl-2-aminoadipate	NA	C12986	443992	Pos Early
+m100021784	Xenobiotics	Chemical	6265	NAMED	4-chlorobenzoic acid	4-chlorobenzoic acid	NA	C02370	6318	Neg
+m100021839	Xenobiotics	Benzoate Metabolism	4583	NAMED	2-methoxyhydroquinone sulfate (1)	2-methoxyhydroquinone sulfate (1)	NA	NA	NA	Neg
+m100021990	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Hydroxy)"	1924	NAMED	3-hydroxyoctanoylcarnitine (1)	3-hydroxyoctanoylcarnitine (1)	NA	NA	NA	Pos Early
+m100021991	Lipid	"Fatty Acid Metabolism (Acyl Carnitine, Hydroxy)"	1925	NAMED	3-hydroxyoctanoylcarnitine (2)	3-hydroxyoctanoylcarnitine (2)	NA	NA	NA	Pos Early
+m100021992	Lipid	Fatty Acid Metabolism (Acyl Glycine)	1814	NAMED	"cis-3,4-methyleneheptanoylglycine"	"cis-3,4-methyleneheptanoylglycine"	NA	NA	NA	Neg
+m100022005	Partially Characterized Molecules	Partially Characterized Molecules	6443	NAMED	"bilirubin degradation product, C17H18N2O4 (1)**"	"bilirubin degradation product, C17H18N2O4 (1)"	NA	NA	NA	Neg
+m100022006	Partially Characterized Molecules	Partially Characterized Molecules	6444	NAMED	"bilirubin degradation product, C17H18N2O4 (2)**"	"bilirubin degradation product, C17H18N2O4 (2)"	NA	NA	NA	Neg
+m100022007	Partially Characterized Molecules	Partially Characterized Molecules	6445	NAMED	"bilirubin degradation product, C17H18N2O4 (3)**"	"bilirubin degradation product, C17H18N2O4 (3)"	NA	NA	NA	Neg
+m100022013	Lipid	Corticosteroids	3310	NAMED	tetrahydrocortisol glucuronide	tetrahydrocortisol glucuronide	NA	NA	NA	Neg
+m100022041	Peptide	Modified Peptides	1219	NAMED	"N,N-dimethyl-pro-pro"	"N,N-dimethyl-pro-pro"	NA	NA	NA	Pos Early
+m100022127	Lipid	Corticosteroids	3323	NAMED	tetrahydrocortisone glucuronide (5)	tetrahydrocortisone glucuronide (5)	NA	NA	NA	Neg
+m1001	Amino Acid	Urea cycle; Arginine and Proline Metabolism	513	NAMED	trans-4-hydroxyproline	hydroxyproline	HMDB0000725	C01157	5810	Pos Early
+m1002	Nucleotide	"Purine Metabolism, (Hypo)Xanthine/Inosine containing"	4132	NAMED	allantoin	allantoin	HMDB0000462	"C02348,C01551,C02350"	"439,714,204,439,713"	Polar
+m1004	Nucleotide	"Purine Metabolism, (Hypo)Xanthine/Inosine containing"	4120	NAMED	xanthine	xanthine	HMDB0000292	C00385	1188	Polar
+m1021	Amino Acid	Glutathione Metabolism	579	NAMED	5-oxoproline	5-oxoproline	HMDB0000267	"C02237,C01879"	"4,396,857,405"	Neg
+m1022	Amino Acid	Tryptophan Metabolism	282	NAMED	picolinate	picolinate	HMDB0002243	C10164	1018	Pos Early
+m1023	Amino Acid	"Glycine, Serine and Threonine Metabolism"	5	NAMED	sarcosine	sarcosine	HMDB0000271	C00213	1088	Pos Early
+m1024	Cofactors and Vitamins	Pantothenate and CoA Metabolism	4335	NAMED	pantothenate	pantothenate (Vitamin B5)	HMDB0000210	C00864	6613	Neg
+m1025	Amino Acid	Lysine Metabolism	131	NAMED	pipecolate	pipecolate	NA	NA	NA	Pos Early
+m1026	Lipid	Phospholipid Metabolism	2238	NAMED	phosphoethanolamine	phosphoethanolamine (PE)	HMDB0000224	C00346	1015	Pos Early
+m1052	Carbohydrate	"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism"	1243	NAMED	glycerate	glycerate	"HMDB0000139,HMDB0006372"	C00258	"439,194,752"	Polar
+m1053	Nucleotide	"Pyrimidine Metabolism, Uracil containing"	4237	NAMED	3-ureidopropionate	3-ureidopropionate	HMDB0000026	C02642	111	Pos Early
+m1082	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	336	NAMED	N-acetylleucine	N-acetylleucine	HMDB0011756	C02710	70912	Neg
+m1083	Amino Acid	"Methionine, Cysteine, SAM and Taurine Metabolism"	435	NAMED	N-acetylmethionine	N-acetylmethionine	HMDB0011745	C02712	448580	Neg
+m1084	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	417	NAMED	N-acetylvaline	N-acetylvaline	HMDB0011757	NA	66789	Neg
+m1087	Lipid	Long Chain Monounsaturated Fatty Acid	1547	NAMED	erucate (22:1n9)	erucate (22:1n9)	HMDB0002068	C08316	"82,165,281,116"	Neg
+m1090	Cofactors and Vitamins	Hemoglobin and Porphyrin Metabolism	4407	NAMED	"bilirubin (Z,Z)"	bilirubin	HMDB0000054	C00486	5280352	Pos Late
+m1094	Amino Acid	Tyrosine Metabolism	245	NAMED	thyroxine	thyroxine	HMDB0000248	C01829	5819	Neg
+m1102	Peptide	Gamma-glutamyl Amino Acid	646	NAMED	gamma-glutamyltyrosine	gamma-glutamyltyrosine	HMDB0011741	NA	94340	Pos Early
+m1104	Xenobiotics	Food Component/Plant	4962	NAMED	methyl indole-3-acetate	methyl indole-3-acetate	HMDB0029738	NA	74706	Pos Early
+m1105	Cofactors and Vitamins	Tocopherol Metabolism	4359	NAMED	alpha-tocopherol	alpha-tocopherol	HMDB0001893	C02477	86472	Pos Late
+m111	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	428	NAMED	3-hydroxyisobutyrate	3-hydroxyisobutyrate	"HMDB0000023,HMDB0000336"	"C01188,C06001"	11966314	Polar
+m1110	Amino Acid	Alanine and Aspartate Metabolism	31	NAMED	N-acetylalanine	N-acetylalanine	HMDB0000766	C02847	88064	Polar
+m1111	Amino Acid	Tyrosine Metabolism	202	NAMED	vanillylmandelate (VMA)	vanillylmandelate (VMA)	HMDB0000291	C05584	1245	Neg
+m1113	Amino Acid	Polyamine Metabolism	560	NAMED	4-acetamidobutanoate	4-acetamidobutanoate	HMDB0003681	C02946	18189	Pos Early
+m1114	Nucleotide	"Pyrimidine Metabolism, Thymine containing"	4282	NAMED	3-aminoisobutyrate	3-aminoisobutyrate	HMDB0002166	C05145	64956	Pos Early
+m112	Lipid	Mevalonate Metabolism	3175	NAMED	3-hydroxy-3-methylglutarate	3-hydroxy-3-methylglutarate	HMDB0000355	C03761	"16,625,459,993"	Polar
+m1124	Energy	TCA Cycle	1439	NAMED	citrate	citrate	HMDB0000094	C00158	311	Neg
+m1128	Amino Acid	Glutathione Metabolism	580	NAMED	2-aminobutyrate	2-aminobutyrate	HMDB0000452	C02356	80283	Pos Early
+m1134	Nucleotide	"Purine Metabolism, (Hypo)Xanthine/Inosine containing"	4130	NAMED	urate	urate	HMDB0000289	C00366	1175	Neg
+m1135	Lipid	Secondary Bile Acid Metabolism	3503	NAMED	ursodeoxycholate	ursodeoxycholate	HMDB0000946	C07880	31401	Neg
+m1137	Lipid	Endocannabinoid	2159	NAMED	oleoyl ethanolamide	oleoyl ethanolamide	HMDB0002088	NA	5283454	Neg
+m1140	Peptide	Gamma-glutamyl Amino Acid	635	NAMED	gamma-glutamylglutamine	gamma-glutamylglutamine	HMDB0011738	C05283	150914	Pos Early
+m1143	Lipid	Short Chain Fatty Acid	1487	NAMED	butyrate/isobutyrate (4:0)	butyrate/isobutyrate (4:0)	HMDB0000039	C00246	264	Neg
+m1162	Carbohydrate	Aminosugar Metabolism	1418	NAMED	N-acetylneuraminate	N-acetylneuraminate	HMDB0000230	C00270	439197	Pos Early
+m117	Amino Acid	Tyrosine Metabolism	210	NAMED	homovanillate (HVA)	homovanillate (HVA)	HMDB0000118	C05582	1738	Neg
+m1215	Carbohydrate	Aminosugar Metabolism	1430	NAMED	N-acetylglucosaminylasparagine	N-acetylglucosaminylasparagine	HMDB0000489	C04540	123826	Pos Early
+m1221	Amino Acid	Creatine Metabolism	528	NAMED	creatine	creatine	HMDB0000064	C00300	586	Pos Early
+m1224	Amino Acid	Glutathione Metabolism	578	NAMED	"cys-gly, oxidized"	"cys-gly, oxidized"	NA	NA	333293	Pos Early
+m1231	Lipid	Long Chain Polyunsaturated Fatty Acid (n3 and n6)	1570	NAMED	dihomo-linoleate (20:2n6)	dihomolinoleate (20:2n6)	HMDB0005060	C16525	6439848	Neg
+m1239	Lipid	"Fatty Acid, Monohydroxy"	1971	NAMED	2-hydroxystearate	2-hydroxystearate	HMDB0062549	"C03042,C03045"	"43,988,743,988,569,400"	Neg
+m1242	Nucleotide	"Purine Metabolism, Adenine containing"	4152	NAMED	N1-methyladenosine	1-methyladenosine	HMDB0003331	C02494	27476	Pos Early
+m1254	Lipid	Glycerolipid Metabolism	2841	NAMED	glycerol	glycerol	HMDB0000131	C00116	753	Neg
+m1256	Lipid	Phospholipid Metabolism	2232	NAMED	choline	choline	HMDB0000097	C00114	305	Pos Early
+m1258	Amino Acid	Tryptophan Metabolism	275	NAMED	anthranilate	anthranilate	HMDB0001123	C00108	227	Pos Early
+m1268	Peptide	Gamma-glutamyl Amino Acid	639	NAMED	gamma-glutamylleucine	gamma-glutamylleucine	HMDB0011171	NA	151023	Neg
+m132	Carbohydrate	"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism"	1237	NAMED	3-phosphoglycerate	3-phosphoglycerate	HMDB0000807	C00597	724	Pos Early
+m1342	Amino Acid	Tyrosine Metabolism	204	NAMED	3-methoxytyrosine	3-methoxytyrosine	HMDB0001434	NA	9307	Pos Early
+m144	Amino Acid	Phenylalanine Metabolism	159	NAMED	4-hydroxyphenylacetate	4-hydroxyphenylacetate	HMDB0000020	C00642	127	Neg
+m1442	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	363	NAMED	beta-hydroxyisovalerate	beta-hydroxyisovalerate	HMDB0000754	NA	69362	Neg
+m1518	Lipid	Ceramides	3021	NAMED	N-palmitoyl-sphingosine (d18:1/16:0)	N-palmitoyl-sphingosine (d18:1/16:0)	HMDB0004949	NA	5283564	Pos Late
+m1526	Lipid	Phosphatidylethanolamine (PE)	2408	NAMED	1-palmitoyl-2-oleoyl-GPE (16:0/18:1)	1-palmitoyl-2-oleoyl-GPE (16:0/18:1)	HMDB0005320	NA	5283496	Pos Late
+m1528	Lipid	Phosphatidylinositol (PI)	2536	NAMED	1-palmitoyl-2-linoleoyl-GPI (16:0/18:2)	1-palmitoyl-2-linoleoyl-GPI (16:0/18:2)	HMDB0009784	NA	46891795	Pos Late
+m1537	Lipid	Phosphatidylcholine (PC)	2286	NAMED	1-palmitoyl-2-linoleoyl-GPC (16:0/18:2)	1-palmitoyl-2-linoleoyl-GPC (16:0/18:2)	HMDB0007973	NA	5287971	Pos Late
+m1538	Lipid	Sphingomyelins	3105	NAMED	stearoyl sphingomyelin (d18:1/18:0)	stearoyl sphingomyelin (d18:1/18:0)	HMDB0001348	C00550	6453725	Pos Late
+m1539	Lipid	Phosphatidylcholine (PC)	2283	NAMED	1-palmitoyl-2-oleoyl-GPC (16:0/18:1)	1-palmitoyl-2-oleoyl-GPC (16:0/18:1)	HMDB0007972	C13875	6436017	Pos Late
+m1547	Lipid	Ceramides	3025	NAMED	N-stearoyl-sphingosine (d18:1/18:0)*	N-stearoyl-sphingosine (d18:1/18:0)*	HMDB0004950	NA	5283565	Pos Late
+m158	Nucleotide	"Pyrimidine Metabolism, Thymine containing"	4279	NAMED	"5,6-dihydrothymine"	"5,6-dihydrothymine"	HMDB0000079	C00906	93556	Pos Early
+m1628	Lipid	Primary Bile Acid Metabolism	3461	NAMED	glycochenodeoxycholate	glycochenodeoxycholate	HMDB0000637	C05466	12544	Neg
+m1629	Lipid	Primary Bile Acid Metabolism	3462	NAMED	taurochenodeoxycholate	taurochenodeoxycholate	HMDB0000951	C05465	387316	Neg
+m1648	Lipid	Primary Bile Acid Metabolism	3455	NAMED	taurocholate	taurocholate	HMDB0000036	C05122	"667,546,783,527"	Neg
+m1668	Lipid	Secondary Bile Acid Metabolism	3488	NAMED	taurodeoxycholate	taurodeoxycholate	HMDB0000896	C05463	2733768	Neg
+m179	Lipid	"Fatty Acid, Dihydroxy"	2031	NAMED	"9,10-DiHOME"	"9,10-DiHOME"	HMDB0004704	C14828	9966640	Neg
+m180	Lipid	Long Chain Polyunsaturated Fatty Acid (n3 and n6)	1567	NAMED	linoleate (18:2n6)	linoleate (18:2n6)	"HMDB0006270,HMDB0000673"	C01595	5280450	Neg
+m181	Lipid	Medium Chain Fatty Acid	1502	NAMED	laurate (12:0)	laurate (12:0)	HMDB0000638	C02679	3893	Neg
+m182	Cofactors and Vitamins	Nicotinate and Nicotinamide Metabolism	4299	NAMED	quinolinate	quinolinate	HMDB0000232	C03722	1066	Pos Early
+m1869	Xenobiotics	Benzoate Metabolism	4465	NAMED	2-hydroxyhippurate (salicylurate)	2-hydroxyhippurate (salicylurate)	HMDB0000840	C07588	10253	Neg
+m189	Amino Acid	Lysine Metabolism	116	NAMED	"N6,N6,N6-trimethyllysine"	"N6,N6,N6-trimethyllysine"	HMDB0001325	C03793	440120	Pos Early
+m192	Amino Acid	Polyamine Metabolism	538	NAMED	N-acetylputrescine	N-acetylputrescine	HMDB0002064	C02714	122356	Pos Early
+m194	Amino Acid	"Methionine, Cysteine, SAM and Taurine Metabolism"	437	NAMED	N-formylmethionine	N-formylmethionine	HMDB0001015	C03145	439750	Neg
+m197	Amino Acid	"Methionine, Cysteine, SAM and Taurine Metabolism"	446	NAMED	S-adenosylhomocysteine (SAH)	S-adenosylhomocysteine (SAH)	HMDB00939	C00021	439155	Neg
+m2050	Lipid	Long Chain Polyunsaturated Fatty Acid (n3 and n6)	1560	NAMED	eicosapentaenoate (EPA; 20:5n3)	eicosapentaenoate (EPA; 20:5n3)	HMDB0001999	C06428	446284	Neg
+m2051	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	410	NAMED	methylsuccinate	methylsuccinate	HMDB0001844	NA	10349	Polar
+m2054	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	407	NAMED	ethylmalonate	ethylmalonate	HMDB0000622	NA	11756	Polar
+m207	Nucleotide	"Purine Metabolism, Adenine containing"	4141	NAMED	"adenosine 3',5'-cyclic monophosphate (cAMP)"	"adenosine 3',5'-cyclic monophosphate (cAMP)"	HMDB0000058	C00575	6076	Neg
+m209	Nucleotide	"Purine Metabolism, Adenine containing"	4138	NAMED	adenosine 5'-monophosphate (AMP)	AMP	HMDB0000045	C00020	6083	Pos Early
+m212	Amino Acid	Polyamine Metabolism	556	NAMED	5-methylthioadenosine (MTA)	5-methylthioadenosine (MTA)	HMDB0001173	C00170	439176	Pos Early
+m213	Nucleotide	"Purine Metabolism, Adenine containing"	4153	NAMED	N6-methyladenosine	N6-methyladenosine	HMDB0004044	NA	102175	Neg
+m229	Lipid	Long Chain Polyunsaturated Fatty Acid (n3 and n6)	1573	NAMED	arachidonate (20:4n6)	arachidonate (20:4n6)	HMDB0001043	C00219	444899	Neg
+m231	Amino Acid	Urea cycle; Arginine and Proline Metabolism	483	NAMED	arginine	arginine	HMDB0000517	C00062	6322	Pos Early
+m234	Amino Acid	Alanine and Aspartate Metabolism	36	NAMED	aspartate	aspartate	HMDB0000191	C00049	5960	Pos Early
+m235	Amino Acid	Phenylalanine Metabolism	156	NAMED	2-hydroxyphenylacetate	2-hydroxyphenylacetate	HMDB0000669	C05852	11970	Polar
+m240	Amino Acid	Tyrosine Metabolism	181	NAMED	3-(4-hydroxyphenyl)lactate	3-(4-hydroxyphenyl)lactate (HPLA)	HMDB0000755	C03672	9378	Neg
+m241	Amino Acid	Phenylalanine Metabolism	150	NAMED	phenylpyruvate	phenylpyruvate	HMDB0000205	C00166	997	Neg
+m244	Nucleotide	"Pyrimidine Metabolism, Uracil containing"	4238	NAMED	beta-alanine	beta-alanine	HMDB0000056	C00099	239	Pos Early
+m250	Cofactors and Vitamins	Hemoglobin and Porphyrin Metabolism	4410	NAMED	biliverdin	biliverdin	HMDB0001008	C00500	5280353	Pos Late
+m252	Energy	TCA Cycle	1448	NAMED	succinate	succinate	HMDB0000254	C00042	1110	Neg
+m254	Lipid	Ketone Bodies	1938	NAMED	3-hydroxybutyrate (BHBA)	3-hydroxybutyrate (BHBA)	"HMDB0000442,HMDB0000357,HMDB0000011"	"C03197,C01089"	"9,431,844,192,135"	Polar
+m266	Lipid	Sterol	3192	NAMED	cholesterol	cholesterol	HMDB0000067	C00187	"5,997,643,256,411,020,000"	Pos Late
+m267	Lipid	Phospholipid Metabolism	2233	NAMED	choline phosphate	phosphocholine	HMDB0001565	C00588	1014	Pos Early
+m272	Lipid	Corticosteroids	3297	NAMED	corticosterone	corticosterone	HMDB0001547	C02140	5753	Neg
+m273	Lipid	Corticosteroids	3315	NAMED	cortisone	cortisone	HMDB0002802	C00762	222786	Neg
+m275	Amino Acid	Creatine Metabolism	529	NAMED	creatinine	creatinine	HMDB0000562	C00791	588	Pos Early
+m278	Amino Acid	Glutathione Metabolism	576	NAMED	cysteinylglycine	cysteinylglycine	HMDB0000078	C01419	439498	Pos Early
+m297	Lipid	Sphingosines	3159	NAMED	sphingosine	sphingosine	HMDB0000252	C00319	5280335	Pos Late
+m302	Lipid	Secondary Bile Acid Metabolism	3478	NAMED	deoxycholate	deoxycholate	HMDB0000626	C04483	"222,528,440,355"	Pos Late
+m310	Amino Acid	"Methionine, Cysteine, SAM and Taurine Metabolism"	453	NAMED	cystathionine	cystathionine	HMDB0000099	C02291	439258	Pos Early
+m313	Lipid	Sphingolipid Synthesis	3000	NAMED	sphinganine	sphinganine	HMDB0000269	C00836	3126	Pos Late
+m330	Energy	TCA Cycle	1449	NAMED	fumarate	fumarate	HMDB0000134	C00122	444972	Polar
+m331	Peptide	Gamma-glutamyl Amino Acid	634	NAMED	gamma-glutamylglutamate	gamma-glutamylglutamate	HMDB0011737	C05282	92865	Pos Early
+m338	Xenobiotics	Food Component/Plant	4804	NAMED	gluconate	gluconate	HMDB0000625	C00257	"106,903,085,666"	Polar
+m339	Lipid	"Fatty Acid, Dicarboxylate"	1659	NAMED	glutarate (C5-DC)	glutarate (C5-DC)	HMDB0000661	C00489	"7,434,418,048"	Polar
+m340	Amino Acid	"Glycine, Serine and Threonine Metabolism"	1	NAMED	glycine	glycine	HMDB0000123	C00037	750	Pos Early
+m342	Lipid	Primary Bile Acid Metabolism	3454	NAMED	glycocholate	glycocholate	HMDB0000138	C01921	10140	Neg
+m344	Amino Acid	Creatine Metabolism	527	NAMED	guanidinoacetate	guanidinoacetate	HMDB0000128	C00581	763	Polar
+m35	Amino Acid	Glutamate Metabolism	62	NAMED	S-1-pyrroline-5-carboxylate	S-1-pyrroline-5-carboxylate	HMDB0001301	C04322	11966181	Pos Early
+m355	Amino Acid	Histidine Metabolism	70	NAMED	histidine	histidine	HMDB0000177	C00135	6274	Neg
+m356	Lipid	Corticosteroids	3305	NAMED	cortisol	cortisol	HMDB0000063	C00735	5754	Neg
+m358	Amino Acid	"Methionine, Cysteine, SAM and Taurine Metabolism"	470	NAMED	hypotaurine	hypotaurine	HMDB0000965	C00519	107812	Polar
+m363	Lipid	Inositol Metabolism	2201	NAMED	myo-inositol	myo-inositol	HMDB0000211	C00137	892	Polar
+m376	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	385	NAMED	isoleucine	isoleucine	HMDB0000172	"C06418,C00407,C16424"	6306	Pos Early
+m381	Amino Acid	Lysine Metabolism	123	NAMED	2-aminoadipate	2-aminoadipate	HMDB0000510	C00956	92136	Polar
+m391	Amino Acid	Urea cycle; Arginine and Proline Metabolism	492	NAMED	citrulline	citrulline	HMDB0000904	C00327	9750	Pos Early
+m397	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	332	NAMED	leucine	leucine	HMDB0000687	C00123	6106	Pos Early
+m407	Amino Acid	Lysine Metabolism	105	NAMED	lysine	lysine	HMDB0003405	"C00739,C00047"	5962	Pos Early
+m409	Energy	TCA Cycle	1451	NAMED	malate	malate	"HMDB0031518,HMDB0000156,HMDB0000744"	"C00149,C00711,C00497"	525	Neg
+m415	Amino Acid	"Methionine, Cysteine, SAM and Taurine Metabolism"	434	NAMED	methionine	methionine	HMDB0000696	C00073	6137	Pos Early
+m424	Lipid	Long Chain Saturated Fatty Acid	1510	NAMED	palmitate (16:0)	palmitate (16:0)	HMDB0000220	C00249	985	Neg
+m432	Cofactors and Vitamins	Nicotinate and Nicotinamide Metabolism	4303	NAMED	nicotinamide	nicotinamide	HMDB0001406	C00153	936	Pos Early
+m439	Lipid	Long Chain Saturated Fatty Acid	1514	NAMED	stearate (18:0)	stearate (18:0)	HMDB0000827	C01530	5281	Neg
+m444	Amino Acid	Urea cycle; Arginine and Proline Metabolism	487	NAMED	ornithine	ornithine	HMDB0000214	C00077	6262	Pos Early
+m445	Nucleotide	"Pyrimidine Metabolism, Orotate containing"	4206	NAMED	orotate	orotate	HMDB0000226	C00295	967	Polar
+m452	Lipid	Long Chain Monounsaturated Fatty Acid	1529	NAMED	palmitoleate (16:1n7)	palmitoleate (16:1n7)	HMDB0003229	C08362	445638	Neg
+m460	Amino Acid	Phenylalanine Metabolism	140	NAMED	phenylalanine	phenylalanine	HMDB0000159	C00079	6140	Pos Early
+m466	Xenobiotics	Food Component/Plant	4998	NAMED	phytanate	phytanate	HMDB0000801	C01607	26840	Neg
+m477	Lipid	"Fatty Acid, Branched"	1652	NAMED	pristanate	pristanate	HMDB0000795	NA	123929	Neg
+m480	Amino Acid	Urea cycle; Arginine and Proline Metabolism	495	NAMED	proline	proline	"HMDB0000162,HMDB0003411"	"C00148,C000763"	"8,988,145,742,614"	Pos Early
+m482	Carbohydrate	"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism"	1240	NAMED	lactate	lactate	HMDB0000190	C00186	612	Polar
+m498	Cofactors and Vitamins	Vitamin A Metabolism	4428	NAMED	retinol (Vitamin A)	retinol (Vitamin A)	HMDB0000305	C00473	445354	Pos Late
+m50	Amino Acid	Polyamine Metabolism	545	NAMED	spermidine	spermidine	HMDB0001257	C00315	1102	Pos Early
+m501	Xenobiotics	Drug - Topical Agents	5958	NAMED	salicylate	salicylate	HMDB0001895	C00805	338	Polar
+m503	Amino Acid	"Glycine, Serine and Threonine Metabolism"	10	NAMED	serine	serine	HMDB0000187	C00065	5951	Pos Early
+m504	Amino Acid	Tryptophan Metabolism	287	NAMED	serotonin	serotonin	HMDB0000259	C00780	5202	Pos Early
+m512	Amino Acid	"Methionine, Cysteine, SAM and Taurine Metabolism"	471	NAMED	taurine	taurine	HMDB0000251	C00245	1123	Pos Early
+m519	Lipid	Long Chain Saturated Fatty Acid	1507	NAMED	myristate (14:0)	myristate (14:0)	HMDB0000806	C06424	11005	Neg
+m533	Amino Acid	Urea cycle; Arginine and Proline Metabolism	485	NAMED	urea	urea	HMDB0000294	C00086	1176	Pos Early
+m535	Nucleotide	"Pyrimidine Metabolism, Uracil containing"	4218	NAMED	uridine	uridine	HMDB0000296	C00299	6029	Neg
+m536	Nucleotide	"Pyrimidine Metabolism, Uracil containing"	4234	NAMED	2'-deoxyuridine	2'-deoxyuridine	HMDB0000012	C00526	13712	Neg
+m537	Amino Acid	Histidine Metabolism	78	NAMED	trans-urocanate	trans-urocanate	HMDB0000301	C00785	736715	Pos Early
+m55	Cofactors and Vitamins	Nicotinate and Nicotinamide Metabolism	4315	NAMED	1-methylnicotinamide	1-methylnicotinamide	HMDB0000699	C02918	457	Pos Early
+m561	Amino Acid	Glutamate Metabolism	44	NAMED	glutamate	glutamate	HMDB0000148	"C00025,C00217"	33032	Pos Early
+m563	Amino Acid	Glutamate Metabolism	45	NAMED	glutamine	glutamine	HMDB0000641	C00064	5961	Pos Early
+m564	Amino Acid	"Glycine, Serine and Threonine Metabolism"	17	NAMED	threonine	threonine	HMDB0000167	C00188	6288	Pos Early
+m565	Amino Acid	Tryptophan Metabolism	254	NAMED	tryptophan	tryptophan	HMDB0000929	C00078	6305	Pos Early
+m566	Amino Acid	"Leucine, Isoleucine and Valine Metabolism"	416	NAMED	valine	valine	HMDB0000883	C00183	6287	Pos Early
+m572	Carbohydrate	"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism"	1223	NAMED	glucose	glucose	HMDB0000122	C00031	5793	Polar
+m62	Lipid	"Fatty Acid, Dihydroxy"	2030	NAMED	"12,13-DiHOME"	"12,13-DiHOME"	HMDB0004705	C14829	10236635	Neg
+m796	Amino Acid	"Methionine, Cysteine, SAM and Taurine Metabolism"	454	NAMED	alpha-ketobutyrate	alpha-ketobutyrate	HMDB0000005	C00109	58	Polar
+m799	Amino Acid	"Glycine, Serine and Threonine Metabolism"	7	NAMED	betaine	betaine	HMDB0000043	C00719	247	Pos Early
+m800	Amino Acid	"Methionine, Cysteine, SAM and Taurine Metabolism"	455	NAMED	cysteine	cysteine	HMDB0000574	C00097	5862	Pos Early
+m803	Carbohydrate	"Fructose, Mannose and Galactose Metabolism"	1352	NAMED	mannose	mannose	HMDB0000169	"C00159,C02209,C00936"	"8,230,843,968,018,560,000,000"	Polar
+m806	Amino Acid	"Glycine, Serine and Threonine Metabolism"	6	NAMED	dimethylglycine	dimethylglycine	HMDB0000092	C03626	673	Pos Early
+m811	Amino Acid	Alanine and Aspartate Metabolism	29	NAMED	alanine	alanine	HMDB0000161	C00041	5950	Pos Early
+m815	Amino Acid	Tyrosine Metabolism	162	NAMED	tyrosine	tyrosine	HMDB0000158	C00082	6057	Pos Early
+m821	Nucleotide	"Pyrimidine Metabolism, Uracil containing"	4220	NAMED	pseudouridine	pseudouridine	HMDB0000767	C02067	15047	Neg
+m823	Carbohydrate	"Glycolysis, Gluconeogenesis, and Pyruvate Metabolism"	1239	NAMED	pyruvate	pyruvate	HMDB0000243	C00022	1060	Polar
+m825	Nucleotide	"Pyrimidine Metabolism, Uracil containing"	4219	NAMED	uracil	uracil	HMDB0000300	C00106	1174	Polar
+m827	Nucleotide	"Pyrimidine Metabolism, Cytidine containing"	4250	NAMED	cytidine	cytidine	HMDB0000089	C00475	6175	Pos Early
+m849	Xenobiotics	Xanthine Metabolism	4589	NAMED	caffeine	caffeine	HMDB0001847	C07481	2519	Pos Early
+m872	Nucleotide	"Pyrimidine Metabolism, Thymine containing"	4273	NAMED	thymidine	thymidine	HMDB0000273	C00214	5789	Neg
+m881	Nucleotide	"Pyrimidine Metabolism, Cytidine containing"	4251	NAMED	cytosine	cytosine	HMDB0000630	C00380	597	Pos Early
+m888	Lipid	Medium Chain Fatty Acid	1494	NAMED	caprate (10:0)	caprate (10:0)	HMDB0000511	C01571	2969	Neg
+m891	Lipid	Long Chain Saturated Fatty Acid	1512	NAMED	margarate (17:0)	margarate (17:0)	HMDB0002259	NA	10465	Neg
+m892	Lipid	Long Chain Saturated Fatty Acid	1516	NAMED	nonadecanoate (19:0)	nonadecanoate (19:0)	HMDB0000772	C16535	12591	Neg
+m893	Lipid	Long Chain Saturated Fatty Acid	1517	NAMED	arachidate (20:0)	arachidate (20:0)	HMDB0002212	C06425	10467	Neg
+m917	Amino Acid	Alanine and Aspartate Metabolism	40	NAMED	asparagine	asparagine	HMDB0000168	C00152	6267	Pos Early
+m922	Lipid	Dihydroceramides	3012	NAMED	N-stearoyl-sphinganine (d18:0/18:0)*	N-stearoyl-sphinganine (d18:0/18:0)*	NA	NA	5283573	Pos Late
+m923	Nucleotide	"Pyrimidine Metabolism, Orotate containing"	4205	NAMED	dihydroorotate	dihydroorotate	HMDB03349	C00337	648	Polar
+m926	Lipid	Medium Chain Fatty Acid	1489	NAMED	caproate (6:0)	caproate (6:0)	HMDB0000535	C01585	8892	Neg
+m93	Energy	TCA Cycle	1445	NAMED	alpha-ketoglutarate	alpha-ketoglutarate	HMDB0000208	C00026	51	Polar
+m932	Lipid	Medium Chain Fatty Acid	1491	NAMED	caprylate (8:0)	caprylate (8:0)	HMDB0000482	C06423	379	Neg
+m98	Amino Acid	Tryptophan Metabolism	272	NAMED	kynurenate	kynurenate	HMDB0000715	C01717	3845	Neg
+m980	Lipid	Long Chain Saturated Fatty Acid	1509	NAMED	pentadecanoate (15:0)	pentadecanoate (15:0)	HMDB0000826	C16537	13849	Neg
+m999907765	NA	NA	NA	UNNAMED	X - 07765	X - 07765	NA	NA	NA	Neg
+m999910458	NA	NA	NA	UNNAMED	X - 10458	X - 10458	NA	NA	NA	Neg
+m999911299	NA	NA	NA	UNNAMED	X - 11299	X - 11299	NA	NA	NA	Neg
+m999911308	NA	NA	NA	UNNAMED	X - 11308	X - 11308	NA	NA	NA	Neg
+m999911315	NA	NA	NA	UNNAMED	X - 11315	X - 11315	NA	NA	NA	Neg
+m999911372	NA	NA	NA	UNNAMED	X - 11372	X - 11372	NA	NA	NA	Neg
+m999911381	NA	NA	NA	UNNAMED	X - 11381	X - 11381	NA	NA	NA	Neg
+m999911444	NA	NA	NA	UNNAMED	X - 11444	X - 11444	NA	NA	NA	Neg
+m999911470	NA	NA	NA	UNNAMED	X - 11470	X - 11470	NA	NA	NA	Neg
+m999911478	NA	NA	NA	UNNAMED	X - 11478	X - 11478	NA	NA	NA	Neg
+m999911483	NA	NA	NA	UNNAMED	X - 11483	X - 11483	NA	NA	NA	Neg
+m999911632	NA	NA	NA	UNNAMED	X - 11632	X - 11632	NA	NA	NA	Neg
+m999911787	NA	NA	NA	UNNAMED	X - 11787	X - 11787	NA	NA	NA	Neg
+m999911795	NA	NA	NA	UNNAMED	X - 11795	X - 11795	NA	NA	NA	Pos Early
+m999911843	NA	NA	NA	UNNAMED	X - 11843	X - 11843	NA	NA	NA	Neg
+m999911847	NA	NA	NA	UNNAMED	X - 11847	X - 11847	NA	NA	NA	Neg
+m999911849	NA	NA	NA	UNNAMED	X - 11849	X - 11849	NA	NA	NA	Neg
+m999911850	NA	NA	NA	UNNAMED	X - 11850	X - 11850	NA	NA	NA	Neg
+m999911852	NA	NA	NA	UNNAMED	X - 11852	X - 11852	NA	NA	NA	Neg
+m999911880	NA	NA	NA	UNNAMED	X - 11880	X - 11880	NA	NA	NA	Neg
+m999912026	NA	NA	NA	UNNAMED	X - 12026	X - 12026	NA	NA	NA	Neg
+m999912100	NA	NA	NA	UNNAMED	X - 12100	X - 12100	NA	NA	NA	Pos Early
+m999912101	NA	NA	NA	UNNAMED	X - 12101	X - 12101	NA	NA	NA	Pos Early
+m999912111	NA	NA	NA	UNNAMED	X - 12111	X - 12111	NA	NA	NA	Neg
+m999912112	NA	NA	NA	UNNAMED	X - 12112	X - 12112	NA	NA	NA	Pos Early
+m999912117	NA	NA	NA	UNNAMED	X - 12117	X - 12117	NA	NA	NA	Pos Early
+m999912193	NA	NA	NA	UNNAMED	X - 12193	X - 12193	NA	NA	NA	Neg
+m999912216	NA	NA	NA	UNNAMED	X - 12216	X - 12216	NA	NA	NA	Neg
+m999912221	NA	NA	NA	UNNAMED	X - 12221	X - 12221	NA	NA	NA	Neg
+m999912283	NA	NA	NA	UNNAMED	X - 12283	X - 12283	NA	NA	NA	Pos Early
+m999912306	NA	NA	NA	UNNAMED	X - 12306	X - 12306	NA	NA	NA	Neg
+m999912407	NA	NA	NA	UNNAMED	X - 12407	X - 12407	NA	NA	NA	Neg
+m999912410	NA	NA	NA	UNNAMED	X - 12410	X - 12410	NA	NA	NA	Neg
+m999912411	NA	NA	NA	UNNAMED	X - 12411	X - 12411	NA	NA	NA	Neg
+m999912456	NA	NA	NA	UNNAMED	X - 12456	X - 12456	NA	NA	NA	Neg
+m999912462	NA	NA	NA	UNNAMED	X - 12462	X - 12462	NA	NA	NA	Pos Early
+m999912544	NA	NA	NA	UNNAMED	X - 12544	X - 12544	NA	NA	NA	Neg
+m999912680	NA	NA	NA	UNNAMED	X - 12680	X - 12680	NA	NA	NA	Pos Early
+m999912707	NA	NA	NA	UNNAMED	X - 12707	X - 12707	NA	NA	NA	Neg
+m999912729	NA	NA	NA	UNNAMED	X - 12729	X - 12729	NA	NA	NA	Neg
+m999912740	NA	NA	NA	UNNAMED	X - 12740	X - 12740	NA	NA	NA	Neg
+m999912798	NA	NA	NA	UNNAMED	X - 12798	X - 12798	NA	NA	NA	Pos Early
+m999912812	NA	NA	NA	UNNAMED	X - 12812	X - 12812	NA	NA	NA	Neg
+m999912816	NA	NA	NA	UNNAMED	X - 12816	X - 12816	NA	NA	NA	Neg
+m999912822	NA	NA	NA	UNNAMED	X - 12822	X - 12822	NA	NA	NA	Neg
+m999912830	NA	NA	NA	UNNAMED	X - 12830	X - 12830	NA	NA	NA	Neg
+m999912844	NA	NA	NA	UNNAMED	X - 12844	X - 12844	NA	NA	NA	Neg
+m999912847	NA	NA	NA	UNNAMED	X - 12847	X - 12847	NA	NA	NA	Neg
+m999912849	NA	NA	NA	UNNAMED	X - 12849	X - 12849	NA	NA	NA	Neg
+m999912851	NA	NA	NA	UNNAMED	X - 12851	X - 12851	NA	NA	NA	Neg
+m999912906	NA	NA	NA	UNNAMED	X - 12906	X - 12906	NA	NA	NA	Neg
+m999913431	NA	NA	NA	UNNAMED	X - 13431	X - 13431	NA	NA	NA	Pos Late
+m999913507	NA	NA	NA	UNNAMED	X - 13507	X - 13507	NA	NA	NA	Pos Early
+m999913553	NA	NA	NA	UNNAMED	X - 13553	X - 13553	NA	NA	NA	Neg
+m999913684	NA	NA	NA	UNNAMED	X - 13684	X - 13684	NA	NA	NA	Pos Early
+m999913695	NA	NA	NA	UNNAMED	X - 13695	X - 13695	NA	NA	NA	Neg
+m999913728	NA	NA	NA	UNNAMED	X - 13728	X - 13728	NA	NA	NA	Neg
+m999913844	NA	NA	NA	UNNAMED	X - 13844	X - 13844	NA	NA	NA	Neg
+m999913866	NA	NA	NA	UNNAMED	X - 13866	X - 13866	NA	NA	NA	Neg
+m999914939	NA	NA	NA	UNNAMED	X - 14939	X - 14939	NA	NA	NA	Neg
+m999915245	NA	NA	NA	UNNAMED	X - 15245	X - 15245	NA	NA	NA	Neg
+m999915461	NA	NA	NA	UNNAMED	X - 15461	X - 15461	NA	NA	NA	Pos Early
+m999915486	NA	NA	NA	UNNAMED	X - 15486	X - 15486	NA	NA	NA	Neg
+m999915503	NA	NA	NA	UNNAMED	X - 15503	X - 15503	NA	NA	NA	Neg
+m999915728	NA	NA	NA	UNNAMED	X - 15728	X - 15728	NA	NA	NA	Neg
+m999916087	NA	NA	NA	UNNAMED	X - 16087	X - 16087	NA	NA	NA	Neg
+m999916397	NA	NA	NA	UNNAMED	X - 16397	X - 16397	NA	NA	NA	Pos Early
+m999916576	NA	NA	NA	UNNAMED	X - 16576	X - 16576	NA	NA	NA	Neg
+m999916580	NA	NA	NA	UNNAMED	X - 16580	X - 16580	NA	NA	NA	Pos Early
+m999916935	NA	NA	NA	UNNAMED	X - 16935	X - 16935	NA	NA	NA	Neg
+m999916938	NA	NA	NA	UNNAMED	X - 16938	X - 16938	NA	NA	NA	Neg
+m999916964	NA	NA	NA	UNNAMED	X - 16964	X - 16964	NA	NA	NA	Neg
+m999917010	NA	NA	NA	UNNAMED	X - 17010	X - 17010	NA	NA	NA	Neg
+m999917325	NA	NA	NA	UNNAMED	X - 17325	X - 17325	NA	NA	NA	Neg
+m999917335	NA	NA	NA	UNNAMED	X - 17335	X - 17335	NA	NA	NA	Pos Late
+m999917354	NA	NA	NA	UNNAMED	X - 17354	X - 17354	NA	NA	NA	Neg
+m999917357	NA	NA	NA	UNNAMED	X - 17357	X - 17357	NA	NA	NA	Neg
+m999917367	NA	NA	NA	UNNAMED	X - 17367	X - 17367	NA	NA	NA	Neg
+m999917438	NA	NA	NA	UNNAMED	X - 17438	X - 17438	NA	NA	NA	Neg
+m999917612	NA	NA	NA	UNNAMED	X - 17612	X - 17612	NA	NA	NA	Neg
+m999917653	NA	NA	NA	UNNAMED	X - 17653	X - 17653	NA	NA	NA	Neg
+m999917654	NA	NA	NA	UNNAMED	X - 17654	X - 17654	NA	NA	NA	Neg
+m999917676	NA	NA	NA	UNNAMED	X - 17676	X - 17676	NA	NA	NA	Neg
+m999917685	NA	NA	NA	UNNAMED	X - 17685	X - 17685	NA	NA	NA	Neg
+m999917690	NA	NA	NA	UNNAMED	X - 17690	X - 17690	NA	NA	NA	Neg
+m999918886	NA	NA	NA	UNNAMED	X - 18886	X - 18886	NA	NA	NA	Neg
+m999918887	NA	NA	NA	UNNAMED	X - 18887	X - 18887	NA	NA	NA	Neg
+m999918888	NA	NA	NA	UNNAMED	X - 18888	X - 18888	NA	NA	NA	Neg
+m999918899	NA	NA	NA	UNNAMED	X - 18899	X - 18899	NA	NA	NA	Neg
+m999918901	NA	NA	NA	UNNAMED	X - 18901	X - 18901	NA	NA	NA	Neg
+m999918913	NA	NA	NA	UNNAMED	X - 18913	X - 18913	NA	NA	NA	Neg
+m999918921	NA	NA	NA	UNNAMED	X - 18921	X - 18921	NA	NA	NA	Neg
+m999918922	NA	NA	NA	UNNAMED	X - 18922	X - 18922	NA	NA	NA	Neg
+m999919141	NA	NA	NA	UNNAMED	X - 19141	X - 19141	NA	NA	NA	Neg
+m999919438	NA	NA	NA	UNNAMED	X - 19438	X - 19438	NA	NA	NA	Neg
+m999921258	NA	NA	NA	UNNAMED	X - 21258	X - 21258	NA	NA	NA	Neg
+m999921286	NA	NA	NA	UNNAMED	X - 21286	X - 21286	NA	NA	NA	Neg
+m999921310	NA	NA	NA	UNNAMED	X - 21310	X - 21310	NA	NA	NA	Neg
+m999921319	NA	NA	NA	UNNAMED	X - 21319	X - 21319	NA	NA	NA	Neg
+m999921339	NA	NA	NA	UNNAMED	X - 21339	X - 21339	NA	NA	NA	Neg
+m999921353	NA	NA	NA	UNNAMED	X - 21353	X - 21353	NA	NA	NA	Neg
+m999921364	NA	NA	NA	UNNAMED	X - 21364	X - 21364	NA	NA	NA	Neg
+m999921383	NA	NA	NA	UNNAMED	X - 21383	X - 21383	NA	NA	NA	Neg
+m999921441	NA	NA	NA	UNNAMED	X - 21441	X - 21441	NA	NA	NA	Neg
+m999921442	NA	NA	NA	UNNAMED	X - 21442	X - 21442	NA	NA	NA	Neg
+m999921467	NA	NA	NA	UNNAMED	X - 21467	X - 21467	NA	NA	NA	Neg
+m999921470	NA	NA	NA	UNNAMED	X - 21470	X - 21470	NA	NA	NA	Neg
+m999921471	NA	NA	NA	UNNAMED	X - 21471	X - 21471	NA	NA	NA	Neg
+m999921607	NA	NA	NA	UNNAMED	X - 21607	X - 21607	NA	NA	NA	Neg
+m999921733	NA	NA	NA	UNNAMED	X - 21733	X - 21733	NA	NA	NA	Neg
+m999921736	NA	NA	NA	UNNAMED	X - 21736	X - 21736	NA	NA	NA	Neg
+m999921796	NA	NA	NA	UNNAMED	X - 21796	X - 21796	NA	NA	NA	Neg
+m999921821	NA	NA	NA	UNNAMED	X - 21821	X - 21821	NA	NA	NA	Neg
+m999921829	NA	NA	NA	UNNAMED	X - 21829	X - 21829	NA	NA	NA	Neg
+m999921834	NA	NA	NA	UNNAMED	X - 21834	X - 21834	NA	NA	NA	Neg
+m999921842	NA	NA	NA	UNNAMED	X - 21842	X - 21842	NA	NA	NA	Neg
+m999922162	NA	NA	NA	UNNAMED	X - 22162	X - 22162	NA	NA	NA	Pos Early
+m999922509	NA	NA	NA	UNNAMED	X - 22509	X - 22509	NA	NA	NA	Neg
+m999922771	NA	NA	NA	UNNAMED	X - 22771	X - 22771	NA	NA	NA	Neg
+m999922776	NA	NA	NA	UNNAMED	X - 22776	X - 22776	NA	NA	NA	Neg
+m999922834	NA	NA	NA	UNNAMED	X - 22834	X - 22834	NA	NA	NA	Neg
+m999923587	NA	NA	NA	UNNAMED	X - 23587	X - 23587	NA	NA	NA	Pos Early
+m999923593	NA	NA	NA	UNNAMED	X - 23593	X - 23593	NA	NA	NA	Pos Early
+m999923636	NA	NA	NA	UNNAMED	X - 23636	X - 23636	NA	NA	NA	Pos Early
+m999923639	NA	NA	NA	UNNAMED	X - 23639	X - 23639	NA	NA	NA	Pos Early
+m999923644	NA	NA	NA	UNNAMED	X - 23644	X - 23644	NA	NA	NA	Pos Early
+m999923655	NA	NA	NA	UNNAMED	X - 23655	X - 23655	NA	NA	NA	Pos Early
+m999923659	NA	NA	NA	UNNAMED	X - 23659	X - 23659	NA	NA	NA	Pos Early
+m999923665	NA	NA	NA	UNNAMED	X - 23665	X - 23665	NA	NA	NA	Pos Early
+m999923680	NA	NA	NA	UNNAMED	X - 23680	X - 23680	NA	NA	NA	Pos Late
+m999923739	NA	NA	NA	UNNAMED	X - 23739	X - 23739	NA	NA	NA	Pos Early
+m999923780	NA	NA	NA	UNNAMED	X - 23780	X - 23780	NA	NA	NA	Pos Early
+m999923782	NA	NA	NA	UNNAMED	X - 23782	X - 23782	NA	NA	NA	Pos Late
+m999923787	NA	NA	NA	UNNAMED	X - 23787	X - 23787	NA	NA	NA	Neg
+m999923974	NA	NA	NA	UNNAMED	X - 23974	X - 23974	NA	NA	NA	Neg
+m999924241	NA	NA	NA	UNNAMED	X - 24241	X - 24241	NA	NA	NA	Pos Early
+m999924243	NA	NA	NA	UNNAMED	X - 24243	X - 24243	NA	NA	NA	Pos Early
+m999924306	NA	NA	NA	UNNAMED	X - 24306	X - 24306	NA	NA	NA	Neg
+m999924307	NA	NA	NA	UNNAMED	X - 24307	X - 24307	NA	NA	NA	Neg
+m999924328	NA	NA	NA	UNNAMED	X - 24328	X - 24328	NA	NA	NA	Neg
+m999924334	NA	NA	NA	UNNAMED	X - 24334	X - 24334	NA	NA	NA	Neg
+m999924337	NA	NA	NA	UNNAMED	X - 24337	X - 24337	NA	NA	NA	Neg
+m999924344	NA	NA	NA	UNNAMED	X - 24344	X - 24344	NA	NA	NA	Neg
+m999924418	NA	NA	NA	UNNAMED	X - 24418	X - 24418	NA	NA	NA	Neg
+m999924422	NA	NA	NA	UNNAMED	X - 24422	X - 24422	NA	NA	NA	Pos Early
+m999924456	NA	NA	NA	UNNAMED	X - 24456	X - 24456	NA	NA	NA	Pos Early
+m999924462	NA	NA	NA	UNNAMED	X - 24462	X - 24462	NA	NA	NA	Pos Early
+m999924473	NA	NA	NA	UNNAMED	X - 24473	X - 24473	NA	NA	NA	Pos Early
+m999924475	NA	NA	NA	UNNAMED	X - 24475	X - 24475	NA	NA	NA	Pos Early
+m999924494	NA	NA	NA	UNNAMED	X - 24494	X - 24494	NA	NA	NA	Neg
+m999924518	NA	NA	NA	UNNAMED	X - 24518	X - 24518	NA	NA	NA	Pos Early
+m999924544	NA	NA	NA	UNNAMED	X - 24544	X - 24544	NA	NA	NA	Neg
+m999924546	NA	NA	NA	UNNAMED	X - 24546	X - 24546	NA	NA	NA	Neg
+m999924556	NA	NA	NA	UNNAMED	X - 24556	X - 24556	NA	NA	NA	Neg
+m999924588	NA	NA	NA	UNNAMED	X - 24588	X - 24588	NA	NA	NA	Neg
+m999924757	NA	NA	NA	UNNAMED	X - 24757	X - 24757	NA	NA	NA	Neg
+m999924811	NA	NA	NA	UNNAMED	X - 24811	X - 24811	NA	NA	NA	Pos Early
+m999924812	NA	NA	NA	UNNAMED	X - 24812	X - 24812	NA	NA	NA	Pos Early
+m999924947	NA	NA	NA	UNNAMED	X - 24947	X - 24947	NA	NA	NA	Neg
+m999924949	NA	NA	NA	UNNAMED	X - 24949	X - 24949	NA	NA	NA	Neg
+m999924970	NA	NA	NA	UNNAMED	X - 24970	X - 24970	NA	NA	NA	Pos Early
+m999925172	NA	NA	NA	UNNAMED	X - 25172	X - 25172	NA	NA	NA	Pos Early
+m999925265	NA	NA	NA	UNNAMED	X - 25265	X - 25265	NA	NA	NA	Pos Early
+m999925267	NA	NA	NA	UNNAMED	X - 25267	X - 25267	NA	NA	NA	Pos Early
+m999925271	NA	NA	NA	UNNAMED	X - 25271	X - 25271	NA	NA	NA	Pos Early
+m999925343	NA	NA	NA	UNNAMED	X - 25343	X - 25343	NA	NA	NA	Pos Early
+m999925371	NA	NA	NA	UNNAMED	X - 25371	X - 25371	NA	NA	NA	Neg
+m999925419	NA	NA	NA	UNNAMED	X - 25419	X - 25419	NA	NA	NA	Pos Early
+m999925420	NA	NA	NA	UNNAMED	X - 25420	X - 25420	NA	NA	NA	Pos Early
+m999925422	NA	NA	NA	UNNAMED	X - 25422	X - 25422	NA	NA	NA	Pos Early
+m999925520	NA	NA	NA	UNNAMED	X - 25520	X - 25520	NA	NA	NA	Pos Early
+m999925790	NA	NA	NA	UNNAMED	X - 25790	X - 25790	NA	NA	NA	Pos Early
+m999925810	NA	NA	NA	UNNAMED	X - 25810	X - 25810	NA	NA	NA	Pos Early
+m999925828	NA	NA	NA	UNNAMED	X - 25828	X - 25828	NA	NA	NA	Pos Early
+m999925936	NA	NA	NA	UNNAMED	X - 25936	X - 25936	NA	NA	NA	Pos Early
+m999925957	NA	NA	NA	UNNAMED	X - 25957	X - 25957	NA	NA	NA	Pos Early
+m999926097	NA	NA	NA	UNNAMED	X - 26097	X - 26097	NA	NA	NA	Pos Early
+m999926106	NA	NA	NA	UNNAMED	X - 26106	X - 26106	NA	NA	NA	Pos Late
+m999926107	NA	NA	NA	UNNAMED	X - 26107	X - 26107	NA	NA	NA	Pos Late
+m999926108	NA	NA	NA	UNNAMED	X - 26108	X - 26108	NA	NA	NA	Pos Late
+m999926109	NA	NA	NA	UNNAMED	X - 26109	X - 26109	NA	NA	NA	Neg
+m999926111	NA	NA	NA	UNNAMED	X - 26111	X - 26111	NA	NA	NA	Neg
+m999926119	NA	NA	NA	UNNAMED	X - 26119	X - 26119	NA	NA	NA	Neg
