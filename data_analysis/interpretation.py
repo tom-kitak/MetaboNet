@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import torch
-from bio_model_v11 import PriorKnowledgeLayer, BioArchitectureNetwork
+from model_dev_workflow.MetaboNet_model import PriorKnowledgeLayer, MetaboNet
 
 
 def calculate_bionet_importance(model):
@@ -81,6 +81,6 @@ if __name__ == "__main__":
         "second_hidden_layer": torch.tensor(second_layer_matrix, dtype=torch.float32),
     }
 
-    model = BioArchitectureNetwork(connectivity_matrices, use_bias=True, l1_value=0.1)
+    model = MetaboNet(connectivity_matrices, use_bias=True, l1_value=0.1)
 
     print(calculate_bionet_importance(model))

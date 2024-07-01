@@ -15,7 +15,7 @@ from sklearn.metrics import (
     precision_recall_curve,
     classification_report,
 )
-import logistic_regression_model as log_reg_model
+import model_dev_workflow.MetaboNet_model as bio_model
 import importlib
 import datetime
 import json
@@ -25,7 +25,7 @@ import random
 import copy
 import argparse
 
-importlib.reload(log_reg_model)
+importlib.reload(bio_model)
 
 parser = argparse.ArgumentParser(description="Set config parameters")
 parser.add_argument("--seed", type=int, default=1, help="Random seed")
@@ -42,19 +42,35 @@ config = {
     "data_path": "/trinity/home/r103868/data",  # /storage/scratch/groshchupkin/Tom_dataset
     "select_after_epoch": 10,
     "n_averages_model": 10,
-    "seed_runs_folder": "final_data_2",
+    "seed_runs_folder": "results_test1",
 }
-config["experiment_name"] = f"logreg_seed_{config['random_state']}"
+config["experiment_name"] = f"bionet_seed_{config['random_state']}"
 # Hyperparameter grid
-best_hyperparameters = {
-    "learning_rate": 0.001,
-    "l1_value": 0,
-    "positive_class_weight": 8,
-    "scheduler": {
-        "type": "ReduceLROnPlateau",  # Plateau Scheduler
-        "params": {"mode": "max", "factor": 0.1, "patience": 20},
-    },
+hyperparameter_grid = {
+    "learning_rate": [0.001, 0.0001],
+    "l1_value": [0.1, 0.01, 0.001, 0],
+    "positive_class_weight": [8, 12, 16],
+    "scheduler": [
+        {
+            "type": "StepLR",  # Fixed scheduler
+            "params": {"step_size": 30, "gamma": 0.1},
+        },
+        {
+            "type": "ReduceLROnPlateau",  # Plateau Scheduler
+            "params": {"mode": "max", "factor": 0.1, "patience": 20},
+        },
+        {
+            "type": "CosineAnnealingLR",  # Cosine Annealing Scheduler
+            "params": {"T_max": 100},
+        },
+    ],
+    "hidden_layer_activation": [
+        "Tanh",  # -> Xavier Uniform weights initialization
+        "ReLU",  # -> Kaiming Normal weights initialization
+        "PReLU",  # -> Kaiming Normal weights initialization
+    ],
 }
+
 # Flags
 plot = False
 prints = True
@@ -89,6 +105,26 @@ if torch.cuda.is_available():
     torch.backends.cudnn.benchmark = False
 
 # Data loading
+df_first_layer = pd.read_csv(
+    config["data_path"] + "/masks/metabolite_to_SUB-pathway_mask_UN-named.csv"
+)
+df_second_layer = pd.read_csv(
+    config["data_path"] + "/masks/SUB-pathway_to_SUPER-pathway_mask_UN-named.csv"
+)
+
+first_hidden_layer = torch.tensor(
+    df_first_layer.iloc[:, 1:].values, dtype=torch.float32
+).to(device)
+second_hidden_layer = torch.tensor(
+    df_second_layer.iloc[:, 1:].values, dtype=torch.float32
+).to(device)
+
+connectivity_matrices = {
+    "first_hidden_layer": first_hidden_layer,
+    "second_hidden_layer": second_hidden_layer,
+}
+
+# Data loading and preprocessing
 data = pd.read_csv(config["data_path"] + "/dataset.csv")
 X = data.iloc[:, 3:].values
 y = data["depression_label"].values
@@ -255,13 +291,83 @@ def train_and_evaluate(
         return None, top_n_average_mcc
 
 
+# K-Fold Cross Validation with hyperparameter optimization
+print("K-Fold Cross Validation with hyperparameter optimization")
+
+best_hyperparameters = None
+best_folds_val_mcc = -1.0
+
+kf = StratifiedKFold(
+    n_splits=config["n_folds"], shuffle=True, random_state=config["random_state"]
+)
+
+for params in ParameterGrid(hyperparameter_grid):
+    if prints:
+        print(f"Current testing hyperparameters: {params}")
+
+    folds_avg_val_mcc = 0.0
+
+    for fold, (train_idx, val_idx) in enumerate(kf.split(X_train, y_train)):
+        if prints:
+            print(f"  Cross-validation Fold {fold+1}")
+
+        fold_train_subset = Subset(
+            TensorDataset(X_train_tensor, y_train_tensor), train_idx
+        )
+        fold_val_subset = Subset(TensorDataset(X_train_tensor, y_train_tensor), val_idx)
+        fold_train_loader = DataLoader(
+            fold_train_subset, batch_size=config["batch_size"], shuffle=True
+        )
+        fold_val_loader = DataLoader(
+            fold_val_subset, batch_size=config["batch_size"], shuffle=False
+        )
+
+        fold_model = bio_model.MetaboNet(
+            connectivity_matrices,
+            l1_value=params["l1_value"],
+            hidden_layer_activation=params["hidden_layer_activation"],
+            device=device,
+        )
+        fold_criterion = nn.BCEWithLogitsLoss(
+            pos_weight=torch.tensor([params["positive_class_weight"]]).to(device)
+        )
+        fold_optimizer = optim.Adam(fold_model.parameters(), lr=params["learning_rate"])
+        fold_scheduler = create_scheduler(fold_optimizer, params["scheduler"])
+        fold_model.to(device)
+
+        _, fold_val_mcc = train_and_evaluate(
+            fold_model,
+            fold_train_loader,
+            fold_val_loader,
+            fold_criterion,
+            fold_optimizer,
+            fold_scheduler,
+            config["max_num_epochs"],
+            device,
+            return_averaged_model=False,
+        )
+        folds_avg_val_mcc += fold_val_mcc
+
+    folds_avg_val_mcc /= config["n_folds"]
+    if prints:
+        print(f"  Avg Folds MCC: {folds_avg_val_mcc}")
+
+    if folds_avg_val_mcc > best_folds_val_mcc:
+        best_folds_val_mcc = folds_avg_val_mcc
+        best_hyperparameters = params
+
+print(f"Best cross-validation hyperparameters: {best_hyperparameters}")
+print(f"Best cross-validation MCC: {best_folds_val_mcc}")
+
 # Final Model Training on the training set only with the best hyperparameters and Validation with the chosen model
 print("Final Model Training on the training set only with the best hyperparameters")
 
-tuned_hyperparameters_model = log_reg_model.LogisticRegressionModel(
-    X.shape[1], l1_value=best_hyperparameters["l1_value"], device=device
+tuned_hyperparameters_model = bio_model.MetaboNet(
+    connectivity_matrices,
+    l1_value=best_hyperparameters["l1_value"],
+    hidden_layer_activation=best_hyperparameters["hidden_layer_activation"],
+    device=device,
 )
-
 final_criterion = nn.BCEWithLogitsLoss(
     pos_weight=torch.tensor([best_hyperparameters["positive_class_weight"]]).to(device)
 )
@@ -337,6 +443,12 @@ config_filename = os.path.join(results_dir, "config.json")
 with open(config_filename, "w") as f:
     json.dump(config, f)
 print(f"Configuration saved to {config_filename}")
+
+# Save the hyperparameter grid
+hyperparameter_grid_filename = os.path.join(results_dir, "hyperparameter_grid.json")
+with open(hyperparameter_grid_filename, "w") as f:
+    json.dump(hyperparameter_grid, f)
+print(f"Hyperparameter grid saved to {hyperparameter_grid_filename}")
 
 # Save the best hyperparameters
 best_hyperparameters_filename = os.path.join(results_dir, "best_hyperparameters.json")

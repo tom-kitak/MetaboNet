@@ -42,7 +42,7 @@ class PriorKnowledgeLayer(nn.Module):
         return x
 
 
-class BioArchitectureNetwork(nn.Module):
+class MetaboNet(nn.Module):
     def __init__(
         self,
         connectivity_matrices,
@@ -51,7 +51,7 @@ class BioArchitectureNetwork(nn.Module):
         hidden_layer_activation="Tanh",
         device="cpu",
     ):
-        super(BioArchitectureNetwork, self).__init__()
+        super(MetaboNet, self).__init__()
 
         self.l1_value = l1_value
         self.use_bias = use_bias

@@ -15,7 +15,7 @@ from sklearn.metrics import (
     precision_recall_curve,
     classification_report,
 )
-import logistic_regression_model as log_reg_model
+import model_dev_workflow.logistic_regression_model as log_reg_model
 import importlib
 import datetime
 import json
@@ -38,32 +38,22 @@ config = {
     "validation_size": 0.2,
     "test_size": 0.2,
     "batch_size": 32,
-    "n_folds": 5,
+    "n_folds": 10,
     "data_path": "/trinity/home/r103868/data",  # /storage/scratch/groshchupkin/Tom_dataset
     "select_after_epoch": 10,
     "n_averages_model": 10,
-    "seed_runs_folder": "logreg_hyperparameter_optimization",
+    "seed_runs_folder": "final_data_2",
 }
 config["experiment_name"] = f"logreg_seed_{config['random_state']}"
 # Hyperparameter grid
-hyperparameter_grid = {
-    "learning_rate": [0.001, 0.0001],
-    "l1_value": [0.1, 0.01, 0.001, 0],
-    "positive_class_weight": [8, 12, 16],
-    "scheduler": [
-        {
-            "type": "StepLR",  # Fixed scheduler
-            "params": {"step_size": 30, "gamma": 0.1},
-        },
-        {
-            "type": "ReduceLROnPlateau",  # Plateau Scheduler
-            "params": {"mode": "max", "factor": 0.1, "patience": 20},
-        },
-        {
-            "type": "CosineAnnealingLR",  # Cosine Annealing Scheduler
-            "params": {"T_max": 100},
-        },
-    ],
+best_hyperparameters = {
+    "learning_rate": 0.001,
+    "l1_value": 0,
+    "positive_class_weight": 8,
+    "scheduler": {
+        "type": "ReduceLROnPlateau",  # Plateau Scheduler
+        "params": {"mode": "max", "factor": 0.1, "patience": 20},
+    },
 }
 # Flags
 plot = False
@@ -265,92 +255,72 @@ def train_and_evaluate(
         return None, top_n_average_mcc
 
 
-# K-Fold Cross Validation with hyperparameter optimization
-print("K-Fold Cross Validation with hyperparameter optimization")
+# Final Model Training on the training set only with the best hyperparameters and Validation with the chosen model
+print("Final Model Training on the training set only with the best hyperparameters")
 
-best_hyperparameters = None
-best_folds_val_mcc = -1.0
-best_train_model = None
-
-kf = StratifiedKFold(
-    n_splits=config["n_folds"], shuffle=True, random_state=config["random_state"]
+tuned_hyperparameters_model = log_reg_model.LogisticRegressionModel(
+    X.shape[1], l1_value=best_hyperparameters["l1_value"], device=device
 )
 
-for params in ParameterGrid(hyperparameter_grid):
-    if prints:
-        print(f"Current testing hyperparameters: {params}")
+final_criterion = nn.BCEWithLogitsLoss(
+    pos_weight=torch.tensor([best_hyperparameters["positive_class_weight"]]).to(device)
+)
+final_optimizer = optim.Adam(
+    tuned_hyperparameters_model.parameters(), lr=best_hyperparameters["learning_rate"]
+)
+final_scheduler = create_scheduler(final_optimizer, best_hyperparameters["scheduler"])
+tuned_hyperparameters_model.to(device)
 
-    folds_avg_val_mcc = 0.0
+final_model, _ = train_and_evaluate(
+    tuned_hyperparameters_model,
+    train_loader,
+    val_loader,
+    final_criterion,
+    final_optimizer,
+    final_scheduler,
+    config["max_num_epochs"],
+    device,
+    return_averaged_model=True,
+)
 
-    for fold, (train_idx, val_idx) in enumerate(kf.split(X_train, y_train)):
-        if prints:
-            print(f"  Cross-validation Fold {fold+1}")
-
-        fold_train_subset = Subset(
-            TensorDataset(X_train_tensor, y_train_tensor), train_idx
-        )
-        fold_val_subset = Subset(TensorDataset(X_train_tensor, y_train_tensor), val_idx)
-        fold_train_loader = DataLoader(
-            fold_train_subset, batch_size=config["batch_size"], shuffle=True
-        )
-        fold_val_loader = DataLoader(
-            fold_val_subset, batch_size=config["batch_size"], shuffle=False
-        )
-
-        fold_model = log_reg_model.LogisticRegressionModel(
-            X.shape[1], l1_value=params["l1_value"], device=device
-        )
-        fold_criterion = nn.BCEWithLogitsLoss(
-            pos_weight=torch.tensor([params["positive_class_weight"]]).to(device)
-        )
-        fold_optimizer = optim.Adam(fold_model.parameters(), lr=params["learning_rate"])
-        fold_scheduler = create_scheduler(fold_optimizer, params["scheduler"])
-        fold_model.to(device)
-
-        fold_val_model, fold_val_mcc = train_and_evaluate(
-            fold_model,
-            fold_train_loader,
-            fold_val_loader,
-            fold_criterion,
-            fold_optimizer,
-            fold_scheduler,
-            config["max_num_epochs"],
-            device,
-            return_averaged_model=True,
-        )
-        folds_avg_val_mcc += fold_val_mcc
-
-    folds_avg_val_mcc /= config["n_folds"]
-    if prints:
-        print(f"  Avg Folds MCC: {folds_avg_val_mcc}")
-
-    if folds_avg_val_mcc > best_folds_val_mcc:
-        best_folds_val_mcc = folds_avg_val_mcc
-        best_hyperparameters = params
-        best_train_model = fold_val_model
-
-print(f"Best cross-validation hyperparameters: {best_hyperparameters}")
-print(f"Best cross-validation MCC: {best_folds_val_mcc}")
-
-# Final Model Training on the training set only with the best hyperparameters and Validation with the chosen model
-print("Evaluation of the trained model on validation set")
-
-val_preds, val_labels = [], []
-best_train_model.eval()
+# Testing the final model
+test_preds, test_labels = [], []
+final_model.eval()
 with torch.no_grad():
-    for inputs, labels in val_loader:
+    for inputs, labels in test_loader:
         inputs, labels = inputs.to(device), labels.to(device)
-        outputs = best_train_model(inputs)
-        val_preds.extend(outputs.detach().cpu().numpy().flatten())
-        val_labels.extend(labels.detach().cpu().numpy().flatten())
+        outputs = final_model(inputs)
+        test_preds.extend(outputs.detach().cpu().numpy().flatten())
+        test_labels.extend(labels.detach().cpu().numpy().flatten())
 
-final_val_preds = np.round(val_preds)
+final_test_preds = np.round(test_preds)
 
-val_mcc = matthews_corrcoef(val_labels, final_val_preds)
+# Collect test classification information
+test_classification_information = {
+    "original_index": test_indices,
+    "true_class": test_labels,
+    "predicted_class": final_test_preds,
+    "predicted_prob": test_preds,
+}
 
-print("Validation MCC:", val_mcc)
-print("Validation Classification Report:")
-print(classification_report(val_labels, final_val_preds))
+test_conf_matrix = confusion_matrix(test_labels, final_test_preds)
+test_f1 = f1_score(test_labels, final_test_preds)
+test_roc_auc = roc_auc_score(test_labels, test_preds)
+
+precision, recall, _ = precision_recall_curve(test_labels, test_preds)
+test_auc_pr = auc(recall, precision)
+
+test_mcc = matthews_corrcoef(test_labels, final_test_preds)
+
+# Model Interpretation and Analysis
+print("Test Confusion Matrix:")
+print(test_conf_matrix)
+print("Test F1 Score:", test_f1)
+print("Test ROC-AUC:", test_roc_auc)
+print("Test AUC-PR:", test_auc_pr)
+print("Test MCC:", test_mcc)
+print("Test Classification Report:")
+print(classification_report(test_labels, final_test_preds))
 
 # Saving results
 timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M")
@@ -359,8 +329,8 @@ os.makedirs(seed_runs_folder, exist_ok=True)
 results_dir = seed_runs_folder + f"/{config['experiment_name']}"
 os.makedirs(results_dir, exist_ok=True)
 
-np.save(os.path.join(results_dir, "val_labels.npy"), np.array(val_labels))
-np.save(os.path.join(results_dir, "val_preds.npy"), np.array(val_preds))
+np.save(os.path.join(results_dir, "test_labels.npy"), np.array(test_labels))
+np.save(os.path.join(results_dir, "test_preds.npy"), np.array(test_preds))
 
 # Save the configuration
 config_filename = os.path.join(results_dir, "config.json")
@@ -368,29 +338,37 @@ with open(config_filename, "w") as f:
     json.dump(config, f)
 print(f"Configuration saved to {config_filename}")
 
-# Save the hyperparameter grid
-hyperparameter_grid_filename = os.path.join(results_dir, "hyperparameter_grid.json")
-with open(hyperparameter_grid_filename, "w") as f:
-    json.dump(hyperparameter_grid, f)
-print(f"Hyperparameter grid saved to {hyperparameter_grid_filename}")
-
 # Save the best hyperparameters
 best_hyperparameters_filename = os.path.join(results_dir, "best_hyperparameters.json")
 with open(best_hyperparameters_filename, "w") as f:
     json.dump(best_hyperparameters, f)
 print(f"Best hyperparameters saved to {best_hyperparameters_filename}")
 
-# Save val results
-val_dataset_results = {
-    "mcc": val_mcc,
+# Save the best model weights
+final_model_weights_filename = os.path.join(results_dir, "final_model_weights.pt")
+torch.save(final_model.state_dict(), final_model_weights_filename)
+print(f"Best model weights saved to {final_model_weights_filename}")
+
+# Save test results
+test_dataset_results = {
+    "confusion_matrix": test_conf_matrix.tolist(),
+    "f1_score": test_f1,
+    "roc_auc": test_roc_auc,
+    "auc_pr": test_auc_pr,
+    "mcc": test_mcc,
     "classification_report": classification_report(
-        val_labels, final_val_preds, output_dict=True
+        test_labels, final_test_preds, output_dict=True
     ),
 }
-val_dataset_filename = os.path.join(results_dir, "val_dataset_results.json")
-with open(val_dataset_filename, "w") as f:
-    json.dump(val_dataset_results, f)
-print(f"Val results saved to {val_dataset_filename}")
+test_dataset_filename = os.path.join(results_dir, "test_dataset_results.json")
+with open(test_dataset_filename, "w") as f:
+    json.dump(test_dataset_results, f)
+print(f"Test results saved to {test_dataset_filename}")
+
+class_info_test_path = os.path.join(results_dir, "classification_info_test.csv")
+test_classification_information_df = pd.DataFrame(test_classification_information)
+test_classification_information_df.to_csv(class_info_test_path, index=False)
+print(f"Classification info saved to {class_info_test_path}")
 
 # Record the end time
 end_time = time.time()

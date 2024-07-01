@@ -15,7 +15,7 @@ from sklearn.metrics import (
     precision_recall_curve,
     classification_report,
 )
-import bio_model_v11 as bio_model
+import model_dev_workflow.MetaboNet_model as bio_model
 import importlib
 import datetime
 import json
@@ -42,33 +42,19 @@ config = {
     "data_path": "/trinity/home/r103868/data",  # /storage/scratch/groshchupkin/Tom_dataset
     "select_after_epoch": 10,
     "n_averages_model": 10,
-    "seed_runs_folder": "results_test1",
+    "seed_runs_folder": "final_data_2",
 }
 config["experiment_name"] = f"bionet_seed_{config['random_state']}"
 # Hyperparameter grid
-hyperparameter_grid = {
-    "learning_rate": [0.001, 0.0001],
-    "l1_value": [0.1, 0.01, 0.001, 0],
-    "positive_class_weight": [8, 12, 16],
-    "scheduler": [
-        {
-            "type": "StepLR",  # Fixed scheduler
-            "params": {"step_size": 30, "gamma": 0.1},
-        },
-        {
-            "type": "ReduceLROnPlateau",  # Plateau Scheduler
-            "params": {"mode": "max", "factor": 0.1, "patience": 20},
-        },
-        {
-            "type": "CosineAnnealingLR",  # Cosine Annealing Scheduler
-            "params": {"T_max": 100},
-        },
-    ],
-    "hidden_layer_activation": [
-        "Tanh",  # -> Xavier Uniform weights initialization
-        "ReLU",  # -> Kaiming Normal weights initialization
-        "PReLU",  # -> Kaiming Normal weights initialization
-    ],
+best_hyperparameters = {
+    "learning_rate": 0.001,
+    "l1_value": 0.001,
+    "positive_class_weight": 16,
+    "scheduler": {
+        "type": "CosineAnnealingLR",  # Cosine Annealing Scheduler
+        "params": {"T_max": 100},
+    },
+    "hidden_layer_activation": "Tanh",  # -> Xavier Uniform weights initialization
 }
 
 # Flags
@@ -291,78 +277,10 @@ def train_and_evaluate(
         return None, top_n_average_mcc
 
 
-# K-Fold Cross Validation with hyperparameter optimization
-print("K-Fold Cross Validation with hyperparameter optimization")
-
-best_hyperparameters = None
-best_folds_val_mcc = -1.0
-
-kf = StratifiedKFold(
-    n_splits=config["n_folds"], shuffle=True, random_state=config["random_state"]
-)
-
-for params in ParameterGrid(hyperparameter_grid):
-    if prints:
-        print(f"Current testing hyperparameters: {params}")
-
-    folds_avg_val_mcc = 0.0
-
-    for fold, (train_idx, val_idx) in enumerate(kf.split(X_train, y_train)):
-        if prints:
-            print(f"  Cross-validation Fold {fold+1}")
-
-        fold_train_subset = Subset(
-            TensorDataset(X_train_tensor, y_train_tensor), train_idx
-        )
-        fold_val_subset = Subset(TensorDataset(X_train_tensor, y_train_tensor), val_idx)
-        fold_train_loader = DataLoader(
-            fold_train_subset, batch_size=config["batch_size"], shuffle=True
-        )
-        fold_val_loader = DataLoader(
-            fold_val_subset, batch_size=config["batch_size"], shuffle=False
-        )
-
-        fold_model = bio_model.BioArchitectureNetwork(
-            connectivity_matrices,
-            l1_value=params["l1_value"],
-            hidden_layer_activation=params["hidden_layer_activation"],
-            device=device,
-        )
-        fold_criterion = nn.BCEWithLogitsLoss(
-            pos_weight=torch.tensor([params["positive_class_weight"]]).to(device)
-        )
-        fold_optimizer = optim.Adam(fold_model.parameters(), lr=params["learning_rate"])
-        fold_scheduler = create_scheduler(fold_optimizer, params["scheduler"])
-        fold_model.to(device)
-
-        _, fold_val_mcc = train_and_evaluate(
-            fold_model,
-            fold_train_loader,
-            fold_val_loader,
-            fold_criterion,
-            fold_optimizer,
-            fold_scheduler,
-            config["max_num_epochs"],
-            device,
-            return_averaged_model=False,
-        )
-        folds_avg_val_mcc += fold_val_mcc
-
-    folds_avg_val_mcc /= config["n_folds"]
-    if prints:
-        print(f"  Avg Folds MCC: {folds_avg_val_mcc}")
-
-    if folds_avg_val_mcc > best_folds_val_mcc:
-        best_folds_val_mcc = folds_avg_val_mcc
-        best_hyperparameters = params
-
-print(f"Best cross-validation hyperparameters: {best_hyperparameters}")
-print(f"Best cross-validation MCC: {best_folds_val_mcc}")
-
 # Final Model Training on the training set only with the best hyperparameters and Validation with the chosen model
 print("Final Model Training on the training set only with the best hyperparameters")
 
-tuned_hyperparameters_model = bio_model.BioArchitectureNetwork(
+tuned_hyperparameters_model = bio_model.MetaboNet(
     connectivity_matrices,
     l1_value=best_hyperparameters["l1_value"],
     hidden_layer_activation=best_hyperparameters["hidden_layer_activation"],
@@ -443,12 +361,6 @@ config_filename = os.path.join(results_dir, "config.json")
 with open(config_filename, "w") as f:
     json.dump(config, f)
 print(f"Configuration saved to {config_filename}")
-
-# Save the hyperparameter grid
-hyperparameter_grid_filename = os.path.join(results_dir, "hyperparameter_grid.json")
-with open(hyperparameter_grid_filename, "w") as f:
-    json.dump(hyperparameter_grid, f)
-print(f"Hyperparameter grid saved to {hyperparameter_grid_filename}")
 
 # Save the best hyperparameters
 best_hyperparameters_filename = os.path.join(results_dir, "best_hyperparameters.json")
